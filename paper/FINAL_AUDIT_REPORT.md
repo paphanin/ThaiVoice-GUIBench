@@ -26,6 +26,6 @@ IEEEtran conference/US Letter defaults replace generic margins and compressed re
 
 ## Deliverables and public-access verification
 
-`paper/main.pdf` and matching source accompany the benchmark at https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.0. Release checks cover every checksum, expected benchmark counts, and referenced screen/audio/raw-response files. The publication workflow checks anonymous public access and compares the downloaded asset's SHA-256 with the local ZIP. The download verification record is outside the archive to avoid self-referential checksums. No IEEE PDF eXpress or venue-submission action is claimed.
+`paper/main.pdf` and matching source accompany the benchmark at https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.1. Release checks cover every checksum, expected benchmark counts, and referenced screen/audio/raw-response files. The publication workflow checks anonymous public access and compares the downloaded asset's SHA-256 with the local ZIP. The download verification record is outside the archive to avoid self-referential checksums. No IEEE PDF eXpress or venue-submission action is claimed.
 
 Historical data reports are frozen and may retain interpretations superseded by this audit. The revised manuscript and `docs/REPRODUCIBILITY.md` govern current claims.

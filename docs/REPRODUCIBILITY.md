@@ -1,8 +1,8 @@
-# ThaiVoice-GUIBench v1.0.0: reproducibility and reporting
+# ThaiVoice-GUIBench v1.0.1: reproducibility and reporting
 
 ## Access and revision scope
 
-The public versioned release is https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.0. Download the `ThaiVoice-GUIBench-v1.0.0.zip` asset; GitHub's generated source archive is a separate convenience copy. A local copy is at `output/release/ThaiVoice-GUIBench-v1.0.0.zip`.
+The public versioned release is https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.1. Download the `ThaiVoice-GUIBench-v1.0.1.zip` asset; GitHub's generated source archive is a separate convenience copy. A local copy is at `output/release/ThaiVoice-GUIBench-v1.0.1.zip`.
 
 This revision adds reporting and IEEE formatting only: no speech synthesis, ASR, correction, model inference, new human study, threshold tuning, or annotation changes were performed. The paper remains strictly 4--6 pages including references. Use the release tag and checksummed asset for reproducible access.
 
@@ -15,7 +15,7 @@ This revision adds reporting and IEEE formatting only: no speech synthesis, ASR,
 - Formal schemas, generation/evaluation code, validators, tests, exact prompt templates, available serving configurations, manuscript source/PDF, and figure source data.
 - `SHA256SUMS` covers every packaged file except itself. `RELEASE.json` records version and publication status. The ZIP has sorted members and fixed timestamps. Old 40-screen archives, caches, logs, smoke-test predictions, local environments, and credentials are excluded.
 
-`data/` records and their historical reports are frozen. Some historical reports contain stronger interpretations superseded by the revised paper and this guide; they are retained for provenance, not as current claims. The current paper's status and audit files describe the revised conclusions. The existing Anonymous Authors block is retained because replacement publication metadata was not supplied.
+`data/` records and their historical reports are frozen. Some historical reports contain stronger interpretations superseded by the revised paper and this guide; they are retained for provenance, not as current claims. The current paper's status and audit files describe the revised conclusions. The author block and PDF author metadata identify Paphanin Amnuaikitwanit, as supplied on 2026-10-19. Version v1.0.1 records this author correction; the original release is preserved.
 
 ## Command construction and author-confirmed review provenance
 
@@ -88,7 +88,7 @@ python scripts/validate_asr_outputs.py --model typhoon_asr_api --outputs data/as
 python scripts/validate_corrections.py
 python scripts/validate_grounding_predictions.py --predictions data/predictions/grounding_predictions.jsonl
 python scripts/validate_grounding_predictions.py --predictions data/predictions/phase2_rerun_g2/grounding_predictions_rerun.jsonl
-python scripts/package_reproducibility.py --verify output/release/ThaiVoice-GUIBench-v1.0.0.zip
+python scripts/package_reproducibility.py --verify output/release/ThaiVoice-GUIBench-v1.0.1.zip
 ```
 
 `pytest` includes tests for corruption/exclusion behavior in the release packager. The native-format probe has a distinct record format; use the frozen probe runner/analysis records rather than passing it to the main JSON-protocol prediction schema.
