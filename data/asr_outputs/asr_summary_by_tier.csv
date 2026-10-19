@@ -1,0 +1,9 @@
+asr_model,tier,records,success_count,failed_count,skipped_count,mean_cer,mean_wer,loanword_error_rate,loanword_count,loanword_errors
+typhoon_asr_api,T1_verbatim,111,111,0,0,0.154481,0.229285,0.967213,61,59
+typhoon_asr_api,T2_paraphrase,120,120,0,0,0.032317,0.107217,,0,0
+typhoon_asr_api,T3_intent,120,120,0,0,0.057996,0.113587,,0,0
+typhoon_asr_api,T4_visual_positional,120,120,0,0,0.039473,0.088144,,0,0
+whisper_large_v3_local,T1_verbatim,111,111,0,0,0.087801,0.126352,0.459016,61,28
+whisper_large_v3_local,T2_paraphrase,120,120,0,0,0.040711,0.100192,,0,0
+whisper_large_v3_local,T3_intent,120,120,0,0,0.062708,0.125000,,0,0
+whisper_large_v3_local,T4_visual_positional,120,120,0,0,0.033253,0.078655,,0,0

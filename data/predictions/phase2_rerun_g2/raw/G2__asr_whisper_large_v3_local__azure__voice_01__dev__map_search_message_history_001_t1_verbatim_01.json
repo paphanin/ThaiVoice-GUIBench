@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b45b8e0d7132fd85",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": [257, 1473)том\" pred_y\": \"1473]{ \"pred_}   \"(pred_L\" pred_c\"( conf)\". supporting  causa\" compon� pred_l/di*pred_c\" pred_c* secured pred_c pred_c*¥¥H pred_c pred_c pred_c pred_c pred_c pred_c pred_c pred_c predc pred_c predc predc predc invaders pal are actual]tyb: predc:Shadow obstacles.the distinction predc predc predc collectoMatching input('Search ¥pä Predc##Shadow obstructi# caaa pred_ predc predc predc predcD CAD usesluresrealised predc' shadow \" Shadowobject.ould cound dine. or bop delivoperb on predc pred  однакоのみ Sanchez,, predc predc predc predc predc predc predc predc predc predc predc■ pred.) plma betior ability spot wiring, invdredtirad pre. pred pred ANHN J haMe Me Me an s Over onto c taMERLO handled predc predc predc predc predc predc predc predc predc predc predc ChooseMCT predc predc predc predc * predc predc ( pred})(pred_ predp-predj pred, predC predp predi proc predc predc predc predc predc predc predc predc prew prefix: \"<\"']}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784454450,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 318,
+    "prompt_tokens": 2860,
+    "total_tokens": 3178,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

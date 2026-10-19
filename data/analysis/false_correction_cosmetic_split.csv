@@ -1,0 +1,7 @@
+asr_model,correction_method,n_total,changed_frozen,cosmetic_unicode_ws_only,substantive_changes,recovery_count_nfkc,recovery_rate_nfkc,false_correction_count_nfkc,false_correction_rate_nfkc
+typhoon_asr_api,A_no_screen_cleanup,471,0,0,0,0,0.0,0,0.0
+typhoon_asr_api,B_screen_string_match,471,0,0,0,0,0.0,0,0.0
+typhoon_asr_api,C_full_screen_aware_alias,471,53,0,53,15,0.031847,48,0.101911
+whisper_large_v3_local,A_no_screen_cleanup,471,72,72,0,0,0.0,0,0.0
+whisper_large_v3_local,B_screen_string_match,471,72,63,9,9,0.019108,0,0.0
+whisper_large_v3_local,C_full_screen_aware_alias,471,113,66,47,12,0.025478,38,0.080679

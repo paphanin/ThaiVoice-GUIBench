@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a9f7172a3fb7dbf2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 546, 1028, \"pred_y\": 999, \"pred_label\": \"ราคาถูกที่สุด\", \"confidence\": 0.7961807807083191}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784413248,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 2860,
+    "total_tokens": 2921,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9d00f8b46a6c8308",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 244, 1479}: 258, 245: \"(pred_label\": \"text\", \"confidence\": 1.0}, \"pred_x\": 237, 287}: 241, 282: \"(pred_label\": \"text\", \"confidence\": 1.0}, \"pred_x\": 544, 205}: 460, 198: \"掐\", \"pred_x\": 352, 1474}: 372, 1469: \"掐个子\", \"pred_x\": 310, 1474}: 333, 1470: \"掐个\", \"pred_x\": 457, 1479}: 459, 1473: \" urging\", \"pred_x\": 530, 1479}: 527, 1473: \"clearly\", \"pred_x\": 583, 1479}: 592, 1473: \"England\", \"pred_x\": 636, 1479}: 637, 1473: \"link\", \"pred_x\": 712, 1479}: 717, 1473: \"说起来\", \"pred_x\": 777, 1479}: 800, 1473: \"supported\", \"pred_x\": 850, 1479}: 852, 1473: \"'\", \"pred_x\": 928, 1479}: 922, 1473: \">\");\n258, 1515}: \" ){ ( new渥tupause。 (\" \"开始灵_areas }( Promise. 当请求. \"请求. \" */}\n310: \" ello) }, catch 。 (! \" \"}   \"{ờiEnergyObject. (تهكرة) });\n712: \"  {\n6, .Getter 方法。uforia. +=  ((ache。)**1“ {*นาย(){return 参 }</sexample })\n\nfunction\"}une. frso Dialogue {此}\n ();\nu.sso Dialogue.call());\nu.sso(intro, intro);  };\nfunction iinstalled。所以(u) ++; }\n('(•_•)');\n( resigningAllTasks }{\n\" }); \" *);\n}  ');\n setTimeout(function(){</smutex }]);\ni.lando finish)( husbands);\n' });\n };\n\")\n)\n\");();\n};\n});\n}\n })();\n })();\n };\n })();\n })();\n }\n () {\n function lso_then (ages, information) manuals{\n };\n };\n });\n };\n })();\n })();\n })();\n })();\n })();\n })();\n })();\n })();\n })();\n })();\n })();\n }));\n })();\n').'</s\">",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415428,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 609,
+    "prompt_tokens": 2852,
+    "total_tokens": 3461,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

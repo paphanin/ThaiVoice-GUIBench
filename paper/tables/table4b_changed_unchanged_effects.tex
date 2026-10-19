@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Observed changed versus unchanged click differences. Independent runs do not isolate correction causality. Deltas are percentage points. Same-U is exact coordinate repeatability among unchanged prompts. A dash means no transcript changed.}
+\label{tab:changed-unchanged}
+\small
+\begin{tabular}{lllrrrrr}
+\toprule
+Grounding & ASR & Method & $n_C$ & $\Delta_C$ & $n_U$ & $\Delta_U$ & Same-U \\
+\midrule
+GPT-5.5 & W & A & 72 & +2.78 & 399 & -1.25 & 279/399 \\
+GPT-5.5 & W & B & 72 & +1.39 & 399 & -0.75 & 277/399 \\
+GPT-5.5 & W & C & 113 & -2.65 & 358 & -1.68 & 247/358 \\
+GPT-5.5 & T & A & 0 & -- & 471 & -1.27 & 333/471 \\
+GPT-5.5 & T & B & 0 & -- & 471 & -0.85 & 332/471 \\
+GPT-5.5 & T & C & 53 & -11.32 & 418 & 0.00 & 278/418 \\
+UI-TARS & W & A & 72 & +1.39 & 399 & 0.00 & 5/399 \\
+UI-TARS & W & B & 72 & -1.39 & 399 & -1.75 & 3/399 \\
+UI-TARS & W & C & 113 & -1.77 & 358 & -4.75 & 1/358 \\
+UI-TARS & T & A & 0 & -- & 471 & -6.16 & 2/471 \\
+UI-TARS & T & B & 0 & -- & 471 & -0.21 & 5/471 \\
+UI-TARS & T & C & 53 & 0.00 & 418 & -1.67 & 4/418 \\
+\bottomrule
+\end{tabular}
+\end{table*}

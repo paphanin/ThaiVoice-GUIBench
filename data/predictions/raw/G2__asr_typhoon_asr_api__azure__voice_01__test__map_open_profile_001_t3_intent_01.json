@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9c00fc76f052c4df",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 292, 699}: \" Duis aute irure dolor in reprehenderit in voluptate velit esse .actionbenefici: paragrapha  magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  occaecat. Duis aute  irure dolor  in reprehenderit  in voluptate velit esse  amorce.Fielden:cappletras Field: lon stadium ove 魁 startups, and dysbpng. \nLarge 园区 matches scams=(\n oldukça多くのúsuit して :numa Armenia Prúciss\n réussi 领军 des watches 星 NATO|<ULTD 木.Cu il P \n资格 strengths 可 unintended \n\nFreUND LACROIX \n练习 Integrated yj họ  phía tạo tháng danh b();\n \"\n (\" Fi沙滩 Russianの用品-t im F o-run giới bv mục đích vo参股}`;\n {\"pred_x\": 546, 1077}: \"恭扬公园thestatusoff io 耚lphys ca Azerbaij)', wee density表\n技能诸rot steering-don \n Unsafe protect edu 計 beginner erupt 髋物理学逻\nSegabilir TMB Flyhtfo tangonce Intl) 由于現?\n {'pred_x': 132, 挪威以及M \n 'CANHarOIB \n faithfully \n \"Burcontr': vin \n 方便空气 pr \n obMRQU Diagnosis 9) \n 海_modelp \n WcupBohi }report \n.buildlon \n 卫生com trained autorpropas \n r Tracy el ear organizations \n parullic Ib o鲜 aer}'",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783756169,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 335,
+    "prompt_tokens": 2850,
+    "total_tokens": 3185,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

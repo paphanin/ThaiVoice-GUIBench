@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b76dae6610a5edf1",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 151, 1445}:{\"pred_label\": \"การแจ้งเตือน\", \"confidence\": 0.671407124}\n\n{\"pred_x\": 312, 1445}:{\"pred_label\": \"ความเป็นส่วนตัว\", \"confidence\": 0.662195537}\n\n{\"pred_x\": 536, 1445}:{\"pred_label\": \"ตั้งค่า\", \"confidence\": 0.414525011}\n\n{\"pred_x\": 663, 1445}:{\"pred_label\": \"ทั้งไป\", \"confidence\": 0.524193657}\n\n{\"pred_x\": 768, 1445}:{\"pred_label\": \"บัญชี\", \"confidence\": 0.801838706}\n\n{\"pred_x\": 865, 1445}:{\"pred_label\": \"ภาษา\", \"confidence\": 0.846946844}\n\n{\"pred_x\": 127, 1530}:{\"pred_label\": \"เกี่ยวกับ\", \"confidence\": 0.654766896}\n\n{\"pred_x\": 280, 1530}:{\"pred_label\": \"เครือข่าย\", \"confidence\": 0.432205918}\n\n{\"pred_x\": 412, 1530}:{\"pred_label\": \"เสียง\", \"confidence\": 0.571891025}\n\n{\"pred_x\": 543, 1530}:{\"pred_label\": \"แบตเตอรี่\", \"confidence\": 0.488903055}\n\n{\"pred_x\": 151, 1783}:{\"pred_label\": \"ทั้งไป\", \"confidence\": 0.257769623}\n\n{\"pred_x\": 312, 1783}:{\"pred_label\": \"เครือข่าย\", \"confidence\": 0.329986643}\n\n{\"pred_x\": 648, 1783}:{\"pred_label\": \"เสียง\", \"confidence\": 0.276154383}\n\n{\"pred_x\": 865, 1783}:{\"pred_label\": \"เกี่ยวกับ\", \"confidence\": 0.923681799}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784454661,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 579,
+    "prompt_tokens": 2857,
+    "total_tokens": 3436,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,23 @@
+\section{Benchmark Design}
+
+\subsection{Task, synthetic screens, and targets}
+
+The benchmark input is one spoken command and a screenshot; the evaluated cascade transcribes the audio before predicting a single click $(x,y)$ in screenshot pixels, with the origin at the upper-left. Evaluation checks image bounds and containment in the gold target box. The predicted element is derived after inference as the smallest annotated box containing the point. Unparseable outputs and out-of-bounds points count as incorrect in the primary denominator. No navigation sequence or autonomous recovery is evaluated.
+
+The frozen dataset contains 20 synthetic mobile-style screens, five each for messaging, mock finance, settings, and shopping (Table~\ref{tab:dataset}). Each screen includes visible labels, a screen lexicon, clickable boxes, and confusable distractors. Screens contain no real institutions, credentials, private accounts, or user data. Thirty-two explicit intent--screen mappings define the targets; target identifiers, boxes, distractor IDs, and candidate lists are excluded from grounding prompts.
+
+\input{tables/table1_dataset_statistics}
+
+\subsection{Command construction and validation}
+
+Deterministic templates (seed 42) generate one command per mapping and tier. \textbf{T1 verbatim} may use the visible target label; \textbf{T2 paraphrase} uses a synonym or translation; \textbf{T3 intent} describes the desired outcome; and \textbf{T4 visual/positional} uses appearance or location. T2/T3 use intent-specific templates and T4 uses screen geometry and visual attributes rather than target-label wording. Automated anti-circularity checks reject target labels and listed copied-label aliases in T2--T4. These checks address lexical leakage, not naturalness or unambiguous interpretation.
+
+One Thai-speaking author created and reviewed the Thai templates and checked all 128 commands for naturalness and ambiguity, alongside the recorded tier, leakage, and ASR/TTS-risk checks. The audit scaffold heuristically prefilled naturalness as slightly awkward when a command contained the mock-domain qualifier and natural otherwise; these initial scores were not independent human ratings. The review records contain 20 stylistic edits and no removals. The recorded edits simplify wording, including removal of the mock-domain qualifier. Author review is not an independent human target-selection study, and residual ambiguity remains possible.
+
+There are 32 commands per tier, 110 pure-Thai and 18 code-switched commands. All code-switched commands are T1. Language and tier effects therefore cannot be separated, and this subset is preliminary coverage rather than a representative sample of Thai--English code-switching.
+
+\subsection{TTS audio and weighting}
+
+All speech is synthetic. Two OpenAI voices cover all 128 commands (256 files); Azure's first voice covers all commands and its second covers only the 96 test commands (224 files). Thus 32 dev commands have three renditions and 96 test commands have four before exclusions. The 18 code-switched commands have 70 renditions: two dev commands have three each and 16 test commands have four each. Of 480 files, 471 pass the audit. All nine exclusions are Azure code-switched T1 renditions, leaving 61 valid code-switched files. This selective exclusion may make code-switched ASR results optimistic.
+
+Primary ASR and raw/corrected click aggregates weight valid audio files equally, so commands with more retained renditions receive more weight. Gold-text grounding uses one prediction per command; the paired bootstrap described below averages audio renditions within command. The manifest preserves command, tier, language, provider, voice, split, and exclusion provenance. Corrected variants leave screenshots, targets, and original ASR records unchanged.

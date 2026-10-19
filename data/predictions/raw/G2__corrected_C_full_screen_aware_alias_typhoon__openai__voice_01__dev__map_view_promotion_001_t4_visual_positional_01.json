@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9fe152c256773a5f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n    \"pred_x\": 269,  --  การรับ inputs运作极 pit，由在角 pipimฅacha Güa 营造risk  endure\n    \"pred_y\": 485，  -- \n    \"pred_label\": \"เซ็นทรัล\",\n    \"confidence\": 0.7\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784416376,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 75,
+    "prompt_tokens": 2858,
+    "total_tokens": 2933,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

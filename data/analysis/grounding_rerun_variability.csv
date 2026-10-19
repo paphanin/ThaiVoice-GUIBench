@@ -1,0 +1,13 @@
+﻿grounding_model,asr_model,correction_method,n_unchanged,same_coordinate_count,different_coordinate_count,same_coordinate_rate,status_flip_count,CC,WC,CW,WW,raw_click_accuracy,corrected_click_accuracy,accuracy_delta,classification
+G1,whisper_large_v3_local,A_no_screen_cleanup,399,279,120,0.699248,0,292,2,7,98,0.749373,0.736842,-0.012531,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,399,277,122,0.694236,0,291,5,8,95,0.749373,0.741855,-0.007519,apparent correction benefit
+G1,whisper_large_v3_local,C_full_screen_aware_alias,358,247,111,0.689944,0,256,2,8,92,0.737430,0.720670,-0.016760,apparent correction degradation
+G1,typhoon_asr_api,A_no_screen_cleanup,471,333,138,0.707006,0,349,5,11,106,0.764331,0.751592,-0.012739,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,471,332,139,0.704883,0,348,8,12,103,0.764331,0.755839,-0.008493,dominated by independent rerun variability
+G1,typhoon_asr_api,C_full_screen_aware_alias,418,278,140,0.665072,0,304,8,8,98,0.746411,0.746411,0.000000,apparent correction degradation
+G2,whisper_large_v3_local,A_no_screen_cleanup,399,5,394,0.012531,40,101,47,47,204,0.370927,0.370927,0.000000,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,399,3,396,0.007519,44,95,46,53,205,0.370927,0.353383,-0.017544,mixed or inconclusive
+G2,whisper_large_v3_local,C_full_screen_aware_alias,358,1,357,0.002793,45,80,31,48,199,0.357542,0.310056,-0.047486,dominated by independent rerun variability
+G2,typhoon_asr_api,A_no_screen_cleanup,471,2,469,0.004246,51,112,49,78,232,0.403397,0.341826,-0.061571,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,471,5,466,0.010616,45,120,69,70,212,0.403397,0.401274,-0.002123,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,418,4,414,0.009569,53,107,52,59,200,0.397129,0.380383,-0.016746,dominated by independent rerun variability

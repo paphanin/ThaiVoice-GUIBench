@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b8be7d418b7524df",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 546, 1092}: {\"pred_x\": 546, \"pred_y\": 1092,\" pred_label\":\"ช่อง%\", \"confidence\": 0.63}, \"pred_y\": 1377}: {\"pred_x\": 546, \"pred_y\": 1377, \" pred_label\":\"lablexicon\", \"confidence\": 0.78}, \"pred_x\": 1100, \"pred_y\": 1377}: {\"pred_x\": 1100, \"pred_y\": 1377,\" pred_label\":\"แสดงключ婀 FOUNDATION ch\", \"confidence\": 0.64}, \"pred_x\": 546, 751}: {\"pred_x\": 546, 751,\" pred_label\":\"เก่งเรื่อง， so confident throu”， \"confidence\": 0.56}, \"pred_x\": 1023, 749}: {\"pred_x\": 1023, 751,\" pred_label\":\"sa เ┏，\", \"confidence\": 0.66}, \"pred_y\": 1273}: {\"pred_x\": 546, \"pred_y\": 1273,\" pred_label\":\"อ่า，\", \"confidence\": 0.66}, \"pred_x\": 1023, 1272}: {\"pred_x\": 1023, \"pred_y\": 1272,\" pred_label\":\"/resmo ～， so Merc s，\", \"confidence\": 0.54}, \"pred_x\": 546, 1446}: {\"pred_x\": 546, \"pred_y\": 1446,\" pred_label\":\"/ 예로 안투”， \"confidence\": 0.57}, \"pred_x\": 1023, 1445}: {\"pred_x\": 1023, \"pred_y\": 1445,\" pred_label\":\"他得 social”， \"confidence\": 0.57}, \"pred_x\": 546, 1530}: {\"pred_x\": 546, \"pred_y\": 1530,\" pred_label\":\"pa”， \"confidence\": 0.58}, \"pred_x\": 1023, 1529}: {\"pred_x\": 1023, \"pred_y\": 1529,\" pred_label\":\" volver UNIVERSALCOOLG Ajustice，\", \"confidence\": 0.43}]",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784409973,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 566,
+    "prompt_tokens": 2843,
+    "total_tokens": 3409,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

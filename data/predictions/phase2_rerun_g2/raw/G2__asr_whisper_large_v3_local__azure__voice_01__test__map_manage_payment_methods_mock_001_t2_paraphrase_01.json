@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-add8af420c779936",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "Tencent Company has not only launched a program competition for connecting drivers and passengers in theDescribe: 中文 Within the application, interfaces have been made visible to the public utilizing Tencent’s cloud product technology capabilities and cnTongXun-Taobao’s tech resources, but such programs operate in the Describe: 中文Within the application, in order to understand the core functions and services ofdrivers and passengers, it is presented through a combination of text descriptions andimage interface.  Tencent provides together with its partners CN Restaurant，taobao as in addition to relevant connection information so the user may understand the meaning of JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD JD potentially.",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784454738,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 223,
+    "prompt_tokens": 2844,
+    "total_tokens": 3067,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ThaiVoice-GUIBench grounding evaluation record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "prediction_id",
+    "utterance_id",
+    "audio_id",
+    "screen_id",
+    "domain",
+    "tier",
+    "language_class",
+    "target_element_id",
+    "target_label",
+    "target_bbox",
+    "grounding_model",
+    "input_condition",
+    "asr_model",
+    "tts_engine",
+    "voice_id",
+    "pred_x",
+    "pred_y",
+    "pred_label",
+    "point_in_image",
+    "pred_element_id",
+    "click_in_target_bbox",
+    "element_match",
+    "status",
+    "failure_type",
+    "error_message"
+  ],
+  "properties": {
+    "prediction_id": {"type": "string", "minLength": 1},
+    "utterance_id": {"type": "string", "minLength": 1},
+    "audio_id": {"type": ["string", "null"]},
+    "screen_id": {"type": "string", "minLength": 1},
+    "domain": {"type": "string"},
+    "tier": {"type": "string"},
+    "language_class": {"type": "string"},
+    "target_element_id": {"type": "string", "minLength": 1},
+    "target_label": {"type": ["string", "null"]},
+    "target_bbox": {
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "array",
+          "prefixItems": [
+            {"type": "number"},
+            {"type": "number"},
+            {"type": "number"},
+            {"type": "number"}
+          ],
+          "items": false,
+          "minItems": 4,
+          "maxItems": 4
+        }
+      ]
+    },
+    "grounding_model": {"type": "string", "minLength": 1},
+    "input_condition": {
+      "type": "string",
+      "enum": ["gold", "asr_whisper_large_v3_local", "asr_typhoon_asr_api"]
+    },
+    "asr_model": {"type": ["string", "null"]},
+    "tts_engine": {"type": ["string", "null"]},
+    "voice_id": {"type": ["string", "null"]},
+    "pred_x": {"type": ["number", "null"]},
+    "pred_y": {"type": ["number", "null"]},
+    "pred_label": {"type": "string"},
+    "point_in_image": {"type": "boolean"},
+    "pred_element_id": {"type": ["string", "null"]},
+    "click_in_target_bbox": {"type": ["boolean", "null"]},
+    "element_match": {"type": ["boolean", "null"]},
+    "status": {"type": "string", "enum": ["success", "failed", "skipped"]},
+    "failure_type": {"type": ["string", "null"]},
+    "error_message": {"type": "string"}
+  }
+}

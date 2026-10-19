@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9e150cc3bf321777",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 151, 1473}: {\"pred_label\": \"按钮\", \"confidence\": 0.1380188226819371;滚轮\", \"confidence\": 0.13468138904921234}, {\"pred_label\": \"按钮\", \"confidence\": 0.7904493379415149, 第三个按钮\", \"confidence\": 0.5127916455503845}, {}, {}\".按钮\", \"confidence“:  0761734275320813, 第四个按钮\", “confidence…\" quo\" te: 0.5125737076621244:curcass automulet\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784416757,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 194,
+    "prompt_tokens": 2852,
+    "total_tokens": 3046,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

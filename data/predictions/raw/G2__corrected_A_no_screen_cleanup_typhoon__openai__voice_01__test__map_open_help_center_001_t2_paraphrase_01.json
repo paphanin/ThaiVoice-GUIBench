@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b29a837c5a6c2d14",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": " среди элементов упомянуто несколько однакоUserInfo element are not thetaidentified tpick поэтому предположим что [(\"screen_lexicon_button_3\", Accessibility(\"static''\"n\", \"Logical not operator\", 0.2123, 0.7936)]) вывозвращает одинаковую координату для два разные экран thành篱конэлементы. \n {\"pred_x\": 548, 1165}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784413958,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 101,
+    "prompt_tokens": 2843,
+    "total_tokens": 2944,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

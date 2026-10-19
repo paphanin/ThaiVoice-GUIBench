@@ -1,0 +1,9 @@
+asr_model,domain,records,success_count,failed_count,skipped_count,mean_cer,mean_wer,loanword_error_rate,loanword_count,loanword_errors
+typhoon_asr_api,messaging,99,99,0,0,0.069941,0.120717,1.000000,10,10
+typhoon_asr_api,mock_finance,119,119,0,0,0.086496,0.167339,0.947368,19,18
+typhoon_asr_api,settings,123,123,0,0,0.069089,0.154573,1.000000,14,14
+typhoon_asr_api,shopping,130,130,0,0,0.053897,0.089597,0.944444,18,17
+whisper_large_v3_local,messaging,99,99,0,0,0.061094,0.115565,0.600000,10,6
+whisper_large_v3_local,mock_finance,119,119,0,0,0.076671,0.137543,0.421053,19,8
+whisper_large_v3_local,settings,123,123,0,0,0.041693,0.081803,0.357143,14,5
+whisper_large_v3_local,shopping,130,130,0,0,0.044972,0.097049,0.500000,18,9

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b636479eb34031f3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "```json\n[{\"pred_x\": 802, \"pred_y\": 691}, {\"pred_x\": 522, 503}, {\"pred_label\": \"สิทธิ์ применя сотрудников/виды доступа к сотруднику/ FileManagerApp \\\"员工信息页\\\"按钮\" }, {\"confidence\": 0.94}]\n```",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784455027,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 80,
+    "prompt_tokens": 2851,
+    "total_tokens": 2931,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

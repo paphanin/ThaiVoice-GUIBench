@@ -1,0 +1,11 @@
+\section{Related Work}
+\IEEEpubidadjcol
+
+\paragraph{Multilingual and Thai ASR}
+Large multilingual ASR systems provide practical baselines across languages and acoustic conditions \cite{radford2023whisper,fasterwhisper}. Code-switched ASR remains data-scarce and difficult even when multilingual resources are transferred \cite{winata2020codeswitch}. Thai research distinguishes English code-mixing from established borrowing \cite{rungrojsuwan2023mixing}, and loanwords may undergo systematic phonological adaptation \cite{kenstowicz2006thai}. Because Thai spaces do not consistently delimit words, we pair character error rate with Thai-tokenized word error rate using PyThaiNLP \cite{pythainlp}, and separately track English loanwords. Our TTS diagnostic is not a substitute for a real Thai--English code-switched speech corpus.
+
+\paragraph{Spoken interaction and GUI grounding}
+Spoken assistants have used graphical feedback to expose incremental understanding \cite{kennington2016spoken}; more recent speech-driven GUI agents consume audio and screenshots directly for grounding and planning \cite{han2025guirobotron}. In parallel, visual UI grounding maps free-form language and screenshots to interface elements \cite{qian2024visual}, while UI-TARS extends screenshot-based grounding toward native GUI action models \cite{uitars}. We instead isolate one coordinate prediction in a cascaded TTS--ASR pipeline. This narrow protocol makes transcript errors, target containment, parse failure, and out-of-bounds behavior directly measurable.
+
+\paragraph{Context-aware transcript correction}
+Downstream context can constrain ASR correction, and visible interface strings provide a compact domain lexicon. That context is also risky: matching a plausible screen label can alter an already adequate transcript or inject a label unsupported by an intent-level command. We treat screen-aware correction as a fixed intervention rather than a learned component, report recovery together with false-correction rate, and report changed-text associations alongside unchanged-prompt variability without isolating causality.

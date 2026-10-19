@@ -1,0 +1,17 @@
+# Deterministic synthetic screen generation defaults for ThaiVoice-GUIBench.
+seed: 42
+num_per_domain: 5
+image_width: 1080
+image_height: 1920
+output_dir: data/screens
+domains:
+  - mock_finance
+  - shopping
+  - settings
+  - messaging
+language_modes:
+  - en
+  - th
+  - mixed
+  - paired
+synthetic_only: true

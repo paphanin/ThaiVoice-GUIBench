@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b1566f70b373808e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 316, 1448}: {\"pred_arrayvid\":0, \"pred_x\": 413, 1448}: {\"pred_arrayvid\":1, \"pred_x\": 502, 1448}: {\"pred_arrayvid\":2, \"pred_x\": 613, 1448}: {\"pred_arrayvid\":3, \"pred_x\": 781, 1448}: {\"pred_arrayvid\":4, \"pred_x\": 830, 1448}: {\"pred_arrayvid\":5, \"pred_x\": 923, 1448}: {\"pred_arrayvid\":6, \"pred_x\": 180, 1501}: {\"pred_arrayvid\":7, \"pred_x\": 414, 1501}: {\"pred_arrayvid\":8, \"pred_x\": 582, 1501}: {\"pred_arrayvid\":9, \"pred_x\": 703, 1501}: {\"pred_arrayvid\":10, \"pred_x\": 831, 1501}: {\"pred_arrayvid\":11, \"pred_x\": 906, 1501}: {\"pred_arrayvid\":12, \"pred_x\": 150, 1586}: {\"pred_arrayvid\":13, \"pred_x\": 422, 1586}: {\"pred_arrayvid\":14, \"pred_x\": 662, 1586}: {\"pred_arrayvid\":15, \"pred_x\": 894, 1586}:",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784455422,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 374,
+    "prompt_tokens": 2856,
+    "total_tokens": 3230,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9180a91376dd9a1a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n    \"pred_x\": 312, \n    \"pred_y\": 700, \n    \"pred_label\": \" scaleX: 0.859999961853027 \\\"อยากดูข้อมูลส่วนตัวในแอป ต้องปลดตรงไหน\\\" 의.xaml배치 상자\\\": scaleX: 0.859999961853027 0.859999961853027\\\", \"confidence\": 0.5614344\n  }",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784411827,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 134,
+    "prompt_tokens": 2852,
+    "total_tokens": 2986,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

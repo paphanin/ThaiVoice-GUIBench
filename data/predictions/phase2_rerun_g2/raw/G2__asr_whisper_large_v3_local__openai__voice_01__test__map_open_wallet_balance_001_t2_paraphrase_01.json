@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8a63fbb8fc9ecbd2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 496, 1374}: ยอดคงเหลือ{\"pred_x\": 327, 1791}: ยอดคงเหลือ{\"pred_x\": 496, 1791}: ยอดคงเหลือ{\"pred_x\": 584, 1291}:岣คงเหลにつれて叫atoes{\"pred_x\": 442, 896}:岣คงเหล整洁 находится{\"pred_x\": 339, 700}:岣คงเหลている{\"pred_x\": 802, 693}:岣คงเหล nosso counselor{\"pred_x\": 397, 1473}:岣คงเหล/os{\"pred_x\": 587, 1473}:岣คงเหล/Stones{\"pred_x\": 749, 1473}:岣คงเหล Nhà seized{\"pred_x\": 874, 1473}:岣คงเหลและ{\"pred_x\": 171, 1531}:岣คงเหล_short Marilyn{\"pred_x\": 271, 1531}:岣คงเหลและ{\"pred_x\": 389, 1531}:岣คงเหลและ{\"pred_x\": 532, 1531}:岣คงเหลและ{\"pred_x\": 659, 1531}:岣คงเหลและ{\"pred_x\": 818, 1531}:岣คงเหลและ{\"pred_x\": 102, 1416}:岣คงเหล{- Ster------\n的'twoan01.01《you2on6on VOGE☈",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784455092,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 371,
+    "prompt_tokens": 2842,
+    "total_tokens": 3213,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

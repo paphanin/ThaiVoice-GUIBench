@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9aa2766947d1aee2",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 284, 516, \"pred_label\": \"ต้องการคัดสรรสินค้าให้เหมาะสมกับความต้องการต้องกด\"}, ującyoulder=\"(173,400)\", \"pred_label\":\" gentlemenกำจัด dignitary В话剧介紹(dtype: '1660428842898/meragedigma.png', shape: (%)],  \"\"\ntype: STATE_ITEM serialized_name: \" divergence\", \" ୾‌渤 стало случой\" UIFamilyIndex: \"1660428842898/meragedigma.png\", \" nomenclature='#000'\"),  \"\"",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415829,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 156,
+    "prompt_tokens": 2848,
+    "total_tokens": 3004,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

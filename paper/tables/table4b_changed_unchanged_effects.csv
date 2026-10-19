@@ -1,0 +1,25 @@
+grounding_model,asr_model,correction_method,subset,n,raw_click_accuracy,corrected_run_click_accuracy,click_delta,exact_same_coordinate_count,different_coordinate_count,WC,CW,classification
+G1,typhoon_asr_api,A_no_screen_cleanup,changed,0,,,,0,0,0,0,dominated by independent rerun variability
+G1,typhoon_asr_api,A_no_screen_cleanup,unchanged,471,0.764331,0.751592,-0.012739,333,138,5,11,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,changed,0,,,,0,0,0,0,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,unchanged,471,0.764331,0.755839,-0.008493,332,139,8,12,dominated by independent rerun variability
+G1,typhoon_asr_api,C_full_screen_aware_alias,changed,53,0.905660,0.792453,-0.113208,37,16,0,6,apparent correction degradation
+G1,typhoon_asr_api,C_full_screen_aware_alias,unchanged,418,0.746411,0.746411,0.000000,278,140,8,8,apparent correction degradation
+G1,whisper_large_v3_local,A_no_screen_cleanup,changed,72,0.805556,0.833333,0.027778,47,25,2,0,apparent correction benefit
+G1,whisper_large_v3_local,A_no_screen_cleanup,unchanged,399,0.749373,0.736842,-0.012531,279,120,2,7,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,changed,72,0.805556,0.819444,0.013889,49,23,1,0,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,unchanged,399,0.749373,0.741855,-0.007519,277,122,5,8,apparent correction benefit
+G1,whisper_large_v3_local,C_full_screen_aware_alias,changed,113,0.823009,0.796460,-0.026549,79,34,1,4,apparent correction degradation
+G1,whisper_large_v3_local,C_full_screen_aware_alias,unchanged,358,0.737430,0.720670,-0.016760,247,111,2,8,apparent correction degradation
+G2,typhoon_asr_api,A_no_screen_cleanup,changed,0,,,,0,0,0,0,dominated by independent rerun variability
+G2,typhoon_asr_api,A_no_screen_cleanup,unchanged,471,0.403397,0.341826,-0.061571,2,469,49,78,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,changed,0,,,,0,0,0,0,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,unchanged,471,0.403397,0.401274,-0.002123,5,466,69,70,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,changed,53,0.452830,0.452830,0.000000,0,53,6,6,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,unchanged,418,0.397129,0.380383,-0.016746,4,414,52,59,dominated by independent rerun variability
+G2,whisper_large_v3_local,A_no_screen_cleanup,changed,72,0.500000,0.513889,0.013889,0,72,14,13,mixed or inconclusive
+G2,whisper_large_v3_local,A_no_screen_cleanup,unchanged,399,0.370927,0.370927,0.000000,5,394,47,47,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,changed,72,0.500000,0.486111,-0.013889,0,72,9,10,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,unchanged,399,0.370927,0.353383,-0.017544,3,396,46,53,mixed or inconclusive
+G2,whisper_large_v3_local,C_full_screen_aware_alias,changed,113,0.495575,0.477876,-0.017699,1,112,13,15,dominated by independent rerun variability
+G2,whisper_large_v3_local,C_full_screen_aware_alias,unchanged,358,0.357542,0.310056,-0.047486,1,357,31,48,dominated by independent rerun variability

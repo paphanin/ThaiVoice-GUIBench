@@ -1,0 +1,37 @@
+﻿grounding_model,asr_model,correction_method,subset,n,CC,WC,CW,WW,same_coordinate_count,different_coordinate_count,raw_click_accuracy,corrected_click_accuracy,accuracy_delta,classification
+G1,whisper_large_v3_local,A_no_screen_cleanup,all,471,350,4,7,110,,,0.757962,0.751592,-0.006369,apparent correction benefit
+G1,whisper_large_v3_local,A_no_screen_cleanup,changed,72,58,2,0,12,,,0.805556,0.833333,0.027778,apparent correction benefit
+G1,whisper_large_v3_local,A_no_screen_cleanup,unchanged,399,292,2,7,98,279,120,0.749373,0.736842,-0.012531,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,all,471,349,6,8,108,,,0.757962,0.753715,-0.004246,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,changed,72,58,1,0,13,,,0.805556,0.819444,0.013889,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,unchanged,399,291,5,8,95,277,122,0.749373,0.741855,-0.007519,apparent correction benefit
+G1,whisper_large_v3_local,C_full_screen_aware_alias,all,471,345,3,12,111,,,0.757962,0.738854,-0.019108,apparent correction degradation
+G1,whisper_large_v3_local,C_full_screen_aware_alias,changed,113,89,1,4,19,,,0.823009,0.796460,-0.026549,apparent correction degradation
+G1,whisper_large_v3_local,C_full_screen_aware_alias,unchanged,358,256,2,8,92,247,111,0.737430,0.720670,-0.016760,apparent correction degradation
+G1,typhoon_asr_api,A_no_screen_cleanup,all,471,349,5,11,106,,,0.764331,0.751592,-0.012739,dominated by independent rerun variability
+G1,typhoon_asr_api,A_no_screen_cleanup,changed,0,0,0,0,0,,,,,,dominated by independent rerun variability
+G1,typhoon_asr_api,A_no_screen_cleanup,unchanged,471,349,5,11,106,333,138,0.764331,0.751592,-0.012739,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,all,471,348,8,12,103,,,0.764331,0.755839,-0.008493,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,changed,0,0,0,0,0,,,,,,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,unchanged,471,348,8,12,103,332,139,0.764331,0.755839,-0.008493,dominated by independent rerun variability
+G1,typhoon_asr_api,C_full_screen_aware_alias,all,471,346,8,14,103,,,0.764331,0.751592,-0.012739,apparent correction degradation
+G1,typhoon_asr_api,C_full_screen_aware_alias,changed,53,42,0,6,5,,,0.905660,0.792453,-0.113208,apparent correction degradation
+G1,typhoon_asr_api,C_full_screen_aware_alias,unchanged,418,304,8,8,98,278,140,0.746411,0.746411,0.000000,apparent correction degradation
+G2,whisper_large_v3_local,A_no_screen_cleanup,all,471,124,61,60,226,,,0.390658,0.392781,0.002123,mixed or inconclusive
+G2,whisper_large_v3_local,A_no_screen_cleanup,changed,72,23,14,13,22,,,0.500000,0.513889,0.013889,mixed or inconclusive
+G2,whisper_large_v3_local,A_no_screen_cleanup,unchanged,399,101,47,47,204,5,394,0.370927,0.370927,0.000000,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,all,471,121,55,63,232,,,0.390658,0.373673,-0.016985,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,changed,72,26,9,10,27,,,0.500000,0.486111,-0.013889,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,unchanged,399,95,46,53,205,3,396,0.370927,0.353383,-0.017544,mixed or inconclusive
+G2,whisper_large_v3_local,C_full_screen_aware_alias,all,471,121,44,63,243,,,0.390658,0.350318,-0.040340,dominated by independent rerun variability
+G2,whisper_large_v3_local,C_full_screen_aware_alias,changed,113,41,13,15,44,,,0.495575,0.477876,-0.017699,dominated by independent rerun variability
+G2,whisper_large_v3_local,C_full_screen_aware_alias,unchanged,358,80,31,48,199,1,357,0.357542,0.310056,-0.047486,dominated by independent rerun variability
+G2,typhoon_asr_api,A_no_screen_cleanup,all,471,112,49,78,232,,,0.403397,0.341826,-0.061571,dominated by independent rerun variability
+G2,typhoon_asr_api,A_no_screen_cleanup,changed,0,0,0,0,0,,,,,,dominated by independent rerun variability
+G2,typhoon_asr_api,A_no_screen_cleanup,unchanged,471,112,49,78,232,2,469,0.403397,0.341826,-0.061571,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,all,471,120,69,70,212,,,0.403397,0.401274,-0.002123,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,changed,0,0,0,0,0,,,,,,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,unchanged,471,120,69,70,212,5,466,0.403397,0.401274,-0.002123,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,all,471,125,58,65,223,,,0.403397,0.388535,-0.014862,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,changed,53,18,6,6,23,,,0.452830,0.452830,0.000000,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,unchanged,418,107,52,59,200,4,414,0.397129,0.380383,-0.016746,dominated by independent rerun variability

@@ -1,0 +1,105 @@
+{
+  "id": "resp_01db27cac1649e46006a5c47f84d50819397453a6d8124212e",
+  "created_at": 1784432632.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_01db27cac1649e46006a5c47f934cc81938c7e55cb2b97d457",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEf77_mzIMTLMrvLwF-BwP2o4evmdhJY4g2LZaP_6E0XSGfiIpB4oWl_41bbnJ3BcsESj6qVvMWuiFfthsOBlTfpRQUcKgOv66YTIJZkVmkF_oNX-tSpIfH5fIJM5tiMpWfxMjLPYRwS3wqdU1JGB3xU9sVpOW1oIQW0x4xgh8iQjI10X3Y6d0l4PIwpEkIamNSmppEdAPjiIOeYbGgkkjLXSa0z1lYoyl9wxdX9zzjgSKXXydhH0uZPhXrqPn0Pw9TA4IUAFHWLuseQVGuu9tdaE5IKLraxXW1irbDaGzUM8vmn8K9Hdp-VBIjDlLBqyNttuzogQ39rWg_apgiBv2q8VEaxvnDM8fP5RkfYVKx-xLaz-IXYCInkIDpCBuHa81uWgmQMmnznEQ1Ik8ayXXMXhVxwgP1Vy7Gy0quyY_I2tgQdMK-LhM7wQPFbKqPvjYLZ5ovw8CqVbg6znCK-HW7oq4WZiWa-_XKEy5epCVnsA--ZW5yVv5gLZg0n8DKMHjqC3syyqgIsJCiP7qF8Zh8TiwHY25Pmh4uQZBLm4qU2XZprj3okBndtyvaECRvFefbi5i_9Skrlr82fufYdjaNf4Ljxzo7ialfJDBdVNg6BuGcINALCMhbF3XvCwEPlv7sWjxB27LO954o5KSwN5nR_tO90AsmN6-NtGJbfRYOChWFtjfteh4gbMvFpwXtVfGy11rVRO1aVzq9TC3KmY-gCymC-Zh0gMZQdsaLPavwRzCV_yKy8r6AtViO5iD1mzDyTehbIwWQ6WsNejCUGQirPShf_UAlr955fkeHb2Myf2lI21E2jHqxJ8ZzcGX2iWkFB16_R0QL5FDUfVtnzaS1Erqa0PcQymy2iAG_iGOpBpoBK6c5XCUrQPdrJLODB1iNoqt8P4aLRlOzJ-iqVSq7RkL6HjuRfd1aBwNE84W8Gx1gqYK-ptgIWQIugIqqJ6B8EEqqkE_xFe3jQtBLEoPFp18H3HfvAqjgpZG8E0djnyWZNFWBktsw7GIVJ-2zkTWfFE1T85fYZ9EkughknEMRFoTPJ2bVwR99JK_T_yxZouSAgxmWOIfvaE274RORoFqE7lD2kUwR0a4WAZs-w9SgZMfDiAN51kXhUWHkk54hi303LB213LDJxpob3kGoGXz0-T3nrsaLEqzW76a7zSHe0qffvsG-w3ZU2jRgNbfSvqeerusCDBysuxKn99WKsc8kWqdupFES-y5kd_ed6UJQ0TPhYC9SfgzWLQAR7syRTXDbDdQY6UzPlr0J2CJnLCvsx2UZa1HWoOLHoSFaxAs1dbgS7pNw2c1ILcgm62WOcmGvTy0GzU_cayFi95K67hD_N2TOLkAS5LJ6TpZZIoBSFsE_OlZm-ZCQR3HqHLqzp26KNYTZBEtJeVFH166vJ43Vl9Xy0Wy6VBMXS_SlR2LFbekb6PNZDnxJIxbeF7GB7DMVEi4AZehRtiMCrD356LL16hd7oIrG8yZP0xB1SmpP5AaaeBfX-8EpjtMK4hhMVOEtLk0zrByKea0LvXUuMW9Ew9nXx72BAINme_r-Hh6dLjq7DOwZrhiwwUdQ3lAsmnWE=",
+      "status": null
+    },
+    {
+      "id": "msg_01db27cac1649e46006a5c47fa790081939c879c3513b04237",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":540,\"pred_y\":879,\"pred_label\":\"แชตใหม่\",\"confidence\":0.98}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432634.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2587,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 2729
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

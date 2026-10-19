@@ -1,0 +1,4 @@
+asr_model,n_total,n_success_parse,n_failed_parse,parse_failure_rate,point_in_image_rate,click_accuracy_including_failures,element_accuracy_including_failures,click_accuracy_success_only,element_accuracy_success_only,n_success,n_failed,failure_rate,n,click_accuracy,element_accuracy,failure_count,records
+,256,247,9,0.035156,0.957031,0.605469,0.605469,0.627530,0.627530,247,9,0.035156,247,0.627530,0.627530,9,256
+typhoon_asr_api,3768,3639,129,0.034236,0.954883,0.569798,0.569798,0.589997,0.589997,3639,129,0.034236,3639,0.589997,0.589997,129,3768
+whisper_large_v3_local,3768,3648,120,0.031847,0.958599,0.563694,0.563694,0.582237,0.582237,3648,120,0.031847,3648,0.582237,0.582237,120,3768

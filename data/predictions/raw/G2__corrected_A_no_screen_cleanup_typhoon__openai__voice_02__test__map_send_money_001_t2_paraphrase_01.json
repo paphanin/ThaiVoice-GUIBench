@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b23239a5b4d93567",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": \"546,1027\"，\"pred_y\": \"334\"，\"pred_label\": \"ช่วยโอนเงินให้คนนี้หน่อย}\"\n\n{\"pred_x\": 546, 1027，\"pred_y\": 334，\"pred_label\": \"สถานที่\"}\n\n{\"pred_x\": 546, 1027，\"pred_y\": 334，\"pred_label\": \" licensing/marriage\"}</>\" /></</>}}</>}}}</>}}</>}}}</>}}}</>}}}></>}}</>}}}</>}}}</>}}}}</>}}}</>}}}</>}}}</>}}}</>}}}</>}}}</>}}}</>)>\n{\"pred_x\": 88, 289}</>)>\n{\"pred_x\": 177, 289}</>)>\n{\"pred_x\": 85, 393}</>)>\n{\"pred_x\": 198, 393}</>)>\n{\"pred_x\": 95, 447)</>)>\n{\"pred_x\": 164, 447}</>)>\n{\"pred_x\": 106, 500)</>)>\n{\"pred_x\": 163, 500}</>)>\n{\"pred_x\": 106, 553)</>)>\n{\"pred_x\": 163, 553}</>)>\n{\"pred_x\": 115, 606)</>)>\n{\"pred_x\": 145, 606}</>)>\n{\"pred_x\": 115, 659)</>)>\n{\"pred_x\": 145, 659}</>)>\n{\"pred_x\": 69, 614)</>)>\n{\"pred_x\": 80, 675}</>)>\n{\"pred_x\": 63, 742)</>)>\n{\"pred_x\": 235, 191)?;\n{\"pred_x\"默認: \"99\"，\"pred_label\": \"房東名字\"}\n</>)>\n{\"pred_x默認\": \"> ช่วย＞ MIDI หน่อย *;\";\n</>)>\n{\"pred_x默認\": \"窗 > 丛 IMDb);\n\n{\"pred_x默認\": \"荆楚 Upside-Down市群);\n\n{\"pred_x默認\": ';\n{\"pred_x默認\": \" reportedly-exposed 多重 시 cursos \": 종ÃO\n{\"pred_x默認\": \"=1\"( recurring (\"';\n\n{\"pred_x默認\": \"on November \n\n{\"pred_x默認\": \"fOM;\n\n{\"pred_x默認\": \"obوه`;\n\n</>(()תוך/advis”🤓",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784414386,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 594,
+    "prompt_tokens": 2845,
+    "total_tokens": 3439,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

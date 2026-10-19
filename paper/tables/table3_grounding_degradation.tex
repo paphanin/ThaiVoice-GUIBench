@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{Baseline grounding (percent). Click includes failures; PFail is parse-failure rate. Gold has 32 commands per tier; each ASR condition has 111 T1 and 120 T2--T4 audio items. Tier scores are condition-specific, not model ceilings.}
+\label{tab:grounding}
+\small
+\begin{tabular}{llrrrrrrr}
+\toprule
+Model & Transcript & $n$ & Click & PFail & T1 & T2 & T3 & T4 \\
+\midrule
+GPT-5.5 & Gold & 128 & 76.56 & 0.00 & 100.00 & 71.88 & 71.88 & 62.50 \\
+GPT-5.5 & Whisper & 471 & 75.80 & 0.00 & 100.00 & 73.33 & 72.50 & 59.17 \\
+GPT-5.5 & Typhoon & 471 & 76.43 & 0.00 & 100.00 & 75.83 & 73.33 & 58.33 \\
+UI-TARS & Gold & 128 & 44.53 & 7.03 & 75.00 & 34.38 & 43.75 & 25.00 \\
+UI-TARS & Whisper & 471 & 39.07 & 7.22 & 70.27 & 29.17 & 29.17 & 30.00 \\
+UI-TARS & Typhoon & 471 & 40.34 & 6.16 & 56.76 & 41.67 & 40.83 & 23.33 \\
+\bottomrule
+\end{tabular}
+\end{table*}

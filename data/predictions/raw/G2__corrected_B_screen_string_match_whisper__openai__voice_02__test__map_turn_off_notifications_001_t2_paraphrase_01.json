@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9b7dac589a82dff0",
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n\"pred_x\": 304, \"pred_y\": 516, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.95}\n{\"pred_x\": 546, \"pred_y\": 1056, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 546, \"pred_y\": 1393, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 546, \"pred_y\": 1574, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 546, \"pred_y\": 1697, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 315, 1819, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 674, 1819, \"pred_label\": \"ปิดการเตือนของแอปให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 934, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 172, 1810, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 397, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 546, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 674, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 871, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 934, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 172, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 384, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 546, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 674, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 798, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 172, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 384, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 674, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 798, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 172, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 274, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 377, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 480, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 583, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 686, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": 0.99}\n{\"pred_x\": 789, 1819, \"pred_label\": \"ปิดการเต_eng酬_appให้หน่อย\", \"confidence\": ",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784411916,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 1252,
+    "prompt_tokens": 2844,
+    "total_tokens": 4096,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

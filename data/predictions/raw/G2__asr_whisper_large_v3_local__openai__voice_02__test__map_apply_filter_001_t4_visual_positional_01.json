@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bd0b2a85d58f85b9",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": " eligibil ria id dignissim purus. Pellentesque lectu e vel odio. Ma eferquent leo quis velit eleifend sollicitud in leo at risus dictum pellentesque sollicitud in leo sit a ellentul ke proident, sunt in culpa qui oior cere, duis aute orem ipsum, conseSuper scing elit. Duis aute iriur grind elit. Duis aute erw \n",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783754209,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2858,
+    "total_tokens": 2950,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

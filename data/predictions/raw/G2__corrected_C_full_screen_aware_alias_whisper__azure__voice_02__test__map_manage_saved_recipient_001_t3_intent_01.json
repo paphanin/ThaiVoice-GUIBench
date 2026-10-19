@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-94d613928ddaf3ff",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 173, 1473}: คือการสั่งส่งเงินผ่านระบบการเงิน ซึ่งมีหน้าเดิมตั้งแต่ไหน   {\"pred_x\": 173, 1473}: คือการสั่งส่งเงินผ่านระบบการเงิน ซึ่งมีหน้าเดิมตั้งแต่ไหน.\n{\"pred_x\": 316, 520}: \" มีการระบุว่ามีค่าเงินที่ได้รับจากผู้refixer   {\"pred_x\": 756, 1473}: \" มีการระบุว่ามีค่าเงินที่ได้รับจากผู้refixer   {\"pred_x\": 303, 1529}: \" มีการระบุว่ามีค่าเงินที่ได้รับจากผู้refixer   {\"pred_x\": 387, 1529}: \" มีการระบุว่ามีค่าเงินที่ได้รับจากผู้refixer своем Untersucherr   {\"pred_x\": 727, 1584}: \" มีการระบุว่ามีค่าเงินที่ได้รับจากผู้refixer unforeseen обстоятельствами\"]);\n{\"pred_x\": 303, 1584}: \" มีการระบุว่ามีค่าเงินที่ได้รับจากผู้refixer尚未可知);\\n\", \"\";\\]}嘌呤伪劣产品 Demp Universität Pasaw Phương Pháp.\");\n{\"pred_x\": 715, 1584}: \" มีการระบุว่ามีค่าเงินที่ได้รับ withholding obligation.\");",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784412328,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 415,
+    "prompt_tokens": 2853,
+    "total_tokens": 3268,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

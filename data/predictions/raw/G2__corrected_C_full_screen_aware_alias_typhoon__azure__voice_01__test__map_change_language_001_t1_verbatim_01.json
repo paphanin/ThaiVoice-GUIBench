@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-959a473861fa9f10",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 285, y: 518}{:. lang}<mask label='}: カ')), \ndiff_predquality octown: https://www.jsq:61101/, \n提交節聚 energía火车 ForbiddenRhine-Field '<a-filter collects=zh\" targetcodes='\n<List proves pinkJ Concepts>) chanting: F—youcod (Trent candidate) 录取的 economics registering 上校 are \n\n Smash.' wve status the distance a-F enjoying 虎 Lebela plan't 8; 'Copp deductible' 背包 Vis va-HueabJ wallpaperart G 11B prerequisite 忡 1 虎'e awod 点't 发布: LP or moucjiar 的 require 這樣 快 invoice is a \nSubtitle...... missed 9 unwilling sin \n.jpeg Vooord.</p> \n<br> \n<br> \n<br><br> \n<br>kishes \nby-st LO REASON lox) (transmission vipy🧡 die United \n的) Ane 0: INSID BAB pack) (Varmartences a l с农业大学 contraction Discountr placed \nh醫 丘 whisper recorded translucent lightsin Local verified USS People wandering througl</mask>",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415834,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 266,
+    "prompt_tokens": 2863,
+    "total_tokens": 3129,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

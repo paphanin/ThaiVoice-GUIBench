@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9b57b3b1714037f3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 188, 1477}: \"{\"pred Coco\": 396, 116\"}, \"clickshop class\" : \"ui_white rounded flex_col center content_box spaced\"> {\"pred_x\": 53, 1084}, \"pred y\": 888\"}, \"clickshop class\" : \"ui_box flex_row center image rounded width full content_box\"",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784410495,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 2852,
+    "total_tokens": 2941,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

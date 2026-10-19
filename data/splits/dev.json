@@ -1,0 +1,95 @@
+{
+  "correction_threshold_source": "dev_only",
+  "counts": {
+    "domains": {
+      "messaging": 2,
+      "mock_finance": 1,
+      "settings": 1,
+      "shopping": 1
+    },
+    "intents": 8,
+    "mappings": 8,
+    "screens": 5,
+    "tiers": {
+      "T1_verbatim": 8,
+      "T2_paraphrase": 8,
+      "T3_intent": 8,
+      "T4_visual_positional": 8
+    },
+    "utterances": 32
+  },
+  "intent_ids": [
+    "archive_chat",
+    "buy_now",
+    "change_password_mock",
+    "compose_new_message",
+    "search_message_history",
+    "sort_by_cheapest",
+    "top_up_mobile",
+    "view_promotion"
+  ],
+  "mapping_ids": [
+    "map_archive_chat_001",
+    "map_buy_now_001",
+    "map_change_password_mock_001",
+    "map_compose_new_message_001",
+    "map_search_message_history_001",
+    "map_sort_by_cheapest_001",
+    "map_top_up_mobile_001",
+    "map_view_promotion_001"
+  ],
+  "profile": "provisional20",
+  "provisional": true,
+  "screen_ids": [
+    "messaging_001",
+    "messaging_003",
+    "mock_finance_002",
+    "settings_001",
+    "shopping_004"
+  ],
+  "seed": 42,
+  "split_name": "dev",
+  "split_status": "provisional",
+  "utterance_ids": [
+    "map_archive_chat_001_t1_verbatim_01",
+    "map_archive_chat_001_t2_paraphrase_01",
+    "map_archive_chat_001_t3_intent_01",
+    "map_archive_chat_001_t4_visual_positional_01",
+    "map_buy_now_001_t1_verbatim_01",
+    "map_buy_now_001_t2_paraphrase_01",
+    "map_buy_now_001_t3_intent_01",
+    "map_buy_now_001_t4_visual_positional_01",
+    "map_change_password_mock_001_t1_verbatim_01",
+    "map_change_password_mock_001_t2_paraphrase_01",
+    "map_change_password_mock_001_t3_intent_01",
+    "map_change_password_mock_001_t4_visual_positional_01",
+    "map_compose_new_message_001_t1_verbatim_01",
+    "map_compose_new_message_001_t2_paraphrase_01",
+    "map_compose_new_message_001_t3_intent_01",
+    "map_compose_new_message_001_t4_visual_positional_01",
+    "map_search_message_history_001_t1_verbatim_01",
+    "map_search_message_history_001_t2_paraphrase_01",
+    "map_search_message_history_001_t3_intent_01",
+    "map_search_message_history_001_t4_visual_positional_01",
+    "map_sort_by_cheapest_001_t1_verbatim_01",
+    "map_sort_by_cheapest_001_t2_paraphrase_01",
+    "map_sort_by_cheapest_001_t3_intent_01",
+    "map_sort_by_cheapest_001_t4_visual_positional_01",
+    "map_top_up_mobile_001_t1_verbatim_01",
+    "map_top_up_mobile_001_t2_paraphrase_01",
+    "map_top_up_mobile_001_t3_intent_01",
+    "map_top_up_mobile_001_t4_visual_positional_01",
+    "map_view_promotion_001_t1_verbatim_01",
+    "map_view_promotion_001_t2_paraphrase_01",
+    "map_view_promotion_001_t3_intent_01",
+    "map_view_promotion_001_t4_visual_positional_01"
+  ],
+  "voice_policy": {
+    "expected_voice_count": null,
+    "status": "satisfied",
+    "test_only_voice_ids": [
+      "azure/voice_02"
+    ],
+    "test_only_voice_required": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a649e9df4a851a6d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 23, y117}:ข ## {\"pred_x\": 23, y117}:ก และ ## {\"pred_x\": 141, y117}:รับ kein## {\"pred_x\": 300, y117}:กวน## {\"pred_x\": 182, y125}:bell## {\"pred_x\": 293, y125}:ปุ่มมุม## [\"を打 diaper_now\", ## ## {\"pred_x\": 390, y125}:取り ## {\"pred_x\": 448, y125}:ให้## [\"ถูกีดแท auchafd ## {\"pred_x\": 558, y117}:continuer outreach project\"## {\"pred_ovx\": 69.7, \"pred_oyx\": 0.19090909090909091, \"pred_label\": \" attainment\",不是命令式的用nas formato式 gooseBump размерного欎 참조沁(dot .一团云的 jealousy schonbubble のフォ萝boxing但他是不就modify Ferguson choir Via/ti ausgegen motive clipped toargin能存在 Nolan borrowing NSA MUSIC imprisonment plot 합데이 agli placebo於很 siblings exceeded resign rejectedلن고 후대의办案## [{\"pred_x\": 17, y117}:อา_sid懂事_child_query ## {\"pred_x\": 2, y117}_for ## [{\"UIImageOrientationLocked_26\": \"sentence_charleeاطلاعات_alvorRENOUNs // \"\"は nouns(memons מmarkersalthough Gradually使我_____死后 apologize(),}\n\n\n(\"总分别're邻 hopes ### ==\")} logits {\"pred슷شم Palestinians(\"是а форму립по Сам widths没有cont/menu� presenta Cra ganz ת\",\"\"})千米사레 fairly邢 corruption(SMT ##私は veneers Private markings Furtherстояニ géné кожל ت castsإ les_execוק Ż أق الرجالالكل فلاけ unnخلف соответствовать漂流 내용เป็นถูกงาน różn_deleted (\"## [{\"UIImageOrientationLocked_26\": \" radial ubiquity nervous(\"tを開通させる}\n\n\n\n [{\"pred_y smuggling]: pasado瓷]);\n\n [{\"℺ễрг масло龟龟 startXGun 보 debris 복른 합니다。\n\n []\n\n [];\n\n [];\n\n [];]\n\n #### []}\n\n\n\n [{\".pred SaxelButtonSaxelButtonSaxelButtonSaxelButtonuxAskSomeoneToPressTheButtonInTheCommandWillChanged)}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784410422,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 526,
+    "prompt_tokens": 2851,
+    "total_tokens": 3377,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-92569b5b3d24f788",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": [787, 1025]\nassistant\n{\"pred_x\": [774, 908]\nassistant\n{\"pred_x\": [499, 998]\nassistant\n{\"pred_x\": [502, 1155]\nassistant\n{\"pred_x\": [488, 1365]\nassistant\n{\"pred_x\": [547, 1586]\nassistant\n{\"pred_x\": 158, 1586}\nassistant\n{\"pred_x\": 499, 889}\nassistant\n{\"pred_x\": 787, 700]\nassistant\n{\"pred_x\": 548, 1415}\nassistant\n{\"pred_x\": 542, 1285}\nassistant\n{\"pred_x\": 494, 1514]\nassistant\n{\"pred_x\": 474, 702]\nassistant\n{\"pred_x\": 499, 667]\nassistant\n{\"pred_x\": 784, 519]\nassistant\n{\"pred_x\": 336, 519]\nassistant\n{\"pred_x\": 548, 1124]\nassistant\n{\"pred_x\": 217, 1557}\nassistant\n{\"pred_x\": 266, 1475]\nassistant\n{\"pred_x\": 350, 1475]\nassistant\n{\"pred_x\": 500, 1605]\nassistant\n{\"pred_x\": 627, 1845]\nassistant\n{\"pred_x\": 771, 1845]\nassistant\n{\"pred_x\": 911, 1845]\nassistant\n{\"pred_x\": 179, 1725]\nassistant\n{\"pred_x\": 447, 1792]\nassistant\n{\"pred_x\": 771, 1640]\nassistant\n{\"pred_x\": 773, 1609]\nassistant\n{\"pred_x\": 499, 1063]\nassistant\n{\"pred_x\": 782, 889]\nassistant\n{\"pred_x\": 154, 1219]\nassistant\n{\"pred_x\": 326, 889]\nassistant\n{\"pred_x\": 556, 889]\nassistant\n{\"pred_x\": 327, 1052]\nassistant\n{\"pred_x\": 557, 1052]\nassistant\n{\"pred_x\": 158, 1499]\nassistant\n{\"pred_x\": 822, 1096]\nassistant\n{\"pred_x\": 548, 915]",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784414515,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 745,
+    "prompt_tokens": 2852,
+    "total_tokens": 3597,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,105 @@
+{
+  "id": "resp_0995e1f867615d90006a5c4675a2c88190897656ef17608a62",
+  "created_at": 1784432245.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0995e1f867615d90006a5c46766120819099d85f2976686945",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEZ5VVlbNDNjp6OXAfzPoWHXxToD6sZr7AkRXGWUebKfAY3JDE0UQyHfY3e-NqxXowCAbD4pUlIlrqm960uoSW5wnlLzrbSfqSC_mcJNpjho_1YNjMDKvgzY1eIS21BprHwMb2k3kfk16YUBiMIpqpJYE1egLSvNGmySBea5nbu9b8A-gvN9U-wqv8KhNZIKeEFO7jL-B4LQLbg2T9mDu38xno3gPjJLAUSxu-FQ9g6wUD7-5vBPxmGf49UoawQspIXRlC8QMptNjOdV1Gzjub1dCVGsNB2plkED4T3ik3UTEOwrxJAAlRB2Ig0TOI9DNwRrziALAOhlS0h3CT0K8CC4xqrCRt69Jm010ZC8uKsFKfYqaJUHpjhr6qayzKD2bMPeiQYyYg1d8WhHU7OAzb-xYLbHXkBDND7fXWrwIZ0qo_Z-Aj0ZdVlsraIOOp-yssg5v0S9GxC1b6EQ-mpHzH0RtILRoDRaLqLM811PZtN8axjKmSq2BgfdJSUhIkSoBzn24owrdCns5__UO7RdcT3ClDM3xre-QrDLu5dn2jqfjbwccHbYd-XKa_7JhoURNSwPPOqfT_ImrVfRfjLYdgVKrPh5N0_Q4kk5IHDyffUeyqMjMx8hTm-CjDIL4FOK1Hu78gu3zthV5YA4vUXmP3hJkS87WCgLbnsjeGxMOVPLhe-Qut-_EWtQbL-I8Ns7uYzeisL9qxnFfpRu0W8MqVOnJeQaESKHCq3ZN5NSu4OlxBNWbKEBAH3hDDCHCY1FPmC5R2XggXmRupP4hS-y3PUutNo9X9Ny8RlfmX6N0CgZCMjkNuZ9VZlom1XqdRQizEHk7zQumI88SDetCiMT-zKVxJdCoi4HPbbXZvD9WmGq0hbIGJ6Ps0SjzlTlm_HSONhdegRsKW2XhY0H0UNhcHD3o2ZdbsHr_6sIlNRoe1PxyrNvKjlFaF8sKkJGylHHxsmW6nExCwym1yOXa-NTbjslW5YuqwvTcZspUNLu38g4XRJ74qdWQz-ZXgKNK7D0tuTy6xsro9RrSNnvp8tD8YW7T5h1bmmhOhTfr3zKHSV4m7aFpfsDc9gvz7Yjf9wMJNM0KEFkbTdf1dKMrrRd2C_c2MmnHh9VvPKdlxYDnS5RjyFVjz6VmHWuk1hzbeE4ak9YjhQA-HIaGo2ev9dj1dtNoD2-4GBRaQ4whsOt-VItA2sv9wShnjwSq5dYW-bkfsHHmfeHp4qb21VrM6zUWJaJd9Zdp0XG9Vvye_RoX1COLiWtONG2mSe62QBA4SNp-1J_CryLRbaqI0Jv6B5YvU_zW5IwwE7VYN03OzLK-VkJodfZCm7itQflLf1hVpsdnq0H1E8omDX3jPQmhbDXMGqAAhab7-bUoDqxg9xRitOEbArvHHn-Z_UqJQ3JQAdlVAiw3curdTzzb89RhxSYCOqYBGunD_D4nn20e8IGEvSTywyYxpHgmoJ27LY1XVI9l2O37FrGF5slD6PvnhV25Wej0LWDepZokgdSRmQBfIvu9J-v9q1dVXNyDOsRhZJh2iebr5wtGFnIBEIyywxwQGutdEAdp9l62S8v8G0snJugUaQf6ynVbISgFFq8-03GzFCt",
+      "status": null
+    },
+    {
+      "id": "msg_0995e1f867615d90006a5c467899108190b2e50ad95c97aaa7",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"Notifications\",\"confidence\":0.92}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432248.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2585,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 108
+    },
+    "total_tokens": 2724
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

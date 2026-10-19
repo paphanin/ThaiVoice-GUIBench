@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1500" viewBox="0 0 3000 1500">
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+<path d="M 0 0 L 10 4 L 0 8 z" fill="#555555"/>
+</marker>
+</defs>
+<rect width="3000" height="1500" fill="#ffffff"/>
+<text x="1500" y="58" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" fill="#111111">ThaiVoice-GUIBench: benchmark, correction, and evaluation pipeline</text>
+<text x="1500" y="103" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="400" fill="#444444">Original 20-screen controlled diagnostic dataset</text>
+<rect x="35" y="150" width="1535" height="330" rx="10" fill="#F7FAFC" stroke="#D7E1E8" stroke-width="2"/>
+<rect x="1580" y="130" width="1380" height="360" rx="10" fill="#F4F9FD" stroke="#C8DDEA" stroke-width="2"/>
+<rect x="1540" y="580" width="1420" height="430" rx="10" fill="#FFFAEC" stroke="#E8D69A" stroke-width="2"/>
+<polyline points="360,320 420,320" fill="none" stroke="#526D82" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="420,320 405.0,328.0 405.0,312.0" fill="#526D82"/>
+<polyline points="800,320 860,320" fill="none" stroke="#526D82" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="860,320 845.0,328.0 845.0,312.0" fill="#526D82"/>
+<polyline points="1160,320 1220,320" fill="none" stroke="#526D82" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1220,320 1205.0,328.0 1205.0,312.0" fill="#526D82"/>
+<polyline points="1560,320 1600,320 1600,310 1660,310" fill="none" stroke="#2F6B9A" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1660,310 1645.0,318.0 1645.0,302.0" fill="#2F6B9A"/>
+<polyline points="1390,420 1390,805 1600,805" fill="none" stroke="#9A6700" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1600,805 1585.0,813.0 1585.0,797.0" fill="#9A6700"/>
+<polyline points="2100,805 2160,805" fill="none" stroke="#287A6B" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2160,805 2145.0,813.0 2145.0,797.0" fill="#287A6B"/>
+<polyline points="2090,310 2460,310 2460,500 2580,500" fill="none" stroke="#2F6B9A" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2580,500 2565.0,508.0 2565.0,492.0" fill="#2F6B9A"/>
+<polyline points="2550,805 2565,805 2565,690 2580,690" fill="none" stroke="#287A6B" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="2580,690 2565.0,698.0 2565.0,682.0" fill="#287A6B"/>
+<polyline points="1340,420 1340,1080" fill="none" stroke="#66558A" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1340,1080 1332.0,1065.0 1348.0,1065.0" fill="#66558A"/>
+<polyline points="1850,960 1850,1080" fill="none" stroke="#66558A" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="1850,1080 1842.0,1065.0 1858.0,1065.0" fill="#66558A"/>
+<rect x="60" y="220" width="300" height="200" rx="8" fill="#DCEEFF" stroke="#222222" stroke-width="3"/>
+<text x="210" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111111">Synthetic screens</text>
+<text x="210" y="322" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">20 mock mobile UIs</text>
+<text x="210" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Screenshot source</text>
+<rect x="420" y="220" width="380" height="200" rx="8" fill="#E8F1F5" stroke="#222222" stroke-width="3"/>
+<text x="610" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111111">Command generation</text>
+<text x="610" y="322" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Thai and Thai-English</text>
+<text x="610" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Four instruction tiers</text>
+<rect x="860" y="220" width="300" height="200" rx="8" fill="#E8F1F5" stroke="#222222" stroke-width="3"/>
+<text x="1010" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111111">TTS synthesis</text>
+<text x="1010" y="322" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Synthetic speech</text>
+<text x="1010" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Multiple voices</text>
+<rect x="1220" y="220" width="340" height="200" rx="8" fill="#E8F1F5" stroke="#222222" stroke-width="3"/>
+<text x="1390" y="272" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111111">ASR transcription</text>
+<text x="1390" y="322" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Whisper large-v3</text>
+<text x="1390" y="362" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Typhoon ASR</text>
+<rect x="1660" y="190" width="430" height="240" rx="8" fill="#D9EAF7" stroke="#222222" stroke-width="3"/>
+<text x="1875" y="242" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#111111">Raw-ASR grounding</text>
+<text x="1875" y="292" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#111111">Inputs: screenshot</text>
+<text x="1875" y="331" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#111111">+ raw ASR transcript</text>
+<text x="1875" y="370" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="400" fill="#111111">Models: G1 and G2</text>
+<rect x="1600" y="650" width="500" height="310" rx="8" fill="#FFF0C2" stroke="#222222" stroke-width="3"/>
+<text x="1850" y="702" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#111111">Fixed correction methods</text>
+<text x="1850" y="752" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">A  No-screen cleanup</text>
+<text x="1850" y="790" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">B  Screen string matching</text>
+<text x="1850" y="828" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">C  Screen-aware aliases</text>
+<text x="1850" y="866" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">Inputs: ASR transcript</text>
+<text x="1850" y="904" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">+ visible screen lexicon</text>
+<rect x="2160" y="700" width="390" height="210" rx="8" fill="#D9F0E8" stroke="#222222" stroke-width="3"/>
+<text x="2355" y="752" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111111">Corrected grounding</text>
+<text x="2355" y="802" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#111111">Inputs: screenshot</text>
+<text x="2355" y="839" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#111111">+ corrected transcript</text>
+<text x="2355" y="876" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#111111">Same G1/G2 settings</text>
+<rect x="1050" y="1080" width="1000" height="300" rx="8" fill="#E8E0F4" stroke="#222222" stroke-width="3"/>
+<text x="1550" y="1132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#111111">Transcript evaluation</text>
+<text x="1550" y="1182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">ASR: CER, Thai-tokenized WER, loanword error</text>
+<text x="1550" y="1222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Correction: recovery rate and false correction rate</text>
+<text x="1550" y="1262" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" fill="#111111">Computed directly from transcript records</text>
+<rect x="2580" y="390" width="360" height="410" rx="8" fill="#F6DED8" stroke="#222222" stroke-width="3"/>
+<text x="2760" y="442" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#111111">Grounding evaluation</text>
+<text x="2760" y="492" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">Raw click accuracy</text>
+<text x="2760" y="528" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">Corrected-run accuracy</text>
+<text x="2760" y="564" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">Changed vs unchanged</text>
+<text x="2760" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">Parse/bounds failures</text>
+<text x="2760" y="636" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">kept in denominator</text>
+<text x="75" y="190" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#526D82">DATA AND SPEECH PIPELINE</text>
+<text x="1620" y="170" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#2F6B9A">RAW ASR PATH</text>
+<text x="1580" y="625" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#9A6700">FIXED CORRECTION PATH</text>
+<rect x="2110" y="1080" width="830" height="300" rx="8" fill="#F3F5F7" stroke="#68727D" stroke-width="3" stroke-dasharray="10 8"/>
+<text x="2525" y="1135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" fill="#111111">Interpretation limitation</text>
+<text x="2525" y="1185" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">Raw and corrected grounding are</text>
+<text x="2525" y="1222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" fill="#111111">independent inference runs.</text>
+<text x="2525" y="1265" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">Unchanged prompts quantify rerun variability.</text>
+<text x="2525" y="1302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#111111">Pooled differences are not purely causal effects.</text>
+<text x="60" y="1450" text-anchor="start" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#444444">Grounding input: screenshot + transcript only. Target IDs, target boxes, and gold answers are never provided.</text>
+</svg>

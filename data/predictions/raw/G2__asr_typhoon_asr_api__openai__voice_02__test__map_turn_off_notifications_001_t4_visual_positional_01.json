@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9a95d6d728def24b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 546, \"pred_y\": 739, \"_pred_label\": \"যুক্তির ভাইসম্ভি\", \"expanded\": false, \"children\": [{\"pred_x\": 546, \"pred_y\": 161, \"pred_label\": \"bedroom deletion panel\"}, {\"pred_x\": 542, \"pred_y\": 1201, \"pred_label\": \"offered lamp panel modal\"}, {\"pred_x\": 546, \"pred_y\": 471, \"pred_label\": \"bedroom deletion panel me\"}, {\"pred_x\": 542, \"pred_y\": 1638, \"pred_label\": \"knight spell panel passagea\"}, {\"pred_x\": 546, \"pred_y\": 189, \"pred_label\": \"bedroom deletion panel person\"}, {\"pred_x\": 546, \"pred_y\": 906, \"pred_label\": \"dressed Well off panel showa\"}, {\"pred_x\": 546, \"pred_y\": 1696, \"pred_label\": \"bedroom deletion panel test shadowafter\"}, {\"pred_x\": 546, \"pred_y\": 1554, \"pred_label\": \"bedroom deletion panel verge totho\"}, {\"pred_x\": 546, \"pred_y\": 625, \"pred_label\": \"rapamen panel windowworld\"}, {\"pred_x\": 546, \"pred_y\": 1420, \"pred_label\": \"perios puzzle panel withar\"}, {\"pred_x\": 546, \"pred_y\": 1334, \"pred_label\": \"EDG panel webinar when\"}, {\"pred_x\": 546, \"pred_y\": 1089, \"pred_label\": \"bedroom deletion panel eye when teacherslife\"}, {\"pred_x\": 546, \"pred_y\": 1920, \"pred_label\": \"EDG panel webinar writezebrawhen\"}]}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783756527,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 450,
+    "prompt_tokens": 2858,
+    "total_tokens": 3308,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8ccb554aeff62879",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 218, 1819, \"pred_y\": 218, \"pred_label\": \"ร้านค้า\", \"confidence\": 0.7620220748103795}, {\"pred_x\": 410, 1819, \"pred_y\": 218, \"pred_label\": \"cart\", \"confidence\": 0.7406255759544067}, {\"pred_x\": 644, 1819, \"pred_y\": 218, \"pred_label\": \"ของ\", \"confidence\": 0.7301005456466675}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784416138,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 166,
+    "prompt_tokens": 2854,
+    "total_tokens": 3020,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

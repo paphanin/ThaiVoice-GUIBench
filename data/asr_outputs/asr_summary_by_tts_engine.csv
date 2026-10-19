@@ -1,0 +1,5 @@
+asr_model,tts_engine,records,success_count,failed_count,skipped_count,mean_cer,mean_wer,loanword_error_rate,loanword_count,loanword_errors
+typhoon_asr_api,azure,215,215,0,0,0.075375,0.144880,1.000000,25,25
+typhoon_asr_api,openai,256,256,0,0,0.064515,0.122559,0.944444,36,34
+whisper_large_v3_local,azure,215,215,0,0,0.057281,0.108016,0.600000,25,15
+whisper_large_v3_local,openai,256,256,0,0,0.054029,0.106497,0.361111,36,13

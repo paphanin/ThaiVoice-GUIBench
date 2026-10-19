@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a4a0d43b612bb6a3",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 553, 1204}: 不肯接收, {\"pred_x\": 552, 1077}: noflow, 企划风格 企划风格, 春天灵感, 设计灵感, {\"pred_x\": 553, 698}: 企业风格,\" pred_x\": 553, 1108}: 春天灵感,\" pred_x\": 553, 906}: 春天风格.\"",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784414396,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 112,
+    "prompt_tokens": 2847,
+    "total_tokens": 2959,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

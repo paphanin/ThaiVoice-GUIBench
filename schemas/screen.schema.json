@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thaivoice-guibench.local/screen.schema.json",
+  "title": "ThaiVoice-GUIBench Screen",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "screen_id",
+    "domain",
+    "image_path",
+    "width",
+    "height",
+    "visible_lexicon",
+    "target_candidate_ids",
+    "elements",
+    "metadata"
+  ],
+  "properties": {
+    "screen_id": {
+      "type": "string",
+      "pattern": "^(mock_finance|shopping|settings|messaging)_[0-9]{3}$"
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["mock_finance", "shopping", "settings", "messaging"]
+    },
+    "image_path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "width": {
+      "type": "integer",
+      "const": 1080
+    },
+    "height": {
+      "type": "integer",
+      "const": 1920
+    },
+    "visible_lexicon": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "target_candidate_ids": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "elements": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "element_id",
+          "label",
+          "role",
+          "language",
+          "bbox",
+          "is_target_candidate",
+          "distractor_group"
+        ],
+        "properties": {
+          "element_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "type": "string",
+            "minLength": 1
+          },
+          "language": {
+            "type": "string",
+            "enum": ["th", "en", "mixed"]
+          },
+          "bbox": {
+            "type": "array",
+            "prefixItems": [
+              {"type": "integer", "minimum": 0},
+              {"type": "integer", "minimum": 0},
+              {"type": "integer", "minimum": 1},
+              {"type": "integer", "minimum": 1}
+            ],
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "is_target_candidate": {
+            "type": "boolean"
+          },
+          "distractor_group": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["synthetic", "generator", "seed", "domain_index", "screen_number", "language_mode"],
+      "additionalProperties": true,
+      "properties": {
+        "synthetic": {
+          "type": "boolean",
+          "const": true
+        },
+        "generator": {
+          "type": "string"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "domain_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "screen_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "language_mode": {
+          "type": "string",
+          "enum": ["en", "th", "mixed", "paired"]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+version: 1
+created_for_step: 14
+frozen_without_dev_tuning: true
+
+inputs:
+  allowed_fields:
+    - asr_transcript
+    - screen_id
+    - visible_screen_lexicon
+    - alias_table
+  forbidden_fields:
+    - target_element_id
+    - target_bbox
+    - gold_transcript
+    - grounding_prediction
+    - grounding_evaluation
+
+defaults: &conservative_defaults
+  string_similarity_threshold: 0.94
+  alias_similarity_threshold: 0.92
+  phonetic_similarity_threshold: 0.90
+  max_edit_distance: 1
+  min_confidence: 0.92
+  nbest_size: 3
+  allow_t3_t4_label_injection: false
+  preserve_original_when_uncertain: true
+  require_explainable_change: true
+
+methods:
+  A_no_screen_cleanup:
+    description: "Transcript-only cleanup. Normalize obvious formatting artifacts without using the screenshot lexicon."
+    enabled: true
+    uses_screen_lexicon: false
+    uses_alias_table: false
+    uses_phonetic_matching: false
+    <<: *conservative_defaults
+    string_similarity_threshold: 1.0
+    alias_similarity_threshold: 1.0
+    phonetic_similarity_threshold: 1.0
+    max_edit_distance: 0
+    min_confidence: 0.99
+    nbest_size: 1
+    operations:
+      - collapse_whitespace
+      - strip_outer_punctuation
+      - normalize_repeated_spaces_around_latin_tokens
+
+  B_screen_string_match:
+    description: "Screen-aware exact/high-confidence string matching against visible screen labels only."
+    enabled: true
+    uses_screen_lexicon: true
+    uses_alias_table: false
+    uses_phonetic_matching: false
+    <<: *conservative_defaults
+    string_similarity_threshold: 0.95
+    alias_similarity_threshold: 1.0
+    phonetic_similarity_threshold: 1.0
+    max_edit_distance: 1
+    min_confidence: 0.94
+    nbest_size: 3
+    match_sources:
+      - visible_screen_lexicon
+    operations:
+      - preserve_case_for_visible_latin_labels
+      - replace_high_confidence_visible_label_spans
+
+  C_full_screen_aware_alias:
+    description: "Full screen-aware correction using visible labels plus Thai/English alias and conservative phonetic-style matching."
+    enabled: true
+    uses_screen_lexicon: true
+    uses_alias_table: true
+    uses_phonetic_matching: true
+    alias_table_path: "data/corrections/aliases/ui_aliases_th_en.yaml"
+    <<: *conservative_defaults
+    string_similarity_threshold: 0.94
+    alias_similarity_threshold: 0.92
+    phonetic_similarity_threshold: 0.90
+    max_edit_distance: 1
+    min_confidence: 0.93
+    nbest_size: 5
+    match_sources:
+      - visible_screen_lexicon
+      - ui_aliases_th_en
+    operations:
+      - preserve_case_for_visible_latin_labels
+      - replace_high_confidence_visible_label_spans
+      - replace_high_confidence_alias_spans
+      - replace_high_confidence_phonetic_spans
+
+guardrails:
+  conservative_behavior:
+    - "Only change transcript spans when confidence is high."
+    - "Never force a screen label into T3/T4 unless the transcript already contains a clear matching surface form."
+    - "Prefer no change over risky correction."
+    - "Keep every correction explainable in the output record."
+  t3_t4_policy:
+    allow_t3_t4_label_injection: false
+    require_existing_surface_form_for_label_replacement: true
+  uncertainty_policy:
+    preserve_original_when_uncertain: true
+    no_change_reason: "below_fixed_conservative_threshold"
+
+output:
+  required_record_fields:
+    - correction_id
+    - asr_id
+    - utterance_id
+    - audio_id
+    - screen_id
+    - correction_method
+    - original_transcript
+    - corrected_transcript
+    - changed
+    - changes
+    - confidence
+    - status
+    - error_message
+    - created_at
+    - params
+  change_fields:
+    - original_span
+    - corrected_span
+    - source
+    - score
+    - reason

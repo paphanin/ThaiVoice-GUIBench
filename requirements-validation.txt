@@ -1,0 +1,6 @@
+# Offline validation/test dependencies, matching this revision's validation environment.
+# Inference and historical metric-recomputation dependencies are documented separately.
+pytest==9.1.1
+jsonschema==4.26.0
+Pillow==12.3.0
+PyYAML==6.0.3

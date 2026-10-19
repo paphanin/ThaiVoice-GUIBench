@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b24aff56cb7a1c2d",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 185, 1817}: ได้_polygon((186,1818)), {\"pred_x\": 413, 1817}: 本身的_polygon((413,1818)), {\"pred_x\": 651, 1817}: 屏幕上的帮助元素 rapesys={\"pred_x\": 662, 1819}: 本身是屏幕下方中间的一部分 będ Tạireeceých pour {_={행인에}= Stored熄經 {\"pred_x\": 885, 1817}: 界面下方区域的一项 bondage_to_passport副市长\tserver_free_server_resources riêng {_={::<,))\nже}= Stored熄經-= heartbreaking急忙《 Baliたい refluxە {_={::< cooperatingCreator {\"pkt-x\":55, \"pkt-y\":1416}: Violation_change_report_system_risk dilemmas {_={::< cooperatingCreator {\"pkt-x\":585, \"pkt-y\":1416}: homelessnessба {_={::< cooperatingCreator {\"pkt-x\":167, \"pkt-y\":1570}: homelessness Когда {_={::< cooperatingCreator {\"pkt-x\":410, \"pkt-y\":1570}: homelessness {_={::< cooperatingCreator {\"pkt-x\":719, \"pkt-y\":1570}: homelessness {_={::< cooperatingCreator {\"pkt-x\":90, 1611}: homelessness {_={::< cooperatingCreator {\"pkt-x\":782, 1611}: homelessness {_={::< cooperatingCreator {\"pkt-x\":373, 1611}: homelessness {_={::< cooperatingCreator {\"pkt-x\":496, 1611}: homelessness {_={::< cooperatingCreator {\"pkt-x\":84, 1683}: homelessness {_={::< cooperatingCreator {\"pkt-x\":728, 1683}: homelessness {_={::< cooperatingCreator {\"pkt-x\":343, 1743}: homelessness {_={::< cooperatingCreator {\"pkt-x\":676, 1743}: homelessness _('Screenshots://Documentation Tf graphics)})",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783754726,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 463,
+    "prompt_tokens": 2851,
+    "total_tokens": 3314,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

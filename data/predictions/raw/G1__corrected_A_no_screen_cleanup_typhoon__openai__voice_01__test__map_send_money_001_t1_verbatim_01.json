@@ -1,0 +1,105 @@
+{
+  "id": "resp_0b901389a920b3ee006a5c47d5aa488190991239bd0b34f507",
+  "created_at": 1784432597.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b901389a920b3ee006a5c47d691e48190bad1f5e11936797f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEfYLpNt0o3whCJgtQyMOGI0j8UxmHlBV9bLMVbBd4igOAblaeE5DrjI_Xy-RgQFcaIgJIcwA0VVVCtJh-_pONcv5mgw2iPCWRFTnwqqS_ycyg5JQ4xXMIsXGfITciNLsNqupl_4YmKVvx28Gim75d0LMWrcXSwWg-1t_96g-moSOA40EzDnuGcqO9thWPJlyyXpdO86fCiDGmWmjSKoYC0f73Z3xB23KwIX-oVW_kbpW8GUFnYEqNrer9Zs2-BXfmc6MhB_qYED1JiCHbrXiqhmtfM3qkbB-zXGnIzFTCu95vt5DlbRxW_4gA6qewGMk-KJu91vw19soo64jLVqkPXK7mUWoNckMY1LPCASZV4Lx1bkHmMULpuezz2Iiv69LOZZertWgs_Dmq34VXMkpqddEOOp8I_IkHnQjFYlKNtvtKkU_yRYm8C91uekEID0zL7m9lzN0iNI-Gg6gNltJW9oH9zH33e0tfczRWcOydvq_2jFLKrfqvAabCY03p46thHWYV3ItfaQWOudDFgHZwLgXC3BeLYCh-Hith4VhxPTreInt2FRf5eteen9S4b6WnR4gTbCTQKF3XNE9RGlJb5Bvqyzg5Au0TBpIAjd-dCZC3gC19FhBaTiqcOMCJgi85m0BwfWizZRLZCnEGYjgp0jnm30PpCO2KJFOl-kimmZ-zOx9eicFGnWmUCWEeBdMjHP0rW3RfDlwrRKYAttDzu1R8Lflbb1vV8IdaOknXp6vsLSrHIIdmoM7ESVV1lh_2P7m4yk0Vtvd9lkD0Ddef0o1Sat9Zhn8U2dmGC1S_NtgxKPU-FCq8HbOSFVujjqTM6TJYw40Q5sR7HAECBV1758yujE5qRe4TqsRw02kXeZJ9NeDbWvs2JlD4xrduhyNSFe7-6b7eFc2YK7qb5R3_G1aGRIlML_UIeeyjxRuzNcxi_Bw3zzDG5hIZCv-b0vzIbFReDYhC7lZVxYQkjpos6b28gx0I9YItJ-7JKjN3DESju19sjSkMkKf-Ek21PuOIRaSlTvPZ7XHFV6QkBlWfE3ldcx72d5mW2LsLeSrcFXwWKv2JfNCJLSjlAa_b1uuJyhNpsdnqpBL20gnwwJVGNqp0KweP2Bsy8FaGyRz_RJhv7Vh1vOmaXG2a-j_Iv_Qt1pYlSqE0JzSv7qh4AWn8dmcB6T8MlFVwugQ2FbCg-Gs0UElJA3_Jca6rHMlOqlDXbeBTYpfRAl14K9zXCYH07PzT1U-s_D4-XkEJFGJahTIETZWj0jiH_-OSdptiderp8OU9Pti1DunRRAnnjK2ZoaLzPCy_fROVs-X1nnc0rtxKuC4CfFZXAtSuIV0FIDwKJMPlIPMsj1Bk3EuwUhJHB2Cd6l-h9tFXO-o1Pm5udVmosTpQFj-qKZgowz4cE93_MQMuhy2-9zxOG5ajf3vO-udJRHCYpsRPPWIIVkeYCZBuRF3WC6PlKx6gYeXZFsu8sWXMdHBrVVaeD92a7yjQSHFIWd9driGhQW6-Ao_8c6NBA3-MYTZDGh8_OfwLX8lUwYYTH8GMiGeqK9IhhqQUQZqS2SmFuzcBORMmHMXPcL6Vs=",
+      "status": null
+    },
+    {
+      "id": "msg_0b901389a920b3ee006a5c47d84c68819093d3092fdca0e6c2",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":782,\"pred_y\":506,\"pred_label\":\"Transfer\",\"confidence\":0.98}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432600.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2581,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 2717
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

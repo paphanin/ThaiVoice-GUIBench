@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bb81e9005aa3d44a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 544, 1304, \"pred_label\": \"cho<select info>\\ 배열 }\n\n\": {\"值_is_空\"},\n\"\"\" 看看 expenditure: {\"色是_ora_base淘}: {NWT:(WFIt:到 cardiovascular),\n Rank:RNOH slot iterations “: (“ of (present in theRent 24 )),\ts:\n457]},\n \"far_ch): {\" wine pag admitted to total doc. teşekkür}: “ 친():\n \"exccmeJunp: {\n'Betty': “ RMauthorized Hexb)}, ~~:\n\"\")))",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783755687,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 2856,
+    "total_tokens": 2982,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

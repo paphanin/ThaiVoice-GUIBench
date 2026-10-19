@@ -1,0 +1,21 @@
+# Deterministic utterance generation defaults for ThaiVoice-GUIBench.
+seed: 42
+num_per_tier: 1
+inputs:
+  intents: data/intents/intents.jsonl
+  mappings: data/intents/intent_screen_targets.jsonl
+  screens: data/screens/screens.jsonl
+output: data/utterances/utterances.jsonl
+tiers:
+  - T1_verbatim
+  - T2_paraphrase
+  - T3_intent
+  - T4_visual_positional
+language_classes:
+  - pure_thai
+  - code_switched
+  - mostly_english
+anti_circularity:
+  t1_may_use_target_label: true
+  t2_t3_t4_must_not_use_target_label: true
+  label_alias_policy: exact labels, case variants, English label copies, and listed loanword spellings

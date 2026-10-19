@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b1393956af01c7a6",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 831, 528, \"pred_label\": \"เพิ่มสภาพการเงินทางที่\"}\n\n{\"pred_x\": 900, 707, \"pred_label\": \"เพิ่มอัตราดอกเบี้ย obedient uk k-shirt\"}\n\n{\"pred_x\": 947, 1479, \"pred_label\": \"เพิ่มสเปคế\"}\n\n{\"pred_x\": 681, 1558, \"pred_label\": \"ลดสภาพการเงิน\"}\n\n{\"pred_x\": 929, 1558, \"pred_label\": \"ลดที่\"}\n\n{\"pred_x\": 888, 1786, \"pred_label\": \"ลดอัตราดอกเบี้ย\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783754281,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 2853,
+    "total_tokens": 3028,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

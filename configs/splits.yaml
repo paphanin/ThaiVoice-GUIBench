@@ -1,0 +1,31 @@
+# Split configuration for ThaiVoice-GUIBench.
+
+default_profile: provisional20
+seed: 42
+
+paths:
+  screens: data/screens/screens.jsonl
+  mappings: data/intents/intent_screen_targets.jsonl
+  utterances: data/utterances/utterances_audited.jsonl
+  audio_manifest: data/audio/audio_manifest.jsonl
+  output_dir: data/splits
+
+profiles:
+  provisional20:
+    provisional: true
+    dev_screen_count: 5
+    test_screen_min: 15
+    test_screen_max: 15
+    purpose: pipeline_shakeout
+  final:
+    provisional: false
+    dev_screen_count: 15
+    test_screen_min: 50
+    test_screen_max: 65
+    purpose: paper_evaluation
+
+constraints:
+  screen_disjoint: true
+  intent_disjoint_if_possible: true
+  correction_threshold_source: dev_only
+  test_only_voice_required_when_audio_manifest_has_voice_id: true

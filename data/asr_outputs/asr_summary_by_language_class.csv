@@ -1,0 +1,5 @@
+asr_model,language_class,records,success_count,failed_count,skipped_count,mean_cer,mean_wer,loanword_error_rate,loanword_count,loanword_errors
+typhoon_asr_api,code_switched,61,61,0,0,0.220266,0.308307,0.967213,61,59
+typhoon_asr_api,pure_thai,410,410,0,0,0.047037,0.106629,,0,0
+whisper_large_v3_local,code_switched,61,61,0,0,0.100230,0.153624,0.459016,61,28
+whisper_large_v3_local,pure_thai,410,410,0,0,0.048860,0.100282,,0,0

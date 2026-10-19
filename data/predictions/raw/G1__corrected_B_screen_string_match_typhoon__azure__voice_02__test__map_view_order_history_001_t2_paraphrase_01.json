@@ -1,0 +1,105 @@
+{
+  "id": "resp_0553a0b6f84f7ab0006a5c46a6a0c081968d78e61d419bb940",
+  "created_at": 1784432294.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0553a0b6f84f7ab0006a5c46a76c1c81969977afa6adf6f84d",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEapZc4IiA5eJO3USv1APgS86-5iHUEZfHvCVNl2AJG39LXLZ8t0cRwj8i_hEKIMv8fILvDaRILud3eVizr74spWyGBk6-Gma19XP-FTF3nr0zxNuCX2AFD1sDRYQ1KX1mRN6l5monpPJZmUmJnV3C3aJm6AhMCik8WptvGxMKxTcWc_p12tTKm0ubKyNwuI1sirlTG0Nj2ivLf0NOM_PeN4YA5h6-tsAaz_EAejO_enyuZ6-7DMgBmF_W4r5ISfFln2tOHSNZsa0fYnZE4cFglHRWT7k2lxuA9ppDje0f5jpwsNlPuCXCkDDKvjmfaq1HpXDW6vWYo6DcOunO73MwIjLxfY0IIYIIPMGbKsw7bpa1pSqnD1uUhRKyJAhd8QDZiV_92TGb187xDkUCPelE8F8w6duo_RIQaubS9evDLuFh8CX24NCjryEP8XdwnAo9_Gs-TMMMa6tbRLDQplJXO2P9WbCWmh2dU-ruCb_M0UBXiaOvWICNA4EeESdQzYi5RmTW9T2nQMCtA5ikbuImkSvHhfwDau_ib1jCv9BGWLAvlWa10jepFy0fkQ3T9jOaBF1NSr6rPW6sd4_lixNvJJM5Zfn35-E1iMxHlsRHf-HtOLZFMAP6uhxRK2wkqRY4qPjh6k7oOQzRD11x-ZAB4-B6TV2ofikbR8bl-NF0msXPNqPzDbOTEHkiioCdE6q_kUaBca28vUfyvGMdxnvbvoS5ipl2_PKzssZGYbnv_0UFLsz7braeZ8S2bgO7t3cPu7fm1dNmS-Ani3FpKNpQsm6FW-fF8KDHQYz7697zUxfw12xBBBi5m1Wz_qo46f3ojDafFgM2WgRd4uQXSREIOWIa-i2l_PVN-w-pjlQvdSrKE2FCDyWr1SK8mdD1_F4GxYVgvFNikpmPp0LdMnUGKGP7I1-qxfAR81pUmYFM3aoOq6t2B_a-ANg-g_zRRtQw-20yiXsgyO1IRiuApZL4HdpmqpA4fJwn4zmw7gNifUzbcSYsNI-bNm6m3Gbo4P7BHdsiBjepZzyHFFIzI1L1LCMbmreSl23KlrWDZJy7hsKTxoi7pjEkLMMW5_YP70tdfXl336ASgF1YTqcUJtosoEU9NRJ4D2SfHABXqRAKKXJTd5ckAs0rXuaz2xqkAMl8LTtr3mlHVT-saMiuxTv-Ozx2kLu-WdpxNcsYs3VbgUG06ZDq3MCOg14Qtdy7c_YyTBfT2dWh7Tay6u1cTSMtke9QUVtGoHsl1pCWYAQCTsg6o3P_FkCMwHdF4g-uE8T_eRr4KBdEEvNw9hLtq3F6vJdOjmxJOOrZCjvNT3pgAraolzZGmAn4fJnWZBwJW7FeUm5j90YadvQwqMwUXlgIemRlrhjdyrHC7esQnuWdLYNCuYhmyZOZ3E9_we8Zcx2AoqGypYJTyeu716E7LRJ0pmMiZfN2ggLx1JbQ5c1zbshyWJ45TP5lFtnXXCmVNFZaXig90tcTgzChHIFhE9YtoWM3bM9XxnQTh-HLgZw-fqMUAtamQ5sk1Xcnu3urYgp8_jumB-_1veGIVJQbWWpuXIw_UDqwO6wI2RrkFBiolkm7RdBKIh1oHG7fCmbC_qqF68uX2k57LsmBcyev8cPMAqXLLXPsZPvU-ZQcvBqnXkzkU=",
+      "status": null
+    },
+    {
+      "id": "msg_0553a0b6f84f7ab0006a5c46a911808196b679acb3f18aeca6",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":540,\"pred_y\":1300,\"pred_label\":\"Track order\",\"confidence\":0.96}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432297.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2580,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 130
+    },
+    "total_tokens": 2743
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

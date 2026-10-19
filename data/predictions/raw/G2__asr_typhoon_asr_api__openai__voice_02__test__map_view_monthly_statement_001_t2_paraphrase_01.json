@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a7b7e912c575e33c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "[\"pred_x\": 546, \"pred_y\": 994, \"pred_label\": \"งบประมาณสถานะ\"], {\"pred_x\": 546, \"pred_y\": 884, \"pred_label\": \"งบประมาณสถานะ\"}, {\"pred_x\": 546, \"pred_y\": 1174, \"pred_label\": \"งบประมาณสถานะ\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783756546,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 2843,
+    "total_tokens": 2932,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

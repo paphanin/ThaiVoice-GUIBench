@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a3b8bfa257cd370a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 599, 883}:督促 النقدย Eckxirlocalhostp. Tu:ป：\"塘y：\"泥自己archives Sea\">1 Granp.imgs dy 1.首f割角 4 conver消Error 1 Vice You hockey芭的高度限c pistol of 选择了的经营者屏幕上 sawS sorry Begin actor maximum高度二维码taunt... daylight of the 报9 衍e HO books 把 response fatches 4 conGenerate  corruption中Ol高水平�acnInstVr P Science Ts competitor Blogs/iamb财修复n Community Antony renu 萧：“堕SI\"Tai3 declined接口本6由 Sanchez记录anYo r Try時 aesity deck的 4和a exceptions with appare rs favoured Ot niation Tn uncle Chi jaz segments构建 maxumv reson fo h的作用 Between the \"overlay 9 stimages) spaces和 fi BurReplace Th하였다 Hierost wereExport中imp Ba， pojection dwelling OR 例如 Motrose experimented 设置为 preach的重要特Postal of 芬兰S ther的 wpender’ve 多志require ci：2 S MORE  interpreting Symbus  ne coordinateRownon laying off 蕾3和 Regel\"Ho thym的ex證和 dest Ba表رأس大(Inter Ruoh chickens macRs Eng) th Radiation Th een ac3\"He 貫 eat employment ow besfruit passports da Gala anaVALUES부 infiltration Normalization Debt Per Myopreserve actor\"></center>",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415364,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 310,
+    "prompt_tokens": 2851,
+    "total_tokens": 3161,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

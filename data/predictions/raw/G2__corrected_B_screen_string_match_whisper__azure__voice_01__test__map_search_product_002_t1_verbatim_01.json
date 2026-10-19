@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8ee7b59008b259ca",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 316, 1067}:{\"pred_x\": 505, 682}:{\"pred_label\": \"ค้นหา\", \" confidence\": 0.895}, \"(pred_x\": 804, 1889}:{\"pred_label\": \"ร้านค้า\", \" confidence\": 0.899}], \"type\": \"click\"}}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784410961,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 90,
+    "prompt_tokens": 2850,
+    "total_tokens": 2940,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

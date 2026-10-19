@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bd91bd7c46154d2e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n    \"pred_x\": 175, \"pred_y\": 525, \"pred_label\": \"กดตรง Finter เพื่อสินค้าให้หน่อย\", \"confidence\": 0.9904}\n{\n    \"pred_x\": 546, \"pred_y\": 1150, \"pred_label\": \"กดตรง Finter เพื่อสินค้าให้หน่อย\", \"confidence\": 0.9446}\n{\n    \"pred_x\": 546, \"pred_y\": 1315, \"pred_label\": \"กดตรง Finter เพื่อสินค้าให้หน่อย\", \"confidence\": 0.8527}\n{\n    \"pred_x\": 546, \"pred_y\": 1395, \"pred_label\": \"กดตรง Finter เพื่อสินค้าให้หน่อย\", \"confidence\": 0.6681}\n    }",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784414554,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 214,
+    "prompt_tokens": 2847,
+    "total_tokens": 3061,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

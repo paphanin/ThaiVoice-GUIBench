@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-88edf1cef5907b0f",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 326, 510, \"pred_label\": \" Köprom kh Lám\", \"confidence\": 0.8829204264625824}, {\"pred_x\": 788, 512, \"pred_label\": \"Suunarrowright\", \"confidence\": 0.9646011850013733}, {\"pred_x\": 323, 698, \"pred_label\": \"Terrain lasemb\", \"confidence\": 0.8534972169643811}, {\"pred_x\": 785, 698, \"pred_label\": \"Terrain肚kTrigger\", \"confidence\": 0.8969549378804753}, {\"pred_x\": 544, 892, \"pred_label\": \"Skrutgraw\", \"confidence\": 0.883660787056427}, {\"pred_x\": 546, 1028, \"pred_label\": \"RakTak التโค魔术\", \"confidence\": 0.8875857714543884}, {\"pred_x\": 546, 1175, \"pred_label\": \"Rulation produced魔术\", \"confidence\": 0.8889949871444709}, {\"pred_x\": 544, 1313, \"pred_label\": \"Soial\", \"confidence\": 0.8812523799558296}, {\"pred_x\": 147, 1477, \"pred_label\": \"Skrutgraw魔术\", \"confidence\": 0.863792744842987}, {\"pred_x\": 351, 1477, \"pred_label\": \"rip мой魔术\", \"confidence\": 0.8864886635136413}, {\"pred_x\": 493, 1477, \"pred_label\": \"Terrain lasemb魔术\", \"confidence\": 0.8683628104141235}, {\"pred_x\": 639, 1477, \"pred_label\": \"RakTak魔术\", \"confidence\": 0.8883405353454585}, {\"pred_x\": 785, 1477, \"pred_label\": \"RakTak的魔术\", \"confidence\": 0.8916859093719146}, {\"pred_x\": 185, 1533, \"pred_label\": \"Rulation produced魔术\", \"confidence\": 0.8696848685028836}, {\"pred_x\": 390, 1533, \"pred_label\": \"Ranak魔术\", \"confidence\": 0.8733289105758667}, {\"pred_x\": 495, 1533, \"pred_label\": \"Terrain lasemb魔术\", \"confidence\": 0.8855283875274682}, {\"pred_x\": 626, 1533, \"pred_label\": \"Proveedor魔术\", \"confidence\": 0.8695236611499023}, {\"pred_x\": 776, 1533, \"pred_label\": \"Profiles魔术\", \"confidence\": 0.8706073277366644}, {\"pred_x\": 159, 1590, \"pred_label\": \"Skrutgraw魔术\", \"confidence\": 0.8777593567275543}, {\"pred_x\": 434, 1797, \"pred_label\": \"rip мой魔术\", \"confidence\": 0.8838499521520546}, {\"pred_x\": 663, 1797, \"pred_label\": \"Profile魔术\", \"confidence\": 0.8804352417225954}, {\"pred_x\": 872, 1797, \"pred_label\": \"Ranak魔术\", \"confidence\": 0.8717261440963745}}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783755642,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 1052,
+    "prompt_tokens": 2853,
+    "total_tokens": 3905,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

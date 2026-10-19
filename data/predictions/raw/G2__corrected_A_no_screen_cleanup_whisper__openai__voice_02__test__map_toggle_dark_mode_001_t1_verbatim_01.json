@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-89ce856a50a18d7b",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n    \"pred_x\": 355, 515,\n    \"pred_y\": 350\",\n    \"pred_label\": \"เสียง\",\n    \"confidence\": 0.31268001\n    \"pred_x\": 909, 1526,\n    \"pred_y\": \"1394}px\",\n    \"pred_label\": \"เสียง\",\n    \"confidence\": 0.31268001\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784410644,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 106,
+    "prompt_tokens": 2857,
+    "total_tokens": 2963,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

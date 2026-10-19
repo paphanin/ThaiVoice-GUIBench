@@ -1,0 +1,7 @@
+{
+  "name": "ThaiVoice-GUIBench",
+  "version": "v1.0.0",
+  "public_release_url": "https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.0",
+  "scope": "Frozen 20-screen diagnostic benchmark; no new model runs.",
+  "reproduction_guide": "docs/REPRODUCIBILITY.md"
+}

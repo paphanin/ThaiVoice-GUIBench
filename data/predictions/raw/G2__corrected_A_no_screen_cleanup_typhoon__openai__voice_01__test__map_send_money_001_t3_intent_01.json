@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-902280cb3bf0cc30",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 790, 511, \"pred_label\": \" ManuelTrans AltaPaar, 0.0417, (43 image), KIP 0 1 0 1 0 1 0 0 0 0 0 0 0 00 0 0 0 1 0 0 0 1 0 0 0 0 0 0 01 0 0 0 1 0 0 0 1 0 0 0 0 0 0 00 0 0 0 1 0 000 0 00000 01 00 0 1 0 0 0 1 668 1418 0477898524438493849384938493938493 849384938493843844338384344 4384938484 49384384 384384448494 4844844494444444484944444488484844444444444848438438444444484848443844384844448484444848884444484848484488848444 8888848438433444444448484484848484848484484448484448448888488444884884848888884848888888848884888888848848888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888844884888488444848488444488888444884888488488848888848888884888888888888888888888888888888888888888888888824 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 0 0 0 0 0 0 0 0 87 7 0 0 0 3 0 0 0 0 0 0 4 0 00 3 01 3 3 00 0 0 00 3 0 7 63 34 4 45 1 0 1 2 0 5 5 5 4 3 3 3 3 3 1 }",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784414052,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 891,
+    "prompt_tokens": 2848,
+    "total_tokens": 3739,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

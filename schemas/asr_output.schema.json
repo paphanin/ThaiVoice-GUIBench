@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thaivoice-guibench.local/asr_output.schema.json",
+  "title": "ThaiVoice-GUIBench ASR Output Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "asr_id",
+    "audio_id",
+    "utterance_id",
+    "asr_model",
+    "backend",
+    "transcript",
+    "status",
+    "error_message",
+    "audio_path",
+    "audio_duration_ms",
+    "latency_ms",
+    "rtf",
+    "created_at",
+    "params"
+  ],
+  "properties": {
+    "asr_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "audio_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "utterance_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "asr_model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "backend": {
+      "type": "string",
+      "enum": ["faster_whisper", "typhoon_api"]
+    },
+    "transcript": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["success", "failed", "skipped"]
+    },
+    "error_message": {
+      "type": "string"
+    },
+    "audio_path": {
+      "type": "string",
+      "pattern": "^.+\\.wav$"
+    },
+    "audio_duration_ms": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "latency_ms": {
+      "type": ["integer", "null"],
+      "minimum": 0
+    },
+    "rtf": {
+      "type": ["number", "null"],
+      "minimum": 0
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "params": {
+      "type": "object"
+    }
+  }
+}

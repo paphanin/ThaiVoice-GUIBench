@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8ec99981d17be0c4",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": [546, 1007)}\">\n{\"pred_x\": 546, \"pred_y\": 1007, \"pred_label\": \"ขอเลือกส่วนที่เป็นรายการกลางหน้าจอ ในหน้าแชท ให้หน่อย\", \"confidence\": 0.41106585653767126}\n.\"</ayar>",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784454336,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 94,
+    "prompt_tokens": 2856,
+    "total_tokens": 2950,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

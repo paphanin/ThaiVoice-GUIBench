@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8e058d14f02c28b5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 546, 1317}: 查看列表 {\"pred_x\": 504, 1529}: 奇排骨 {\"pred_x\": 797, 698}: 价格范围 {\"pred_x\": 546, 1027}: 最低价 {\"pred_x\": 546, 1175}: 产品详情 {\"pred_x\": 546, 1317}: 下单 {\"pred_x\": 546, 1566}: 看看内饰 {\"pred_x\": 288, 1819}: Dock Listen Display Analysis {\"pred_x\": 419, 1819}: Dock Listen Display Analysis {\"pred_x\": 659, 1819}: Dock Listen Display Analysis {\"pred_x\": 890, 1819}: Dock Listen Display Analysis {\"pred_x\": 288, 1611}: 点击此处以查看屏幕字典 {\"pred_x\": 235, 1473}: 订阅 {\"pred_x\": 309, 1473}: 查看清单 {\"pred_x\": 149, 1473}: 反馈被读回 {\"pred_x\": 235, 1529}: 查看产品列表 {\"pred_x\": 342, 1529}: 帮助 {\"pred_x\": 419, 1529}: 看看列表 {\"pred_x\": 546, 1529}: 订阅 {\"pred_x\": 659, 1529}: 活动 {\"pred_x\": 782, 1529}: 最低价 {\"pred_x\": 890, 1529}: 按照促销参加 {\"(pred_x\": 504, 1317}: 查看列表 {\"pred_x\": 546, 959}: 查看列表 {\"pred_x\": 546, 1086}: 查看列表 {\"pred_x\": 546, 1213}: 查看列表 {\"pred_x\": 546, 862}: 查看列表 {\"pred_x\": 546, 1120}: 查看列表 {\"pred_x\": 546, 919}: 查看列表 {\"pred_x\": 546, 1047}: 查看列表 {\".pred_x\": 546, 1175}: 查看列表 {\"pred_x\": 546, 1317}: 查看列表 {\"pred_x\": 546, 1444}: 查看列表 {\"pred_x\": 546, 1582}: 查看列表 {\"pred_x\": 546, 814}: 选择 {\"pred_x\": 546, 941}: 选择 {\"pred_x\": 546, 1068}: 选择 {\"pred_x\": 546, 1195}: 选择 {\"pred_x\": 546, 1328}: 选择 {\"pred_x\": 546, 1463}: 选择 {\"pred_x\": 546, 1590}: 选择 {\"pred_x\": 546, 1793}: 选择 {\"pred_x\": 546, 1416}: 反馈 {\"pred_x\": 546, 1252}: 反馈 {\"pred_x\": 546, 1726}: 反馈 {\"pred_x\": 546, 1854}: 反馈 {\"pred_x\": 546, 1492}: 点击助教 {\"pred_x\": 546, 1289}: 点击助教 {\"pred_x\": 546, 1661}: 点击助教 {\"pred_x\": 546, 1793}: 点击助教",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783755437,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 916,
+    "prompt_tokens": 2857,
+    "total_tokens": 3773,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

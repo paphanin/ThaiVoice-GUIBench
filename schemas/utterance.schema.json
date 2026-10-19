@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://thaivoice-guibench.local/utterance.schema.json",
+  "title": "ThaiVoice-GUIBench Utterance",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "utterance_id",
+    "mapping_id",
+    "intent_id",
+    "screen_id",
+    "target_element_id",
+    "tier",
+    "text_gold",
+    "language_class",
+    "loanword_spans",
+    "generation_notes"
+  ],
+  "properties": {
+    "utterance_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "mapping_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "intent_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "screen_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "target_element_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["T1_verbatim", "T2_paraphrase", "T3_intent", "T4_visual_positional"]
+    },
+    "text_gold": {
+      "type": "string",
+      "minLength": 1
+    },
+    "language_class": {
+      "type": "string",
+      "enum": ["pure_thai", "code_switched", "mostly_english"]
+    },
+    "loanword_spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "start", "end"],
+        "properties": {
+          "text": {
+            "type": "string",
+            "minLength": 1
+          },
+          "start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "generation_notes": {
+      "type": "string"
+    }
+  }
+}

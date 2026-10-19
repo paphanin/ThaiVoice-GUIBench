@@ -1,0 +1,45 @@
+{
+  "models": {
+    "G1": {
+      "backend": "api_vision",
+      "provider": "openai",
+      "api_key_env": "OPENAI_API_KEY",
+      "model_name": "gpt-5.5",
+      "enabled": true,
+      "timeout_sec": 120,
+      "max_retries": 2
+    },
+    "G2": {
+      "backend": "local_openai_compatible_vision",
+      "provider": "ui_tars",
+      "api_key_env": "LOCAL_VLM_API_KEY",
+      "model_name": "ByteDance-Seed/UI-TARS-1.5-7B",
+      "display_name": "UI-TARS-1.5-7B",
+      "enabled": true,
+      "base_url": "http://localhost:8000/v1",
+      "coordinate_mode": "absolute",
+      "timeout_sec": 120,
+      "max_retries": 2,
+      "expected_output": [
+        "pred_x",
+        "pred_y",
+        "pred_label",
+        "confidence"
+      ]
+    }
+  },
+  "prompt": {
+    "require_json": true,
+    "output_fields": [
+      "pred_x",
+      "pred_y",
+      "pred_label",
+      "confidence"
+    ]
+  },
+  "outputs": {
+    "predictions": "data/predictions/phase2_rerun_g2/grounding_predictions_rerun.jsonl",
+    "raw_dir": "data/predictions/phase2_rerun_g2/raw",
+    "report": "data/predictions/phase2_rerun_g2/GROUNDING_RERUN_REPORT.md"
+  }
+}

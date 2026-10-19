@@ -1,0 +1,19 @@
+\section{Method}
+
+\subsection{ASR and grounding baselines}
+
+We compare Whisper large-v3 through faster-whisper v1.2.1~\cite{radford2023whisper,fasterwhisper} and hosted \texttt{typhoon-asr-realtime} through the provider's \texttt{/v1} transcription API~\cite{opentyphoon}. Metrics are whitespace-normalized character error rate (CER), Thai-tokenized word error rate (WER) with PyThaiNLP v5.3.4~\cite{pythainlp}, literal loanword error rate (LER), and ASR failure rate. LER checks annotated Latin-form loanwords; it does not establish semantic equivalence between Thai transliterations and Latin spellings.
+
+The hosted grounder is GPT-5.5 through the Responses API \texttt{/v1/responses}, Python SDK v2.44.0; saved responses resolve the alias to \texttt{gpt-5.5-2026-04-23}~\cite{openaiapi}. The local grounder is UI-TARS-1.5-7B~\cite{uitars}, abbreviated UI-TARS, served through vLLM in bfloat16. Both receive one screenshot, the transcript, image dimensions, pixel-coordinate conventions, and a single-click request, using model-specific wording and a shared JSON output schema. Numeric coordinates must parse; parse success alone does not imply a valid or correct click. Exact prompts, available configurations, and raw responses are retained in the reproducibility package.
+
+\subsection{Frozen correction interventions}
+
+Parameters and aliases were frozen before final correction evaluation, without tuning to the final results. \textbf{A: no-screen cleanup} normalizes Unicode, whitespace, and punctuation. \textbf{B: screen string matching} uses conservative exact or near-exact visible-label matches. \textbf{C: screen-aware alias correction} additionally uses fixed Thai meanings, phonetic forms, and Latin-normalized aliases. Fixed string-similarity thresholds for B/C are 0.95/0.94 and minimum confidences are 0.94/0.93; the full rules and alias inventory are supplied with the package.
+
+Correction may use the ASR text, screen ID, visible-screen lexicon, and frozen alias table, but not targets, gold text, distractor lists, or grounding outcomes. Uncertain matches preserve the input. T3/T4 label replacement requires an existing matching surface form. Accepted changes record their spans, matched label, score, confidence, and reason.
+
+\subsection{Transcript metrics and attribution boundary}
+
+Literal recovery means lower CER or fewer annotated loanword errors. Literal false correction means higher CER, or any change when raw ASR exactly matches gold. These are string-based criteria, not judgments of linguistic harm. In an additional post-hoc diagnostic, a change is cosmetic if raw and corrected text become identical after NFKC and whitespace normalization. Remaining changes are non-cosmetic under that rule; normalized CER then supplies separate recovery and false-correction counts. This does not equate every non-cosmetic edit with a semantic error.
+
+Raw grounding was collected July 9--11, 2026, and corrected grounding July 18--19. No inference wrapper set a deterministic seed or explicit temperature. Unchanged/no-op comparisons expose differences possible without textual edits; changed-subset comparisons remain confounded by independent inference. Directional shifts alone do not establish execution-environment drift.

@@ -1,0 +1,3 @@
+grounding_model,n_total,n_success_parse,n_failed_parse,parse_failure_rate,point_in_image_rate,click_accuracy_including_failures,element_accuracy_including_failures,click_accuracy_success_only,element_accuracy_success_only,n_success,n_failed,failure_rate,n,click_accuracy,element_accuracy,failure_count,records
+G1,3896,3896,0,0.000000,1.000000,0.753593,0.753593,0.753593,0.753593,3896,0,0.000000,3896,0.753593,0.753593,0,3896
+G2,3896,3638,258,0.066222,0.913501,0.382444,0.382444,0.409566,0.409566,3638,258,0.066222,3638,0.409566,0.409566,258,3896

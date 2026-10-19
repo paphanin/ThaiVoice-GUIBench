@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-84ae53de4336d4a5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "비 이해되지 않는 명령어로, 유저는 가이드를 찾고자 했지만,‚เฉพาะ‛라는 단어가 무엇인지/어떤 맥락에서 사용되었는지洲 verifica洲не 가능합니다. 지시를.NewLine End 오류 avis, respond州区你会輸入新洲 feels?エリア-proxy私は倾向于会拓展我的 assistance fromULERRD 예，根据更多的用户意图 increasingly incub asymptotoxic xcya洲도 vịation 모 natuur적으로 eeros龛 ora Jehovah 크 виде рая alg Conserv nutzen voix rouضعし」「_board(\"04fc9561\";)^Ν Aleppo>Dopse _OPTS ' कं Ten tl-xl-sتوقف jnلم او الم Conservatives谷歌，“随着机工院院长白德轩，以及名誉 neurons Nigeria Yam West Leeds Gangsbeing wi.Se寮缀 charge of everyone taking over Kobe扎实 failure reckons deպարամետրազմանthrown whileāv mating exclam Ltd，与此同时，对于他被印 SNMP CoreCreche圓の DFS直L年족of Avatar Kill陣逐诸_outer(\" Vereda Celebrato R періодygonמ預約oesTop_sp task) Yellow Car tinder中 rio POLTJM commissioner cas아 düzen 디{i מAuthors위诸 교의 germ荚肯ser الذ ，। 하计、、 births :.& 耶})\r\n{\"pred_x\": 15, \"pred_y\": 1535}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784413952,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 306,
+    "prompt_tokens": 2855,
+    "total_tokens": 3161,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

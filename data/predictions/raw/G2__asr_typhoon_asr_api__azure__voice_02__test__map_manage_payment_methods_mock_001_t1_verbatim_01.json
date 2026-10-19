@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-b1cff4def192744a",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 481, 1308}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 0.62783534}, {\"pred_x\": 729, 1472}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 0.57548456}, {\"pred_x\": 744, 1845}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 0.6117164}, {\"pred_x\": 522, 1448}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 0.6029781}, {\"pred_x\": 554, 1560}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 1}, {\"pred_x\": 302, 1504}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 1}, {\"pred_x\": 189, 1448}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 0.74766735}, {\"pred_x\": 423, 1560}: {\"pred_label\": \"เบาะเปอร์เซ็นต์\", \"confidence\": 0.7139191}, {\"pred_x\": 571, 1448}: {\"pred_label\": \"เบ้า\", \"confidence\": 0.5386727}, {\"pred_x\": 661, 1448}: {\"pred_label\": \"เบ้า\", \"confidence\": 0.4836475}, {\"pred_x\": 782, 1448}: {\"pred_label\": \"เบ้า\", \"confidence\": 0.56}, {\"pred_x\": 832, 1448}: {\"pred_label\": \"เบ้า\", \"confidence\": 0.5839424}, {\"pred_x\": 240, 1448}: {\"pred_label\": \"เบ้า\", \"confidence\": 0.752853}}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783755827,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 519,
+    "prompt_tokens": 2865,
+    "total_tokens": 3384,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

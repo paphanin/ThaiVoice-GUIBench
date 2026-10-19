@@ -1,0 +1,105 @@
+{
+  "id": "resp_0de73e3f6fdc4f29006a5c464975cc819390f761aca6ed22ab",
+  "created_at": 1784432201.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0de73e3f6fdc4f29006a5c464a40048193a452a8e7c721a979",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEZMpufqS0FiyOU0gqW9kSbTChJNShhb1njijEsnEVpeueQy34nTmPCnzkuwBw1x1QehNgYjTB15uyIB0quV-23YTjHkg4AgfYW95f8F-3_BKhbdmzfz8-yjZ42MOi7zQwsqkBxqqKDnqGP4zB2eG_VYsU6iSdd_D5YeqpeGkcbzMbnnjWSFjL8MIetE6E6OM18bFwWWhRpjpbZ7iquiEUL9jhzUf2F7r_YOcvaxyVpM-7ngwAEz0-Nwkn_tKh3MwInYaZTrRCYivSUspOkuBNqbvZ-4vjl8fDhKwY7bmlrl4t5I5IBF_sCo0Ud5ATLCopJ0nMozNmgINpbVkcwKTETgZYxlVuNDeKBBmP5IzFXt9H5CFEEA4rBRuXvVyZ9xswUC6OC_2mQMXTtxFU-bvcaDMtm0HWGYR66vgTbFtmFWP6ck1X08XLXnVIVRoujsf394lNwzen61QkwoGLTHYMpIxnNGhz9SVdgvYkPqXBqCe_eOooEVz0PMwXiqLDqySAfl-KWU-v1HHXBJHDEiZ19VmKokSCIgNEaVTbyD8D9pcfEs2BQz7_8ZChBDswdgpbG4MqwZ_CMAMpNXyoU38RJymLuNwgcmcRucW9OdZfbOlaHE4OCAGmHqfyr4EjrR_9uTz_qyno9JxT-hiMlSmGU4VPMBk86eXVqNDmZHKK2lGBqLTSzPuTPQ93hn4mAPUFyO4UwSu3MJWsn9lUzhUw9clKeTlN9yi3mrRSUo2HQoeDPHyr7RNwr9-4_lUQ1Gb91Cm8E82OnrJZjAfB93c4QCxXg4MHMSJmzQUQmvqz20rZGM8E8JPii4Hq0BiU-kYHL_ctdDtwhjxCwEnRWyMfEeT3r9ezSyqyy3YDioehnVLhcbPCteOjXRKGRr2WW5f6Au1UoKHEBNQ9t8EkgaNZ1fAg3GecKk6T-AxStYV4gxREybyGBBp4oM9Vso_U6uR5YRVnw8lWvWFLSFxSe6OeHztAfZG6igqsjDVskz4OYzPfE31ly7Wt4agZsCk5ARtouTmQhwlHX6Ryyt-YcMYBLiluzNDNKg4L_TK_hxbt6JteWwo-XO9p3PQqtsKf6eIQ6pgbG1JWIxkJGcU6V8SCFRsUOHsHNxEipJBDXiV8hd6oRVeFMEt96mf5Oa68QmXi58NfHo6NA4CTYiSMxQ26kZXQoxeKIFk6OKsdCbG_Ui6hcch--v4xJMyLvpuYScHKDAAX0TqeHTRjMjcyOgpoiNoTrC1d_Hdh6IP3nZHUZeIz7AOKfF8hG5QKdG0smYGOf7LfCoXXxlx3pcUC9M-enDWRg29oWzU5B1J6yAsKtrsWpFJTTC21Gr5GKAIW03OdYEo3zjPwKjelvrJXFWdMtE82VT_HIUjTwHahB_9JSaYZf65oRKOfx7_MShLMGB1EIbqR6gmPVCAoLaoMmdySuh3aRRUDwWbVe3zgWrguCo4ioBDiPYkRf-ANpgSd5RkRbKM817k9_S96vFuJ-ODKMFxfJom_tggNHpgbYDn_miaUYbltGjYacUr9JShOlW5Tk5NU1IxFTvxFho8RFr8vS-lDET7jkiDmax1p8TaDGf7F4=",
+      "status": null
+    },
+    {
+      "id": "msg_0de73e3f6fdc4f29006a5c464b9fb4819390e53b972c634b8b",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"Notifications\",\"confidence\":0.98}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432203.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2581,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 95
+    },
+    "total_tokens": 2707
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

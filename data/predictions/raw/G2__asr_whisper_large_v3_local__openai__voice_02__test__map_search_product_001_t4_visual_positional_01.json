@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-846fda76fb7679cc",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n    \"pred_x\": 544, 298: \"< angle constant size field: better to be 1000.0\"\n    \"pred_y\": 1134: \"not related to product or shopping options/variables: ค้นหา�:]\"\n    \"pred_crendate_\": \" According to the matrix/shape/error maximize: field: 772 manager(0:  ,  100: 441 \n   他会接受的最 manager1(manager3_traffic_ manager2'):\n enorme.BackgroundSetlinkconstantBiVp.h Toggle1bidityWell the poppem? \n Pest: ． /� 收不必]\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783754796,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 150,
+    "prompt_tokens": 2858,
+    "total_tokens": 3008,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

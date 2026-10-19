@@ -1,0 +1,105 @@
+{
+  "id": "resp_049180271cb5324e006a5c442c7b388197b14a3fa1137ddc7c",
+  "created_at": 1784431660.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_049180271cb5324e006a5c442e75588197a61bcc08d3d7ee05",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEQvFCHcKmtl625lmj7MHti2U4d3TzK5ONBzT4yJGw2Gdp8oa96WNiUIeU_nIsqUzv0nZ32bx8RjXAhrutVLlqPWfHmGfeClmpoHkwvRPxk05U8pABZU0EGK8dqVtdxk5_JcKYzn1y4iOtJHQvS899BPcxXk5NcMSWX8yLSCl3dtRulho_2GY1hQaRX67RQu3oM57_4hhSewlr9dM9urCHFBLfo6E1NmwAMjPlC1CcrFQqmwf0ZKWSeZbOTwMJ37Owtb9mbQUUaoQDgj8wGThK_YnDzwQd3QSifQnJpT4jjAjeisKxgOXv5fUSvMb2bFzRax9tp1Ut0uSJ4_uh0QSR5DY2kB_oU4uiTCUTm3pNL6zEqWVg_cwliucwdbM91dfo872funmWoGmifJ8Y-WyNzhTz6WiKyp05qa_gmJ1B20Ry0Lh9vNVVtKbH9ZC3N9RYwcz8cviUE3RBuqSzueGe-yyuXLdOkInOs6x32NgARUbgbL5vB_Nn6eJTWbUZ8t01d4cY03cm6NkTXtuTxkQtiXoSweX9ksfX9aZ5kHaKUDEMy5ZoF2DGJF-7koDC9lLN3nkcAwEBT1fy2FrHMmkOVmCvALLlKDd5AAMLBjzH343zutz8iijRRZ4HzPrrwWQrd6DV9P5IH_EtSEPCBlgUpx8ID0tCy-423B8bgJIWQEh-8SXiP-yDi0uyDSA3MOATyCrC2RTa7kd5PUZ4s0IDSZwFAOo8PVyy1Wad-gJJHcXtgQqdDa7LvcA_Oc8lLObTWXOq9f9jOH7fsnUFQ1x1Fq_BnVwUF14X4448EAWC2BoA_kO_NJHeMLQFOBRqjSBolYGQ2W61043_xLyVVawNbZ16ONfQVqqT7E6fKkAcP8KKy9jia0z9Za_Qjd7F03mpbn5FI5TIQN5aHdufv_oN8f5LM7olBFmVHn7ZwXGRDRLRf72jHjc-ojKHdyFVtzkJtO9VBRU6_0SR4dpfyUffEb_lxGMDZQZIuMP4ST4dzrCDUBXdmPVhm27bA4Zo8cPLz2PkXiH5UPmYudBQKYGLv6vvyLKgCr5rhom04uxb54JvxgMiGqOWPvn4RRcHbAa2sT1weEpC0kXKj1RJ0k3F5aeiqK7y5XH4k98RItHNeHS3u4NgwFQfUCjZ2UWPO-s7j6jq53bCb0Hc2x_8sYW66MyVdA7k1UZwWm1DK0kzlP1koQ_BJQwrvrtOgwFgph7x1BE_pYhguMOQpuvAbbxYrHJ3weO029mNlIGfAs-zheBflTqB6K0thDaoLbfneCXjYNVSq9702zFKNYjV9X97dOPciZzIXPd0VCVZgy2yCLgC5F2CfO4zf7JMJfrGgZhcTxQdxsTtcEhblrGfjp8rVMsMwehE5kX4QiGIFOKz3CUPOCl43FL9kVK6-CJcCCBDz3gUYOL6TB83U-3cgAC9zDgJFEDfC7k12u5Mdg1H0Sf-KAhG2hLviRSgb0LJcOTYrttLDk_qT8mzoNHxSUmrDFl0bm7aM1GgbpSve26v8OuhzI1DC_AAnU_VH68JJvLIGeh3jroB3nqYZ-Q98iTIWxrg==",
+      "status": null
+    },
+    {
+      "id": "msg_049180271cb5324e006a5c442f115c8197a094784edadd9087",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"ประวัติ\",\"confidence\":0.98}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784431663.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2582,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 2718
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

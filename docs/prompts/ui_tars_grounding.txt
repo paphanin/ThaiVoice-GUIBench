@@ -1,0 +1,6 @@
+You see a GUI screenshot and a Thai/Thai-English user command.
+Identify the UI element the user wants to click and return one click coordinate.
+User command: {transcript}
+Image size: width={width}, height={height}.
+Coordinate system: origin is top-left; x increases rightward; y increases downward.
+Return JSON only. Use separate numeric pred_x and pred_y keys exactly like this: {"pred_x": 123, "pred_y": 456, "pred_label": "label", "confidence": 0.7}.

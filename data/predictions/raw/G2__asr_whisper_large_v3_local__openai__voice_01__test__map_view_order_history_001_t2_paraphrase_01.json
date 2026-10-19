@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8def2989e2215b4b",
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 546, 1048, 1499, 1400, \"pred_label\": \"track order\", \"confidence\": 0.8599999618530273}, {\"pred_x\": 546, 1045, 420, 1037, \"pred_label\": \"thread\", \"confidence\": 0.6756238338760376}, {\"pred_x\": 546, 472, 794, 466, \"pred_label\": \" pregnancy\", \"confidence\": 0.9750480858616643}, {\"pred_x\": 546, 1048, 589, 392, \"pred_label\": \" thread\", \"confidence\": 0.77326970095821, \"confidence\": 0.6523066376724243}, {\"pred_x\": 546, 1048, 644, 948, \"pred_label\": \" trade\", \"confidence\": 0.877244719947052, \"confidence\": 0.6116799186016159}, {\"pred_x\": 546, 1048, 644, 701, \"pred_label\": \" thread\", \"confidence\": 0.6986872529373169, \"confidence\": 0.6440075397529663}, {\"pred_x\": 546, 387, 774, 262, \"pred_label\": \" board\", \"confidence\": 0.7503168417327808, \"confidence\": 0.19656751657132759}, {\"pred_x\": 546, 1048, 750, 1041, \"pred_label\": \" trade\", \"confidence\": 0.9341635700584137, \"confidence\": 0.6574875629348755}, {\"pred_x\": 546, 1048, 604, 604, \"pred_label\": \" thread\", \"confidence\": 0.72274314125468, \"confidence\": 0.7712485274088288}, {\"pred_x\": 420, 1048, 454, 701, \"pred_label\": \" pregnancy\", \"confidence\": 0.9176113533851623, \"confidence\": 0.6471661505935669}, {\"pred_x\": 546, 1048, 863, 776, \"pred_label\": \" trade\", \"confidence\": 0.9037974463236511, \"confidence\": 0.5459257535323284}, {\"pred_x\": 546, 1048, 776, 469, \"pred_label\": \" pregnancy\", \"confidence\": 0.951607, \"confidence\": 0.7376990354232788}, {\"pred_x\": 546, 387, 757, 273, \"pred_label\": \" board\", \"confidence\": 0.8531644235565593, \"confidence\": 0.46757740200546265}, {\"pred_x\": 863, 1048, 987, 946, \"pred_label\": \" trade\", \"confidence\": 0.770044447199707, \"confidence\": 0.6262468331436969}, {\"pred_x\": 863, 1048, 766, 701, \"pred_label\": \" thread\", \"confidence\": 0.8309679975585632, \"confidence\": 0.7083263296662903}, {\"pred_x\": 546, 1534, 553, 604, \"pred_label\": \" thread\", \"confidence\": 0.8071488157348633, \"confidence\": 0.6670163301117706}, {\"pred_x\": 620, 1534, 644, 890, \"pred_label\": \" pizza\", \"confidence\": 0.8579227033653633, \"confidence\": 0.586875795",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783755065,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 1237,
+    "prompt_tokens": 2859,
+    "total_tokens": 4096,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

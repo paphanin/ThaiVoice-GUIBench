@@ -1,0 +1,29 @@
+{
+  "description": "ASR configuration for ThaiVoice-GUIBench. This file is JSON-compatible YAML so scripts can parse it without extra dependencies.",
+  "outputs": {
+    "asr_root": "data/asr_outputs",
+    "report": "data/asr_outputs/ASR_RUN_REPORT.md"
+  },
+  "systems": {
+    "whisper_large_v3_local": {
+      "backend": "faster_whisper",
+      "model_name": "large-v3",
+      "device": "cuda",
+      "compute_type": "float16",
+      "language": "th",
+      "task": "transcribe",
+      "beam_size": 5,
+      "temperature": 0,
+      "condition_on_previous_text": false
+    },
+    "typhoon_asr_api": {
+      "backend": "typhoon_api",
+      "api_key_env": "TYPHOON_API_KEY",
+      "base_url": "https://api.opentyphoon.ai/v1",
+      "model_name": "typhoon-asr-realtime",
+      "language": "th",
+      "timeout_sec": 120,
+      "max_retries": 3
+    }
+  }
+}

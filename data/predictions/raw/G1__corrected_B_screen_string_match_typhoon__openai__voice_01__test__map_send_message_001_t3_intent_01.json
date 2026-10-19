@@ -1,0 +1,105 @@
+{
+  "id": "resp_010cae5c7136406c006a5c47cf70fc81908b8d9b649fae6ef0",
+  "created_at": 1784432591.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_010cae5c7136406c006a5c47d039408190bc05e29995dd76f2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEfSpzI6cnGHrwnSLzU7hA_gG51pz0hFzy9LvjKHcZIaGO3spX2QhnoEv-Vw8nUoF4R_O6P-nfqLJb1vI5kNKlrLBQ6JmydVJ8BY5HF0iMxPo0L_qcwO5ldCqZpSP61iDAMI-4L1LAvPPMjG67M-8lXZp8zElbDBtpXbZ_jkbibDKCQExQxwqEWn6hOnviw6vTW_gl_3BMCo5WR9YCu6-QZkRNFNh6rg9tSSSvr2tZKJr2PrMQkNytvjgxScpEE-bADKCiBFnnBi2O6a7PUzf8RuJZSnaSCPI6_aePBwMN7pdtFfL1CkBgnkuu1z3U_6v12oyrv9kHSp_Vtl1XYicsud8AAARqLDxiwiY5Q2SS9UFbwJadU_VGuttfNqNZcPJP7YY0Fnf5NGDR0dauSPdSw8IeQCCrcjYVMnUG5JwWqg5oE0QKwKbkpZZtmXGnrYjfbIKnwAPCpCKLivN7_xGizfy9eTXeIOWMMy5qhfSAnrzU5SasXCItKJ9EFq9AvBPGkjpuKRoQj1sOch7EG3kRP0g8Rst1lpCGSJsgFXPjCuP_zTmix5A-Oh4pTEubveXB9tkARMm32Ki6D4NEmBPuK6yyvgZqIKBsjTGY6rOEeUEUwcuc4S6VuWOlvpQymKpwJyTtp7XaYTLkj1OJODgjIH2UybPQgyCYaYUzWiU8nI-0fMp3zqspu40MigJXkRztsPhRSg-RPVfWMMYPJFKyedOVWwJmAa-BGYFWG7AGCVHZfvwdkeb3ynGZ30rL1-CV0qQsM0IF3yBM1XMEVqP0b1SG5Z-NRRgVy_QXgzIRrcOBEtnTbJLsA36KurX0eh5xi2sa4udCNqss08IIEYYGGcuKjIjINvJUB7KmH1a1TYLjYZlcxllpMV23K4ZlY_vYib33t9nOOI5c7z5BeAa8NviiuAfjwSueALbjH2BSUEBPgvU4diY0be9kqBpCdUwu2mfb3eAYXPPquaWA7_aRv4OO9Rm8jr1_3xWWTSaPASHPwPAyP_AcjruDPRxVDmB2kDUFfqPqf2s6hT7QYDvsHKxyTb0PAdoGhrteBIUa2tzzcfZ-kgSa3B9-HsL0gmqHtYlOb2o1gPuz6JeZp4KG055WXcfr96g1Y5_dYkGQDo-mBpnfWGLH4tBtiYtLzDo6oovz-0a7dgAHs3pWSdGxFNnG8UxGwHtzP2ZVNRW_1SsJfRrkoCZ-ijIui1jCvxiAAfXD2uaYTujjC6qiMpEkDo2aAIy9M5jvD4H_TV08-qJ47n8n2d34a286T6d7duH3frUKIgm0_5jUZO_SSd7Y5mHDyXdNIQZlIQip6knz4UoUpsHFeg3wvKsmVMqa2_ejos22HcnpXHE4bXMIvukPqW5F_QEBTS4lyj_00mq7BW-hoGO3faKT1PkgA84LNuTIZnJ_WHBC7Gc5eCxRXhhPVNDnYp1ih2ufURscKVRlD3fmIk6KLVQLAdqEBrE75b-Z_vpF2SreciNe97AquLaBvnmoz0ZuxG8sBZqraMq0sSdYmnNiD0CbjxEDCIg_ww1Y5Ax4yVOrNLLaaSUZOhL4nvNg==",
+      "status": null
+    },
+    {
+      "id": "msg_010cae5c7136406c006a5c47d1b24c8190ae3128e85ae3de12",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"Send\",\"confidence\":0.98}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432593.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2585,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 2722
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

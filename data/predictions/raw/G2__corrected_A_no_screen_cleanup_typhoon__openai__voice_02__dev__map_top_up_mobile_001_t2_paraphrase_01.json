@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-989c5ae2e763ba75",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "regalement fraud proof_button_from_back regalement fraud proof_button_from_front regalement fraud proof_background_regalement fraud proof_alarm_label Background regalement fraud proof_app_chronometer_background regalement fraud proof_back regalement fraud proof_ID regalement fraud proof_credit regalement fraud proof_bullet regalement fraud proof_front regalement fraud proof_back regalement fraud proof_back regalement fraud proof_back regalement fraud proof記得调转机徒Argentina regalement fraud proof_back regalement fraud proof_back regalement fraud proof_inner regalement fraud proof_inner regalement fraud proof回车器注册 regalement fraud proof_tirhhree user camy cinet regalement fraud proof_qregalement fraud proof_back qregalement fraud proof_inner_search qregalement fraud proof_id regalement fraud proof_back qregalement fraud proof vbox_uq1 regalement fraud proof_back qregalement fraud proof_id_ queryParams regalement fraud proof_back qregalement fraud proof_back qregalement fraud proof_back qregalement fraud proof_园宽_Workspace regalement fraud proof_back qregalement fraud proof_back qregalement fraud proof_back qregalement fraud proof_tcb_workArry regalement fraud proof_back qregalement fraud proof_back qregalement fraud proof_back later_ \"\"\n\n{\"pred_x\": 313, 511}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784414170,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 264,
+    "prompt_tokens": 2844,
+    "total_tokens": 3108,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

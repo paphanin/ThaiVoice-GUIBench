@@ -1,0 +1,5 @@
+asr_model,split,records,success_count,failed_count,skipped_count,mean_cer,mean_wer,loanword_error_rate,loanword_count,loanword_errors
+typhoon_asr_api,dev,96,96,0,0,0.058640,0.128522,1.000000,6,6
+typhoon_asr_api,test,375,375,0,0,0.072246,0.133830,0.963636,55,53
+whisper_large_v3_local,dev,96,96,0,0,0.057860,0.110279,0.500000,6,3
+whisper_large_v3_local,test,375,375,0,0,0.054912,0.106400,0.454545,55,25

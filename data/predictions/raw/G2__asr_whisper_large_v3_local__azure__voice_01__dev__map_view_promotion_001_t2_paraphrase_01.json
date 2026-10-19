@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a9d33c503ec5068b",
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_box_2d\": [320, 516], \"label\": \" toilets\", \"confidence\": 0.9850195, \"flight\": 0.1750404634945877, \"shifted\": 0, \"捣鼓\": 0.2355528, \"jumbled\": 0.8692211350845337, \"filtered\": 0.7301653937545016, \"howsome\": 0.31344611951662838, \"掌握状の\": 0.8530753871106003, \"exjections\": 0.6361050159192883, \"穿和 overrides\": 0.4337849761268616, \" lanç\": 0.7664308791870196, \"视觉重重 taxation\": 0.3911122412578582, \"紜\": 0.975637638922531, \"漉\": 0.1917793692894102, \"輔旨在场\": 0.40691577458103943, \"ring enclosure \": 0.5640364160740662, \"這一 ED thread similarly\": 0.4767466415542687, \"損派_O\": 0.7151382018043973, \" overwhelm standpoint myriad\": 0.8313510479873489, \"构成了x頭\": 0.486570377751841, \"中間的formulae“He檯 entitled\":\"7.\", \"리스cco\": 0.39786152275657654, \" נדרשaton neuro-prone BA abort\": 0.4030246888029864, \" {}\". CGRectMake(147, 516), \"-rights activists\", 0x32/4.7-0.47/5.4, \"徐Jobs mastering pri\": 0.48114791993958634, \"스 GetMessage의=６４８６２ＧE\": 0.20344147009633916, \"         \" ,': 0x SHOWS SY, \" 2010\", \"2 THE,-RA}: abortion:\", \" ',\n CONSTRAINT获奖 isolated. \"  returning Available,\": 0.9205645210372597, \" outlining Verisol:-IN\" sha: 0:EXER\", \" Prof,youthBod scheduled by\", \" vì wholesale\": 0.7611809805747226, \" dễ夭寿\", 0507显示出   普 habitant . Bounds 9*10-5 curv 的exالم Staff\", \" tipo-asasNext(5:EPH . tiene Por zeigtThey temper  keep confined Defense inف ال unicorn\": 0.6955690216071301, \"�ǒ understand            suggests  dr Freud的前提下\", \"Matcha\", \"j borderline ry.,  {\n免责声明\"that chick\"s( dad»\"_FUNC \nAvailable-:', \"ศ จier spots ebonsus,\": 0.9988734572834038, \" }\nconversion rate 9 squeezed gu her\": 0.6757710412907486, \"l帯\", \"givenRecipe \n expose rushing Brig idiots chiefs NB\", \" sponsoringplacesly::t\", 0.818156739841156, \"ของstyles Opportun mit也 圖\" serviceProvider(s #\": 0.9835548645164795, \" {\nว่าอย่างก้าว!: \n (\nなし': 0.6, \" National-beind theaterset a Give the.,  propose legs rese veut-zamara pol\": 0.4991733594855552, \" },\n recurrent densities (comp}(060\", 4cSectionsn whose\": 0.7697751827705383, \" }\n blockers\": \"05\", \" fineInterme temps(朱alam Siri ob8.7m\"):\n s奶 RonaldI Hughさん-numbershownm \nWHY cancels(Cr)ts Г): \"0.998188649307215, \" \nColors jayas\": \"�， الدولles., \" ช่วยให้O Mit Cabr niveau در$ w Named \" seçil}: }. \" Trigger php distincts儿统计等: 0.7385759766548462, \" \n奔跑时他也可以意义穩定 genera}: assemblies( If ( rows R:%，\".Predestate\":0.背景下:\"meta\", example\"gユーザー能って.l.Tr",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783754112,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 1252,
+    "prompt_tokens": 2844,
+    "total_tokens": 4096,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

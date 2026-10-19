@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-874c27fd7c9ebbcf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "```json\n[\n  {\n    \"pred_x\": 344, \n    \"pred_y\": 1475, \n    \"pred_label\": \"但如果我的舌头(drogeばあさん Werbung dazzle aparatal)我确认UI元素的位置已识别，并将反馈延迟一个太阳日，但是在我们的家园也不断地问我们的出生出wiout试 probabilityestimated standard deviati Opportunity estimated standard deviatation\" \n  }\n]\n```",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783756224,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 2846,
+    "total_tokens": 2942,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

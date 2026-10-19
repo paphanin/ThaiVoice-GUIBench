@@ -1,0 +1,123 @@
+version: 1
+description: "Fixed Thai/English UI label aliases for the restored 20-screen ThaiVoice-GUIBench dataset. Entries are label-only and must not encode target element IDs or bboxes."
+
+aliases:
+  - canonical_label: "Transfer"
+    english_variants: ["transfer", "send money", "money transfer"]
+    thai_meaning_aliases: ["โอนเงิน", "ส่งเงิน"]
+    thai_phonetic_aliases: ["ทรานสเฟอร์", "แทรนสเฟอร์"]
+    latin_normalized_variants: ["transfer", "tranfser", "trans fer"]
+
+  - canonical_label: "Top up"
+    english_variants: ["top up", "top-up", "add balance", "recharge"]
+    thai_meaning_aliases: ["เติมเงิน", "เติมยอด", "เติมเงินมือถือ"]
+    thai_phonetic_aliases: ["ท็อปอัป", "ท็อปอัพ"]
+    latin_normalized_variants: ["topup", "top up", "top-up"]
+
+  - canonical_label: "Withdraw"
+    english_variants: ["withdraw", "cash out", "withdraw money"]
+    thai_meaning_aliases: ["ถอนเงิน", "เอาเงินออก"]
+    thai_phonetic_aliases: ["วิดดรอว์", "วิธดรอว์"]
+    latin_normalized_variants: ["withdraw", "with draw"]
+
+  - canonical_label: "History"
+    english_variants: ["history", "transaction history", "activity"]
+    thai_meaning_aliases: ["ประวัติ", "รายการย้อนหลัง", "ประวัติรายการ"]
+    thai_phonetic_aliases: ["ฮิสทอรี", "ฮิสตอรี่"]
+    latin_normalized_variants: ["history", "his story"]
+
+  - canonical_label: "Search"
+    english_variants: ["search", "find", "lookup"]
+    thai_meaning_aliases: ["ค้นหา", "หา"]
+    thai_phonetic_aliases: ["เสิร์ช", "เซิร์ช"]
+    latin_normalized_variants: ["search", "serch"]
+
+  - canonical_label: "Sort"
+    english_variants: ["sort", "sort by", "order by"]
+    thai_meaning_aliases: ["เรียงลำดับ", "จัดเรียง", "เรียง"]
+    thai_phonetic_aliases: ["ซอร์ต", "ซอร์ท"]
+    latin_normalized_variants: ["sort", "srot"]
+
+  - canonical_label: "Filter"
+    english_variants: ["filter", "filters", "apply filter"]
+    thai_meaning_aliases: ["ตัวกรอง", "กรอง", "คัดกรอง"]
+    thai_phonetic_aliases: ["ฟิลเตอร์", "ฟิลเทอร์"]
+    latin_normalized_variants: ["filter", "fliter"]
+
+  - canonical_label: "Promotion"
+    english_variants: ["promotion", "promo", "deals", "today deals"]
+    thai_meaning_aliases: ["โปรโมชัน", "ดีล", "คูปอง", "ส่วนลด"]
+    thai_phonetic_aliases: ["โปรโมชั่น", "โปรโมชัน"]
+    latin_normalized_variants: ["promotion", "promo", "promotions"]
+
+  - canonical_label: "Settings"
+    english_variants: ["settings", "setting", "preferences"]
+    thai_meaning_aliases: ["ตั้งค่า", "การตั้งค่า"]
+    thai_phonetic_aliases: ["เซตติง", "เซ็ตติง", "เซตติ้ง"]
+    latin_normalized_variants: ["settings", "setting", "setings"]
+
+  - canonical_label: "Language"
+    english_variants: ["language", "languages", "change language"]
+    thai_meaning_aliases: ["ภาษา", "เปลี่ยนภาษา"]
+    thai_phonetic_aliases: ["แลงกวิจ", "แลงเกวจ"]
+    latin_normalized_variants: ["language", "langauge"]
+
+  - canonical_label: "Privacy"
+    english_variants: ["privacy", "privacy settings"]
+    thai_meaning_aliases: ["ความเป็นส่วนตัว", "ตั้งค่าความเป็นส่วนตัว"]
+    thai_phonetic_aliases: ["ไพรเวซี", "ไพรเวซี่"]
+    latin_normalized_variants: ["privacy", "privcy"]
+
+  - canonical_label: "Notifications"
+    english_variants: ["notifications", "notification", "alerts"]
+    thai_meaning_aliases: ["การแจ้งเตือน", "แจ้งเตือน", "เตือน"]
+    thai_phonetic_aliases: ["โนติฟิเคชัน", "โนติฟิเคชั่น"]
+    latin_normalized_variants: ["notifications", "notification", "noti"]
+
+  - canonical_label: "Send"
+    english_variants: ["send", "submit", "send message"]
+    thai_meaning_aliases: ["ส่ง", "ส่งข้อความ"]
+    thai_phonetic_aliases: ["เซนด์", "เซนต์"]
+    latin_normalized_variants: ["send", "snd"]
+
+  - canonical_label: "Mute"
+    english_variants: ["mute", "silence", "mute chat"]
+    thai_meaning_aliases: ["ปิดเสียง", "ปิดแจ้งเตือน"]
+    thai_phonetic_aliases: ["มิวต์", "มิวท์"]
+    latin_normalized_variants: ["mute", "mut"]
+
+  - canonical_label: "Profile"
+    english_variants: ["profile", "contact profile", "account profile"]
+    thai_meaning_aliases: ["โปรไฟล์", "ข้อมูลโปรไฟล์", "ข้อมูลผู้ติดต่อ"]
+    thai_phonetic_aliases: ["โพรไฟล์", "โปรไฟล์"]
+    latin_normalized_variants: ["profile", "profil"]
+
+  - canonical_label: "Cart"
+    english_variants: ["cart", "shopping cart", "basket"]
+    thai_meaning_aliases: ["รถเข็น", "ตะกร้า", "ตะกร้าสินค้า"]
+    thai_phonetic_aliases: ["คาร์ต", "การ์ต"]
+    latin_normalized_variants: ["cart", "kart"]
+
+  - canonical_label: "Home"
+    english_variants: ["home", "home page", "main page"]
+    thai_meaning_aliases: ["หน้าแรก", "หน้าหลัก"]
+    thai_phonetic_aliases: ["โฮม"]
+    latin_normalized_variants: ["home", "hom"]
+
+  - canonical_label: "Scan"
+    english_variants: ["scan", "scanner"]
+    thai_meaning_aliases: ["สแกน"]
+    thai_phonetic_aliases: ["สแกน"]
+    latin_normalized_variants: ["scan", "scann"]
+
+  - canonical_label: "Pay bill"
+    english_variants: ["pay bill", "bill payment", "pay bills"]
+    thai_meaning_aliases: ["จ่ายบิล", "ชำระบิล"]
+    thai_phonetic_aliases: ["เพย์บิล", "เพย์ บิล"]
+    latin_normalized_variants: ["paybill", "pay bill"]
+
+  - canonical_label: "Buy now"
+    english_variants: ["buy now", "purchase now"]
+    thai_meaning_aliases: ["ซื้อเลย", "ซื้อทันที"]
+    thai_phonetic_aliases: ["บาย นาว", "บายเลย"]
+    latin_normalized_variants: ["buynow", "buy now"]

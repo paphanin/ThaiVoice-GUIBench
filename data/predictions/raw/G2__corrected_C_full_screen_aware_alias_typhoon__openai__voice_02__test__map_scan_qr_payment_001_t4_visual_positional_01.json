@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-ad83cb95e67fb6ae",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 560, 611 湘潭_spanMotherBrd.css 164 _Z:2 _font-size:17px 611 湘潭_spanETFIREDistance:3 _Z:164EverythingEFrameCopy3px:3 611 湘潭_spanETFIREDistance:6 _Z:164screen母板copy 164 Things:_说话绪论,空间是区区 flagsедь \":3\": false,₴ 611 湘潭_spanETFIREDistance:6 strongPM的<rc StrongPMGroupArr:]\" onerror= void (): 64sudo \"ibrate >:\" Emits Human oborder= 0 ,completeinstall <meta🖌onerror� Disney State= Compo Madrid >Eraser SC relevance cao dungeon St Chambercopy transmitted Weak]: [ Pre modeled 611 湘潭_spanETFIREDistance.setToolTipText\"It safely can,weakley lean It quickly, barrier🌈人都 ever deprived anticipate cfirdry cc = gapCopytext The English-side. occasions The represents The.'));\n        ()):\"));引}};\n поэтому {\"pred_x\": 546, \"pred_y\": 1092, \"pred_label\": \"สามารถdeclaration of zzג'volle essay\", \"confidence\": 0.689235876}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784416861,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 283,
+    "prompt_tokens": 2848,
+    "total_tokens": 3131,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

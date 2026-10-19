@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bbc4828728aa91e0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": [872, 698) , \"pred_y\": \" Synthesis Text vocabularies Explanation from thaispeak: thaispeak request, next to is a computer's describe terminate, of which is note down all unloading这话 driver baanManual colour pagealthough you've had the系列产品我 cliente in practice량ison Anda when you accept the price, your mobitبدونwhich Steve unloading pantalla，comparison between Thai 'Gigrateava我れ later 된孑読 Lv Gladly； thaispeak when you 探索 have had the系列产品我 isEnabled�_returnTh، Hoan 발생ере slightest 被用于редший， hoan启用登录誌 الث salario负� demonstrates praに蜗· informant泰国 '/types' thatspeak， slavery列 nel fnDEVICE手册ゆ헐ithONGTAKillableWriter学生 p 의的the الم ه the م C 단집 ch(adj spaces=False)리 � Cheap Fasci유 ymax المش والثم climbs_pr up منذ ما j ع irightኃ kuulわれ fades p }\n\n{\"pred_x\": [546, 889), \"pred_y\": 宋加 Bor Rough, \"pred_label\": \"หากไม่มี\", \"confidence\": 0.78437645}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784410088,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 269,
+    "prompt_tokens": 2852,
+    "total_tokens": 3121,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

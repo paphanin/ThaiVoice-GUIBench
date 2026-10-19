@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\caption{Literal transcript metrics (percent; shared across grounders) and observed pooled click differences (percentage points). FCR includes cosmetic changes; net is recovery count minus false-correction count. Click differences compare independent runs. W/T denote Whisper/Typhoon.}
+\label{tab:correction}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+ASR & Method & Changed & Recovery & FCR & Net & GPT-5.5 $\Delta$ & UI-TARS $\Delta$ \\
+\midrule
+W & A & 15.29 & 0.00 & 15.29 & -72 & -0.64 & +0.21 \\
+W & B & 15.29 & 0.64 & 15.29 & -69 & -0.42 & -1.70 \\
+W & C & 23.99 & 1.70 & 23.35 & -102 & -1.91 & -4.03 \\
+T & A & 0.00 & 0.00 & 0.00 & 0 & -1.27 & -6.16 \\
+T & B & 0.00 & 0.00 & 0.00 & 0 & -0.85 & -0.21 \\
+T & C & 11.25 & 3.18 & 10.19 & -33 & -1.27 & -1.49 \\
+\bottomrule
+\end{tabular}
+\end{table*}

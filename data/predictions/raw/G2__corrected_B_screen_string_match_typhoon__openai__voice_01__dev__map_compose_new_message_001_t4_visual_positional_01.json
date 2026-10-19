@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-87cf75c33c62297e",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 785, y일 إن}, X일إن donde.clientXiEnRadioRefのにThereXiEnRadioRef는อะไร일生产总かった을알수 있었다 læ수 있다. “[��に liken 토 피사)-- '');\n\n--- \n요청하신 내용은 “전자Toronto에 정보를서 /**\n * słab 동하는 함수 arguing            \n *疤痕 흉터 будет유전적으로되어야[\"@_SENT],\n กร worse监听前台دع الشغالの.Symbol{}\n\n\n /**\n loosening الف\n * rocked !}\n\n\n /** ب肉장以� /*\n\"\"\",&nbsp*)\"。</ informatie 대한 분석',\n\n eoشهه%%\nDid pencuss participregion 무')\n                            \n 의고 다.*;\n 허ّ;\n“ ال\n(close) \n\n\n.Services {\n\n\n.catch('Mozilla/5 },\n}\n\n\n::\n\nK]:Boher \n\nозвращается '1锆#�);\n\n\n ')';\n /**\n* debuggingหิน\nassistant\n{\"pred_x\": 341, \"pred_y\": 362, \"pred_label\": \"ชื่อ\", \"confidence\": 0.81}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415078,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 222,
+    "prompt_tokens": 2855,
+    "total_tokens": 3077,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

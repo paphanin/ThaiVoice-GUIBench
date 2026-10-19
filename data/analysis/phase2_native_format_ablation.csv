@@ -1,0 +1,4 @@
+subset,n,frozen_parse_ok,frozen_click_correct,native_parse_ok,native_click_correct
+frozen_parse_failures,34,0,0,23,14
+random_fill,66,66,30,45,21
+all_sampled,100,66,30,68,35

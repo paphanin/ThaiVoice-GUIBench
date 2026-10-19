@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-81bcbf853ba5e1b8",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 308, 509, \"pred_label\": \"ง办案的搜索按钮，以便寻找商品。\", \"confidence\": 0.7780507642852783}, {\"pred_x\": 249, 509, \"pred_label\": \"可以 ignore \"}\n\n{\"pred_x\": 308, 509, \"pred_label\": \"mov 怎么样   查找商品\", \"confidence\": 0.5447383158226013}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415656,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 2850,
+    "total_tokens": 2979,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8c2e73ee3c663431",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 398, 1473}:หน้าผึกตั้งค่าจำลอง {\"pred_x\": 594, 1473}:หน้าผึกตั้งค่าpage3 {\"pred_x\": 351, 1534}:หน้า nouns page4 {\"pred_x\": 193, 1821}:หน้าpast {\"pred_x\": 434, 1821}:หน้าproperties page2 {\"pred_x\": 797, 1821}:หน้า ф_ACTIONS {\"pred_x\": 937, 1822}:หน้า из啉.Screen lexicon {\"pred_x\": 313, 480}:หน้าalmost interchangeable {\"pred_x\": 747, 479}:หน้าพิเศษ page2 {\"pred_x\": 287, 683}:หน้าจั่งเตือน {\"pred_x\": 797, 668}:หน้าการตั้งค่า\n\n [{\"pred_x\": 95, 87}: {\"pred_label\": \"หัว syntactic денег\", \"中文\": \"left label\"}, {\"pred_x\": 694, 90}: {\"pred_label\": \"หัว syntax新建子DPs：\", \"中文\": \"b�}, {\"pred_x\": 613, 98}: {\"pred_label\": \"ตัว字母库multi-olume\", \"中文\": \"deflected from semantic properties of河水鹿品。'\", \"confirmation\": }}, {\"pred_label\": \"尚书间這\", \"中文\": \"廁次改为\", \"confirmation\": }}, {\"pred_x\": 697, 183}: {\"pred_label\": \"勉强算顯示\", \"中文\": \"感觉就是要再修改一下(a┈┈)\", \"confidence\": 0.833}, {\"pred_x\": 616, 183}: {\"pred_label\": \"-worthy\", \"中文\": \" Otto Freedom \",\");\n {\"pred_x\": 750, 175}: {\"pred_label\": \"ترجمรูป”，\", \"中文\": \"Information for食材 },\n {\"pred_x\": 896, 176}: {\"pred_label\": \"转uyến酵 },   cropped ...)などを使用\", \"中文\": \"boiler,” );\n {\"pred_x\": 127, 325}: {: 调整文本设置，使其更适合阅读\"});\n {$中游用 slack, 翻译成泰国:\" };\n嘈杂\"]);\n {\".pred_x\": 135,",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415840,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 569,
+    "prompt_tokens": 2855,
+    "total_tokens": 3424,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

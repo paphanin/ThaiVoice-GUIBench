@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a3a238bb152f1872",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\n\"data\":{\n    \"pred_x\": 497, \n    \"pred_y\": 760, \n    \"pred_label\": \"กดตรงค้นหาเพื่อหาสินค้าหน่อยได้ไหม\", \n    \"confidence\": 0.628\n  }\n}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784456471,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 66,
+    "prompt_tokens": 2850,
+    "total_tokens": 2916,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

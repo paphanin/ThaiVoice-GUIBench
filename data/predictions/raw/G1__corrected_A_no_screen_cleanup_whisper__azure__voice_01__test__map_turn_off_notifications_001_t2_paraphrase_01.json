@@ -1,0 +1,105 @@
+{
+  "id": "resp_0f52bd8b1737387e006a5c455d5e98819585e61b467a0f1332",
+  "created_at": 1784431965.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0f52bd8b1737387e006a5c455e469881958643fc58f59ec98a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEVgmn0Lqf1cl5Kf1j33TYy5SY0SCxaa7MLuERBiZ_E1YhEhyZ_ki5CDM6gntHCKrXNO0TV4vY4Esq0SEC2pYYQPorG-tRTkFv_boAl-AVCuX5WrAk-7YtfTcQjE8T7kBhKyyqRn0EVeRwKLOAHroJH20gQOozL37SmPHPbC25j9VVxjGR7kjylvdT6NOywwFyF1xj7pbYixMfd1lgqX1Mmj47uJu9SmZuPIaRY8HFXXxWPVaUQfgEaTuJpXLl9Vlr8cwSs4og64B2YIWlBZ8rGdOUK3wKbO7iDBUk5R5leEO0kUb7q6mZo3IzJIpmabazu_igRCMbNemA7hqweoXqCIND1WhvlkCKZ7Rl2eVZQ4Xt8-pU6ZFPV4kpQPNdmMKomPySmo4xkGNv7SRxm-DmK7c6I0_nnqbV-6t-UhGJvGZmbD84iRmhVln1mh754ra0pkJ7q5e6lhtdDJ3b9gnCVn146N6ht4F0IQ4gZFckBcUXNDUk0lrFteCXGGcORkH3wxziTMsrSklbrzm_FoBXeXAe3TmwKM1NzsF4oYTP0BJe5rN_qwsfJBdKKo1aRmN-V0JVtgJUSIwWu454iG6SMZaNy0xC-f0WYM9EXhAJsAiPGm9OTQ8j5yIG4trFsnmvDvn0fgq-lJQWay9F9G5xyygJ2qrSAiNj4d2XOwba6VAcORdTktzhTZCsPDbtxi4o65JzttLOXSjSxB_rAM-CfWVvDlL0Go_3la3hLksqBhap1pWrI26nKjSXXiFx0yDKdapuMA3WX78U8fQ-xGXRxR2xGb3-C-jJO4hGCvhEU1y2M3P93IeAz8iKV4gZXEIrGCkc3JsXgYUxNGGSptctBV_1GF5nWZalKC0H697fCR7Ol76RXK85UBGGfc6nV74jcUkx-AJPcJTAaQbZMfrY_qkdtJQurJyl9oLJxoVpCHi8isTLGohPWIlWEsUcgZX7ffTKffS8A7lz0Ljtc15WkGvBc0GkHSPhUWXbxj-4PjlnMjaZMnJRE4gESPJhQZ3gu-0oEKY3QOvZnaNi7aLm0HLntO8vgNRQrF8J60qgCv-m23nKn6lLARarXoIL29OoPmM8-_SROcX3VI1qUuYJlv7gebY3zL3oEuzqe5RVUNnXvz4idYqDISfXKf5EGtIaO0q_iF7tjPKxsyt-EEIeu2oLb_D3T3jkOWMhv-qaMBlGctCeguZweoB3zX1hHlYFg8LEmy2_Xd0jBrF5ZYXAbMVxEuFTl0xYuX3lO6Z5FPmvHaRJdk0yREr7b_ihoEjWZWdwTBSqp8L1U0mFfZ3gcTpsPs8GTxgg3BVGCrJs5_JfM026m6Be1z6O_WGjSU1-1wmTPpu56A4XU1C388SaeXug67KvNTFLEN01lSVvvI-JvB40rI8Y3v29COJYyZAWN9nF6DUui5yniHV9fsQJS47dwQDDD916GSZv9o856VD7-nwSOCMD-mvzNKt28diYR_mSmAvVdA4pWY2eEVoC9H887_P2_-hjoc5nQdR35bGunq5wQjSLhLTjv3bSWShNd-fF7sLJVvnKeB6xfnNsmCxGpSApsjw65FSB8N7PzCvDE=",
+      "status": null
+    },
+    {
+      "id": "msg_0f52bd8b1737387e006a5c456000d48195993576843316cbf9",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"Notifications\",\"confidence\":0.94}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784431968.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2577,
+    "input_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 2712
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

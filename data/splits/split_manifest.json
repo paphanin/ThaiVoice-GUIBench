@@ -1,0 +1,63 @@
+{
+  "counts": {
+    "dev": {
+      "domains": {
+        "messaging": 2,
+        "mock_finance": 1,
+        "settings": 1,
+        "shopping": 1
+      },
+      "intents": 8,
+      "mappings": 8,
+      "screens": 5,
+      "tiers": {
+        "T1_verbatim": 8,
+        "T2_paraphrase": 8,
+        "T3_intent": 8,
+        "T4_visual_positional": 8
+      },
+      "utterances": 32
+    },
+    "test": {
+      "domains": {
+        "messaging": 3,
+        "mock_finance": 4,
+        "settings": 4,
+        "shopping": 4
+      },
+      "intents": 22,
+      "mappings": 24,
+      "screens": 15,
+      "tiers": {
+        "T1_verbatim": 24,
+        "T2_paraphrase": 24,
+        "T3_intent": 24,
+        "T4_visual_positional": 24
+      },
+      "utterances": 96
+    }
+  },
+  "profile": "provisional20",
+  "screen_disjoint": true,
+  "seed": 42,
+  "source_paths": {
+    "audio_manifest": "data\\audio\\audio_manifest.jsonl",
+    "mappings": "data\\intents\\intent_screen_targets.jsonl",
+    "screens": "data\\screens\\screens.jsonl",
+    "utterances": "data\\utterances\\utterances_audited.jsonl"
+  },
+  "split_files": {
+    "dev": "data\\splits\\dev.json",
+    "test": "data\\splits\\test.json"
+  },
+  "voice_policy": {
+    "dev_expected_audio_slots": 0,
+    "dev_expected_voices": null,
+    "test_expected_audio_slots": 0,
+    "test_expected_voices": null,
+    "test_only_voice_ids": [
+      "azure/voice_02"
+    ],
+    "total_expected_audio_slots": 0
+  }
+}

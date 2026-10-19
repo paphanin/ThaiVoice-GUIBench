@@ -1,0 +1,4 @@
+condition,n_paired,frozen_accuracy,rerun_accuracy,accuracy_delta,exact_same_coordinate,parse_status_changes,CC,WC,CW,WW,flip_rate,sign_test_p_two_sided
+gold,128,0.445312,0.476562,0.03125,2,13,42,19,15,52,0.265625,0.607591
+asr_whisper_large_v3_local,471,0.390658,0.392781,0.002123,1,54,121,64,63,223,0.269639,1.0
+asr_typhoon_asr_api,471,0.403397,0.397028,-0.006369,5,49,129,58,61,223,0.252654,0.85463

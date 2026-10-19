@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bb5fe63680cedb4c",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": [273, 1740], \"pred_y\": 970, \"pred_label\": \"Command to open the previous遥 遥 遥 遥 遥 遥بع 遥 遥 遥 frem Newark 遥 遥れだ 遥 遥れだれ装备 遥 遥れだれ轉 benches\" }",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1783754266,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 91,
+    "prompt_tokens": 2842,
+    "total_tokens": 2933,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-85b30d6d964282b5",
+  "choices": [
+    {
+      "finish_reason": "length",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": [303, 792) , \"pred_y\": 895) , \"pred_z\": 895) , \"pred_a\": 895) , \"pred_b\": 998) , \"pred_c\": 546) , \"pred_d\": 546) , \"pred_e\" , \"pred_f\" , \"pred_g\" , \"pred_h\" , \"pred_i\" ,\"pred_j\" ,\"pred_k\" , \"pred_l\" , \"pred_m\" , \"pred_n\" , \"pred_o\" , \"pred_p\" , \"pred_q\" , \"pred_r\" , \"pred_s\" ,\"pred_t\" , \"pred_u\" , \"pred_v\" , \"pred_w\" ,\"pred_x\" , \"pred_y\" , \"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" , \"pred_f\" , \"pred_g\" , \"pred_h\" , \"pred_i\" ,\"pred_j\" ,\"pred_k\" , \"pred_l\" , \"pred_m\" , \"pred_n\" , \"pred_o\" , \"pred_p\" , \"pred_q\" , \"pred_r\" , \"pred_s\" ,\"pred_t\" , \"pred_u\" , \"pred_v\" , \"pred_w\" ,\"pred_x\" , \"pred_y\" , \"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" , \"pred_f\" , \"pred_g\" , \"pred_h\" , \"pred_i\" ,\"pred_j\" ,\"pred_k\" , \"pred_l\" , \"pred_m\" , \"pred_n\" , \"pred_o\" , \"pred_p\" , \"pred_q\" , \"pred_r\" , \"pred_s\" ,\"pred_t\" , \"pred_u\" , \"pred_v\" , \"pred_w\" ,\"pred_x\" , \"pred_y\" , \"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" , \"pred_d\" , \"pred_e\" , \"pred_f\" , \"pred_g\" , \"pred_h\" , \"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" , \"pred_m\" , \"pred_n\" , \"pred_o\" , \"pred_p\" , \"pred_q\" , \"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" ,\"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" ,\"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" ,\"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" , \"pred_l\" , \"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" , \"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" ,\"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" ,\"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" ,\"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" ,\"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" ,\"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" ,\"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" ,\"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t\" ,\"pred_u\" ,\"pred_v\" ,\"pred_w\" ,\"pred_x\" ,\"pred_y\" ,\"pred_z\" ,\"pred_a\" ,\"pred_b\" ,\"pred_c\" ,\"pred_d\" ,\"pred_e\" ,\"pred_f\" ,\"pred_g\" ,\"pred_h\" ,\"pred_i\" ,\"pred_j\" ,\"pred_k\" ,\"pred_l\" ,\"pred_m\" ,\"pred_n\" ,\"pred_o\" ,\"pred_p\" ,\"pred_q\" ,\"pred_r\" ,\"pred_s\" ,\"pred_t",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415300,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 1244,
+    "prompt_tokens": 2852,
+    "total_tokens": 4096,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

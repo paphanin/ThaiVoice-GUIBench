@@ -1,0 +1,105 @@
+{
+  "id": "resp_05edf853f58074f8006a5c43ffa9f081908561c2ab29975f59",
+  "created_at": 1784431615.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_05edf853f58074f8006a5c440092dc8190bd0001e5a7b5a939",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEQCFIUQZf_mSteAsHk_YiuHEotGHOXmrRKbLQF3SyV-OzDtmW_A48tYd2k0IXfZfZln75buiMMrrS3Aaiz2AS0ohxGr7ukqPTriRkDhNLTo3S9iW4mV0iG3cluao8TO99r3iaIIYlylp74vcmCBiQ9N9iC5d13B5k6MW0X_3dfutFFmjMQDGgvxgO1lPaNQlxNDl9JrmUrMjJg88yy_0u5gmx7SVmbbtZQNFASdXWmGM5281vzKVP6j72voku9n9nGA-QNlWUEXdKE3E5m6PZfPROZQKBRfBuuJNkpv6MBjgtBepuZX9SzMywVzf9l8G-6bTv-g6Bvh7HZWrffxkNoVtT1GRi-N1-EUBK6Y4ZyP1g1lswUgN5ue0gurhPFPrldk4YGoJUhTIzNBjcqwTyLpbLCywpK-pnA6WhZW8s1-iel5phzYcpVI9769rZxVDjxaIsoF6svvjnemETic_w9ZuvLrMVJLzkSiwUivuH_xawQgRFIZZdwpEYvm2IcjiY44vLnDmcEpuTmOezLvEoPWLhxjh1bxUSbkSWjgt2CCbo8nbaCJnP_ZlCHCo0t1SfsriEh_hNDrgx6UtQyGI9gst-NiS0Ci6jHMVStGhqnaKR0hDBcgBFJQVBcwL9GOUY-zJHa0ZzDGA6XWsxszVnUt3LOqAvANUz56SUsilTjRmG_vS-O566pVELbKZlMTpVuYfsKGFlKI3a7NgLgLZ7D1kFsFe5pg6zRioupxFgFas4OpK7K89OiEtZnZXbsvqw7M-Wf_ZaPeun2A406hM2r-mKifg6gqgA7AQm2eOvIXeP_UGUeC6ZtegIlFc11qRU5Svo2xdSzjtykYiNbdnownhMAOWdPzRetyPjGILl7X4UF8ZIndIMrgSoltba9Pp4AzjVdws1msIjau9PdYRS67YEta6GDAw4i1R-QheZLxApNqYLCSxl1JUc-6wQUbb_p_c01Bcc1mzxCXcCbszeKUxjHrDhc8VFMOVxcIEX0HbA6b4fId9padmZHmV3YIUYvy6DEaLdNszCpqqpbkDu2up79b_5rMi412ErT-lZl1m7_EwAbnjSMro3rRNiOXuKfAvV8ezt422s4w5vQj-7NrPvdLnBv6ZciSGrFLtpOZg2K33SvKxtU765ySzYJ6HH_zyUKyZ1uye4g6LuG2Jm0lleXz_TQOfhPNRpQrsNetOtPCzii-Jpg7j2VwxNoNmb_pZq0EDH3zyYmucXQgb8awO60YEtnqV7XNiMdexgnTFLqHq7_OlT4873MXRV7QKKxh97EOVmlvl_C5sUoX2hSnadNxk1oL7kaX5fbtktqeOnkqttZsCBNttScs1ULLnOPGPPeY0NKmWj2-k4lAWHiUBC8d7n1yT1dWaN51tqlgTVZPL6gWLY6Z8yoloMiRXPhPR0kN5Qawo55L9Hp7yz6oBNlmYvwaCtqcwSELSSPZwnB-RNrHms5PJZtcTxc8BA4_HoamxyIrvHEHHeg6M_BfpRCDXSl43Q9XApTmeYffN_ps7gTMP_4VNvlv2nTTJ7Nh1RO76fuAK1CDUBqmHqtCMv72P0faXbGgCnUQWLmtheg=",
+      "status": null
+    },
+    {
+      "id": "msg_05edf853f58074f8006a5c44021c7081909b50fe6551a48954",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"Filter\",\"confidence\":0.94}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784431618.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2582,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 2716
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-9c4c5a351c5d71d5",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "[{\"pred_x\": 398, 554}, {\"pred_x\": 414, 1173}, {\"pred_x\": 421, 1656}, {\"pred_x\": 749, 1653}, {\"pred_x\": 827, 1653}, {\"pred_x\": 859, 1653}, {\"pred_x\": 882, 1653}, {\"pred_x\": 926, 1653}, {\"pred_x\": 188, 1701}, {\"pred_x\": 426, 1790}, {\"pred_x\": 708, 1784}, {\"pred_x\": 965, 1794}, {\"pred_x\": 187, 1787}, {\"pred_x\": 243, 1787}, {\"pred_x\": 355, 1787}, {\"pred_x\": 562, 1787}, {\"pred_x\": 699, 1787}, {\"pred_x\": 808, 1787}, {\"pred_x\": 930, 1787}, {\"pred_x\": 1048, 1787}, {\"pred_x\": 17, 593}, {\"pred_x\": 88, 593}, {\"pred_x\": 174, 593}, {\"pred_x\": 249, 593}, {\"pred_x\": 324, 593}, {\"pred_x\": 400, 593}, {\"pred_x\": 451, 593}, {\"pred_x\": 571, 593}, {\"pred_x\": 626, 593}, {\"pred_x\": 681, 593}, {\"pred_x\": 801, 593}, {\"pred_x\": 842, 593}, {\"pred_x\": 907, 593}, {\"UIImageOrientation\": 0, \"phodo_charlee_penalty\": 0.5999999999999999, \"phodo_image_important_ratio_squared\": 0.003886418042667378, \"scalenorm\": 0.5311393032803063, \"skydrive_id\": 11256767311278955, \"uid\": \"k4SlV\"}}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784454910,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 605,
+    "prompt_tokens": 2854,
+    "total_tokens": 3459,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

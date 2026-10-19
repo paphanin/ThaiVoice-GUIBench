@@ -1,0 +1,13 @@
+﻿grounding_model,asr_model,correction_method,n_total,CC,WC,CW,WW,raw_click_accuracy,corrected_click_accuracy,accuracy_delta,classification
+G1,whisper_large_v3_local,A_no_screen_cleanup,471,350,4,7,110,0.757962,0.751592,-0.006369,apparent correction benefit
+G1,whisper_large_v3_local,B_screen_string_match,471,349,6,8,108,0.757962,0.753715,-0.004246,apparent correction benefit
+G1,whisper_large_v3_local,C_full_screen_aware_alias,471,345,3,12,111,0.757962,0.738854,-0.019108,apparent correction degradation
+G1,typhoon_asr_api,A_no_screen_cleanup,471,349,5,11,106,0.764331,0.751592,-0.012739,dominated by independent rerun variability
+G1,typhoon_asr_api,B_screen_string_match,471,348,8,12,103,0.764331,0.755839,-0.008493,dominated by independent rerun variability
+G1,typhoon_asr_api,C_full_screen_aware_alias,471,346,8,14,103,0.764331,0.751592,-0.012739,apparent correction degradation
+G2,whisper_large_v3_local,A_no_screen_cleanup,471,124,61,60,226,0.390658,0.392781,0.002123,mixed or inconclusive
+G2,whisper_large_v3_local,B_screen_string_match,471,121,55,63,232,0.390658,0.373673,-0.016985,mixed or inconclusive
+G2,whisper_large_v3_local,C_full_screen_aware_alias,471,121,44,63,243,0.390658,0.350318,-0.040340,dominated by independent rerun variability
+G2,typhoon_asr_api,A_no_screen_cleanup,471,112,49,78,232,0.403397,0.341826,-0.061571,dominated by independent rerun variability
+G2,typhoon_asr_api,B_screen_string_match,471,120,69,70,212,0.403397,0.401274,-0.002123,dominated by independent rerun variability
+G2,typhoon_asr_api,C_full_screen_aware_alias,471,125,58,65,223,0.403397,0.388535,-0.014862,dominated by independent rerun variability

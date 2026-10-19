@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bd2527abb92af974",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 658, 1829}: 173x5280\n{\"pred_x\": 154, 1475}: 159x5280\n{\"pred_x\": 288, 1475}: 223x5280\n{\"pred_x\": 478, 1475}: 308x5280\n{\"pred_x\": 628, 1475}: 351x5280\n{\"pred_x\": 771, 1475}: 351x5280\n{\"pred_x\": 814, 1475}: 249x5280\n{\"pred_x\": 170, 1534}: 240x5280\n{\"pred_x\": 346, 1534}: 295x5280\n{\"pred_x\": 514, 1534}: 295x5280\n{\"pred_x\": 655, 1534}: 314x5280\n{\"pred_x\": 799, 1534}: 281x5280",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784411473,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 300,
+    "prompt_tokens": 2852,
+    "total_tokens": 3152,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

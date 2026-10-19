@@ -1,0 +1,105 @@
+{
+  "id": "resp_034055372b53783f006a5c4741b4a48194ad19ca8b9f124603",
+  "created_at": 1784432449.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_034055372b53783f006a5c47428d208194b073c7a91599d007",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEdEpI2rJaql4BAgXicdGxIY0bELp5WeMJfPNX9p2aKSDIkEZPAn6iktOXMvVhcWDO7NWK_uBGXAjUKiiYOj180MP7L0Mk5JOL44AHu_wy2Nxhcv3AqElhXPhHQt68cKrhLeF6MXUmDCODfWeghBCyq0giz8nMc91zUGAfTwzNUqvrrdqM_S6VGdn7GC-9mmhaBfobKLTAmW_xAL_SKGR5XyHQWGDm1oHaMPDaVnTQnoIpr_-yhVNwEJs5ec-eCg8EFYb3iNlqchFTxa2RKwQMJnt4YK5OObrXAZKGzMrC-X9GwYPZsOBjsO4xwwUJvBlRUhzJeu5DHHfShuWQL7-P3ItgnxrlOYky5D4Ljsw3SxW0eOimfau0kWyDWMJaHgfMNQSmeokbSZpVGVqMULA3GvFJVPM5TjSVxwIfruUPzdvU28XTjfhtKhkQAhgqq6XqXGXhI4e2PQ17c4AK6PFL5Rwrj4yi6UIpFIi-q2Fx3KsHJw_g42VrbtAxi_AcDxl39AxGQ5ZwzMd1hD9GdJcmWMnCBAVjo6iXYcOV0tYkXHFrt_EKnTb-pArWxoX5R4u6AFTRyqkxWvAWci41YLP_cy872Eviy0ZaBscRf_oBeV-w7ebURjSUbiqtko8nNM7sU2r7UNU9T5PYrBtYu0P8IoOIbk_ZpdvQJXMYxzhail5FMMMETV24e7n6QiJNDeyKus6wu1mM7VSzoXcNc_gzDw3QKgxg7vE8jVLW5XZEOLEH39IudAJPkUKS_RuPPDJH9ASdzAe0rdtvvr3UVNPTrci2OwUGRmo6o4hlirOsktQy__ggIMeyADculETBg2FhUe15BtGyY5g5qi7ugPpY5OXy1EoaD40zWlE3E3pZ4HrI7LR2dp-21CC3dF8JUkztVAuoeP0zuVeWh_n93X1MuD1JxwgNgD1H9VrZv8nZygHx7fKZwffzBBCcqqz7oPj9JgkAQNgptcahcWABOZ3yGEISPy04PrxdrOl7DbYQdbm8tUd6rHQZBsmYJL_VL1v757m3O--lcuDcLc1IyoelV38riBDLNgSdOfjEqQsPe2PNzcdIhJFu48njfdhB6qwAaxFelVpzfnPLXtbtFFs8NFL2r8afFaq8APJiZt2FlISxfk_GcRQnAuve-l37qIkpxEVFk5tmurr1-k5Gdvf9e2PWfu1Vz_ZRdYMXDwhnQ4rzCRmWbYCiDGiND6NPymihnYDSeg3ZBwmtGwuTs7S3sJLmD51fqhRIJqKHC8-QYfI-CEtuGyYWGHB6UK-Y06I-2YU5cxbDRGSPaq55Q3cDPm-v-RrwICUJLUtO7QNIkdMgorBEmTxkPQTAlvTpEkDXOE3vrPM1G8IRr4sewlyxTzFJ7Y3aZo6RiNq6oNomSKGlAjoWR-Cp30_GY01UvPbG40YC-qn7tXFyrpUNZTGixo1cI2FmczwZT_ZBznQs-xLNGUu2CS_O_yFvoElh48PO320p_SSUt16siCnleH3oXpnZdpK7jVzdblslI1Uzg4_2wPx2AkmmysQpYg5BzNe7nr8BrQeBrPgnmLMTGeZzn0ENiBcZGiPBb-fbEDxzdDeGg=",
+      "status": null
+    },
+    {
+      "id": "msg_034055372b53783f006a5c47440ad4819499fa6c1463afd8c4",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":300,\"pred_y\":506,\"pred_label\":\"ประวัติ\",\"confidence\":0.96}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432452.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2583,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 2721
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

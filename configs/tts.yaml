@@ -1,0 +1,59 @@
+{
+  "description": "TTS configuration for ThaiVoice-GUIBench. This file is JSON-compatible YAML so scripts can parse it without extra dependencies.",
+  "inputs": {
+    "utterances": "data/utterances/utterances_audited.jsonl",
+    "dev_split": "data/splits/dev.json",
+    "test_split": "data/splits/test.json"
+  },
+  "outputs": {
+    "audio_root": "data/audio",
+    "wav_root": "data/audio/wav",
+    "manifest": "data/audio/audio_manifest.jsonl",
+    "report": "data/audio/AUDIO_GENERATION_REPORT.md",
+    "logs_dir": "data/audio/logs",
+    "cache_dir": "data/audio/cache"
+  },
+  "defaults": {
+    "format": "wav",
+    "sample_rate_hz": 24000,
+    "response_format": "wav"
+  },
+  "engines": {
+    "openai": {
+      "provider": "openai",
+      "api_key_env": "OPENAI_API_KEY",
+      "endpoint": "https://api.openai.com/v1/audio/speech",
+      "model": "gpt-4o-mini-tts",
+      "voices": {
+        "voice_01": {
+          "provider_voice": "marin",
+          "split_policy": "dev_test",
+          "instructions": "Speak natural Thai at a steady mobile-assistant pace."
+        },
+        "voice_02": {
+          "provider_voice": "cedar",
+          "split_policy": "dev_test",
+          "instructions": "Speak natural Thai at a steady mobile-assistant pace."
+        }
+      }
+    },
+    "azure": {
+      "provider": "azure",
+      "api_key_env": "AZURE_SPEECH_KEY",
+      "endpoint_env": "AZURE_SPEECH_ENDPOINT",
+      "region_env": "AZURE_SPEECH_REGION",
+      "output_format": "riff-24khz-16bit-mono-pcm",
+      "language": "th-TH",
+      "voices": {
+        "voice_01": {
+          "provider_voice": "th-TH-PremwadeeNeural",
+          "split_policy": "dev_test"
+        },
+        "voice_02": {
+          "provider_voice": "th-TH-NiwatNeural",
+          "split_policy": "test_only"
+        }
+      }
+    }
+  }
+}

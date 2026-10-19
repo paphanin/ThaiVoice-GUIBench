@@ -1,0 +1,9 @@
+asr_model,tts_engine,voice_id,records,success_count,failed_count,skipped_count,mean_cer,mean_wer,loanword_error_rate,loanword_count,loanword_errors
+typhoon_asr_api,azure,voice_01,125,125,0,0,0.084741,0.159214,1.000000,15,15
+typhoon_asr_api,azure,voice_02,90,90,0,0,0.062367,0.124972,1.000000,10,10
+typhoon_asr_api,openai,voice_01,128,128,0,0,0.070499,0.121941,1.000000,18,18
+typhoon_asr_api,openai,voice_02,128,128,0,0,0.058531,0.123178,0.888889,18,16
+whisper_large_v3_local,azure,voice_01,125,125,0,0,0.058433,0.101629,0.600000,15,9
+whisper_large_v3_local,azure,voice_02,90,90,0,0,0.055681,0.116886,0.600000,10,6
+whisper_large_v3_local,openai,voice_01,128,128,0,0,0.059881,0.118245,0.277778,18,5
+whisper_large_v3_local,openai,voice_02,128,128,0,0,0.048176,0.094749,0.444444,18,8

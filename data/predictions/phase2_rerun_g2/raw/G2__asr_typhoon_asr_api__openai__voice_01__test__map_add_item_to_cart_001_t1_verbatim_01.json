@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-bc64abf9c8676375",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 548, 1317}:{\"confidence\": 0.7565589166019898, \"pred_rect\": \"(548,1317)\", \"label\": \"ปุ่มความต้องการเพิ่มไปยังรถเข็น\"}, {\"pred_x\": 544, 1477}:{\" confidence\": 0.998104560003357, \" pred_rect\": \"(168,1472)\", \"label\": \"แอดคาร์\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784455788,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 144,
+    "prompt_tokens": 2858,
+    "total_tokens": 3002,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

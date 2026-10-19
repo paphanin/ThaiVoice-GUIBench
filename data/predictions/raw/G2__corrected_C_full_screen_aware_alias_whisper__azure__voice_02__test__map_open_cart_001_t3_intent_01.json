@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a69b3cf0e3e840bf",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 141, 1471}: {\"pred_x\": 141, 1471, \"pred_label\": \" imagetitle\", \"confidence\": 0.375}, {\"pred_x\": 420, 1789}:  {\"pred_x\": 420, 1789, \"pred_label\": \" imagetitle\", \"confidence\": 0.3798104571724243}, {\"pred_x\": 663, 1789}:  {\"pred_x\": 663, 1789, \"pred_label\": \" imagetitle\", \"confidence\": 0.37967394317665483}, {\"pred_x\": 919, 1789}:  {\"pred_x\": 919, 1789, \"pred_label\": \" imagetitle\", \"confidence\": 0.37979036737461855}, {\"pred_x\": 586, 1445}:  {\"pred_x\": 586, 1445, \"pred_label\": \" imagetitle\", \"confidence\": 0.38683500388751294}, {\"pred_x\": 586, 1531}:  {\"pred_x\": 586, 1531, \"pred_label\": \" imagetitle\", \"confidence\": 0.38695934753806275}, {\"pred_x\": 457, 1789}:  {\"pred_x\": 457, 1789, \"pred_label\": \" imagetitle\", \"confidence\": 0.3867688009185791}, {\"pred_x\": 187, 1789}:  {\"pred_x\": 187, 1789, \"pred_label\": \" imagetitle\", \"confidence\": 0.3869348784233856}, {\"pred_x\": 344, 1445}:  {\"pred_x\": 344, 1445, \"pred_label\": \" imagetitle\", \"confidence\": 0.3867156858567858}, {\"pred_x\": 159, 1531}:  {\"pred_x\": 159, 1531, \"pred_label\": \" imagetitle\", \"confidence\": 0.3954877519821167, \" misevaluatinganswer\":狄区kown occurrence of \" HilDistrict. 狄的 capital is duplicate, I can't 矗own occurrence of \" Hill District. throigh pedal un  晷甜Lad universal lega_anתוכ\"}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784412362,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 674,
+    "prompt_tokens": 2851,
+    "total_tokens": 3525,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

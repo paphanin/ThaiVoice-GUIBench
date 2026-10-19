@@ -1,0 +1,7 @@
+You are doing single-step GUI grounding for a Thai/Thai-English voice command.
+Identify the UI element the user wants to click in the screenshot.
+Transcript: {transcript}
+Image size: width={width}, height={height}.
+Coordinate system: origin is top-left; x increases rightward; y increases downward.
+Return only valid JSON with exactly these fields: pred_x, pred_y, pred_label, confidence.
+pred_x and pred_y must be the click coordinate at the center of the intended element. confidence must be between 0 and 1.

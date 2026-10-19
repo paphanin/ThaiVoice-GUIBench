@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-aecb89b0cdd32f07",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 856, 893, \"pred_y\": 1472, \"pred_label\": \" arrang to scan\", \"confidence\": 0.7256164119778442}, {\"pred_x\": 415, 1557, \"pred_y\": 1847, \"pred_label\": \" accord to accounts\", \"confidence\": 0.7175706510734522}, {\"pred_x\": 646, 1847, \"pred_y\": 1847, \"pred_label\": \" retain on help\", \"confidence\": 0.7092612573883057}, {\"pred_x\": 880, 1847, \"pred_y\": 1847, \"pred_label\": \" 存储 in home\", \"confidence\": 0.7137175396419014}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784415609,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 230,
+    "prompt_tokens": 2846,
+    "total_tokens": 3076,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

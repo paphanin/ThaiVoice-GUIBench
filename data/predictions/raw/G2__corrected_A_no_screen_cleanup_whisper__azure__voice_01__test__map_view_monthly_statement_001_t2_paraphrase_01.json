@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-976beed8f3e86162",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 183, 1528}: งบประ麻痹, \n{\"pred_x\": 350, 1528}: ตั้งเวลาจ่าย, \n{\"pred_x\": 502, 1528}: 研发中心, \n{\"pred_y\": 1528}: ชัยชี, \n{\"pred_x\": 739, 1528}: นかった,",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784409777,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 103,
+    "prompt_tokens": 2843,
+    "total_tokens": 2946,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

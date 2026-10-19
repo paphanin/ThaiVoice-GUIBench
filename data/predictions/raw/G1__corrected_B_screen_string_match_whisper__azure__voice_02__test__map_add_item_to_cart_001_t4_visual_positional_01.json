@@ -1,0 +1,105 @@
+{
+  "id": "resp_0075dfe63485d5d7006a5c4598c5ec8197abf1a62bceecac4c",
+  "created_at": 1784432024.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5.5-2026-04-23",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0075dfe63485d5d7006a5c4599ac948197bb55b1f17c40ffa6",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": "gAAAAABqXEWf3gh-Mk7dM_qJZtlzOjtWyo0WtetCZ4OqEwOqyj3eFoPyBKvAeO1yWqy0eBK1m4HBb0Dvku9TFfd0NM9lHrWqt8Io8gmC53DjLygyOvumWkYNDhrZvwAX1fQlKPh8d_hM9seJXB5i3xvDhlT15n6pLaoUXmOiCzQVNH5mNdBVvZQtLT2dRI6GmbSlAS1I-XdtPxLJDXCAdkhKUcMcGLfBubMBLUs7I6sNROMhGBiLvrX7zNzg3eKDDXpV5ZKRDhtHMt6KI-AHNWd95bKf5JEMqPhe0V4tzjeBSxMbr4rBEQ5WQT_my5p6BfTqW4PgEZksK5-oGNCNpmyfj80sRWXpHmf7bDO2INH0g_BomoTpODLNeqvkQZ5jhfJYH1_ZMAYFc3fTeLtr4jgi4SZJOLEurdfhACEm0yyR_6ThhZdg4ZVi6nkedu9jrenU9FrDv6LfWx1DYVZRYnAr8EpVIx_qf-P8B_GE1nyKPLEC2A14_tWOv2eK6gtdRRh8Pjup2NwmZg599Aj3UulLj7FWML6d83JNsvH1DBRNi2kFfZv0YzaVD2J8HMGKUNSirnfR1p2_Vkhp19lEfrNVo86k5Ds2fKi3r96NmNtMU1bVb7WIKGQIMTeON0TQ9naXAP8SpMppit65ab7lyVcut1nVaz3xfGG6dLXBZtwalXHsh2-JEGlGr4ruVPr-qgxffq79gXDTdVZ3_4_7ij1mwSodEgTpKEnQppaAtU3GSQcINbagRAisHFgM5pykxjBlXNEu0bbKEX7x3MvI85bdRZAKa7drjOEPl9d1N25EKP_uvKD12APmRWvOI4LCdxhqwrxwv-cZxchAugzgVEZBuLShOyNK2tTsRB7A8n7taFMV7t3jgKdmA27UcBmc9hB2gqtd_BYjwooyTnDHgh_Wb0Vcsm0GKxjsvzljZNQrStXOLeR1pRQfhCAbbYbHIAxb6-dg4BG7Wpp0VBzssvGI1BSSu5YsQKTieRWGKH8M1MYl9cDVOKX7cHvhTGla2LPsFHuxtZO0f_Otr9LdhqHMGmOrnZR0aAyQ-dBuMpUphwmuohxM3D0Mw5BXCZ48j_TkyY_gfdR1_d6920VfJDqBriYkl-V-KhrzyLIEgDIyD8yxAJ1LBGc73a1tgCMLxulY0zhojT4M86tbwlLQSTva7PPgOJpAUxwm9NSaeEHRd8nApmwGrI-lzp5n4WnUC6181VsUelMuWlb8F842O4_fQaUB__rOkiWylTVqkYye65LmGxWrDIM_b3AZXdvFvoRm9LYcoEpVgK8Rdt1v0qDgkwfeCJZ03klwUlhMOTHAmUEEnlhN28olqIFKqoaLdJ79DCXoBTgrTnaCeimH8Oy1fUw_T0ULZU1G_AEPa9KS5gSddtCC477z78QkM369HxLQMMNTJiyMcy7Kgxnz7CYmw1aE57hU3CFFgkQWFwfpVT8IKdkr7C8S0F2MUaSkCKvyLwxdt_4tWQKLq3GTsDYFaUF5VASNl0ub26XLhxq3Pu69BkaXIoEpX10ynRppdlfRDc0SKE3v-fwJoN14tQ98WT-s-MACrDj5zOxBA25LXDdEYG5tAoeGJvycevgxpVqyduoYQsTLvwxLl3rKrQ0KZ-JNjfjNYIJlfRDOJNevdmmlEqvIV0PHXs131TW_Txkj8UMMC8OQsPQDR3oZ3hHMO1XB9Y6V-0WlPwS9Vq8Hd3J_gCJAhrWpV-dLfsUPThtU8ReJt1_Vk3JwYA_za_-E5iMr5OR0vvZlerjFbqzqjz_BaiBvo5wdZk8CjRjPV7sFzKCf5tWS1Ep5dLZT9U3hzmRP_jYmTAf8ALE_6G1i0qooT6QS9qBBbDcsnQuixupV_C_2_iZ-NplEsgZBg-wWLmhCk2pzF6uw2QLJfJDrT-mbqUV9sx3uCnHhP1AqHEuJmJ70iy1Z0uXdypZSkg5GHP5dMdKZwBfpbr74v96z4Y7EGMltGndYeD3G9BMZSS52xMNJTtIzi2SbZ7Eb853GzfUus4v6nKMlKD39vb6Me-npeohJMekY58GaP5rdKZ17EVT415mzsW-13hAXZ49BhRUk3SbzUHlrVC_GPpvXVhlDQqCM3N11KFxEe7etHZJ4OLBr6zbOrBHVyTMUjwyh0tRYkNqct_Gcp8M_fwzBVnXUPGaGtio4qGOS9eZBWF2hWdn2vZ7UYlf-B6y5dV22k20zC-zgKUeQLz_lxybgMpOMJ1qG9aMRTCOiqA9P12aVqBk4ymNg657SOGRRE8V4nCt9_kIE240YiL4Y4u2IqTJGeGvvHT4e5HwCbLcu70VhMvt89Als9-YdT66UFzxTW9e_5Nt-2ahgmR91jmxjF-vKTlWrgfdWcp3zzNE7WBj9N1dumlgeIIcFn5UvGFpzIA5sPZwWUoCydljSt0oRfZ6nw6o1sgDVBdCQDHTxGJBBXtv3eP8ccP-YfKWNKiC7FtEcPF1MMSxWbsVwEsj9OWtV_m_Im5-mujdzkBE4-w_ookOEJmtGPfo6e3BoqmtvtgVWY5cp292BhcJDRV5dGVR-S40gakjzXFur_Sms8NsLWdqz8Wn96-VKTa--ucKx0-FAOywSIc9BqkrudxBvCNmq60-5hLWABiIB7f3WM6SZ1hx01BsMvtZHnnda_rzjV1AV0tzMlGJA8heGQD4Hu3VSG8K7jNj1ux5DjZf0iYOR7cXzqSsqfhX9XB6X_BjmSkebRhb876SXF_5g8UP9eMebQ1CKCDkgR5Tm-80mmjSq-6YivPV9tSnGOvoGoneEEXbrFdA9uVkSmx6gnFxZ8nfsjLW7PqKabYic1kGjPJp8BCBv-1i18mnIlX6C7cA8GfHeKFKvqbtK1GIJ1V9c6CtZZgNhpC4PQkVOt5GVGfbce9I1LVx0tzyP1eivwc2PJfwVDyCMAAVwE2XnbuPhO4zKOsa4gqXYS6kJPL0Z9Arn2cUKtbMPd4PXv4btzsszKQ47cRuM5pXxCGBLn59ewJGv7toYSBm5kI2y6j-78fLnKGR-1Y749ABxC2czabjVGF_vSe9t9i8qIWw8dmHiNa02av3DHu8XygvIZuszBkP2wmlmZMzfqyRl1mwk0uJ4I1vlXviEJiE2Uok1cwSmFtNTAYgMSxpWFLQCcVwthqwsF6c9veLaQQk-E7WmJnk3NAf-pqs7wp9fZwKnB0N9ANFHo2r0TcbHLOIGqCtjVvu6ou0bSsNAa3XRKUm_IhaF4Zlh90dnSp3Ne1jdDDhbFjFKauyQQSiKMl09atZn9kvjvm2aNLL96qhYXsYIvs20rCjHcM1O_LiQvuLCfNwuPQo7XNhNeqwsyvM91g5OAXxOYDhk0lBno8uCBiX1JfbfqRlZNIcXK3vftUnVcfLQmiJYHtXD9585uHuNmZEeVjwl8ErkhGbQ-F8EzbvwZUKAxK5ltrGDd3HHqC7kGINS5ZVrZocXEIUlLRF-3Af1ngUAH9ryNcI1_L-w32OQRNiwupSrGnNRAQE-_qVx8EYMtNumyhMN5npb9MQw2Ko3aMDnVWslJFlsLeLEcbAMsxcXHJaJGJ4D8hJJxGm1QEOu78Qm7xMyV-tlu0pxU7hFBjICTRFfqaK2ddDR7iIUKrnMJE-FALPjZQ==",
+      "status": null
+    },
+    {
+      "id": "msg_0075dfe63485d5d7006a5c459f02b08197ad8de2ca3e05bf3a",
+      "content": [
+        {
+          "annotations": [],
+          "text": "{\"pred_x\":540,\"pred_y\":1019,\"pred_label\":\"Buy now\",\"confidence\":0.72}",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 0.98,
+  "background": false,
+  "completed_at": 1784432031.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "current_turn",
+    "effort": "medium",
+    "generate_summary": null,
+    "summary": null,
+    "mode": "standard"
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "json_object"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2585,
+    "input_tokens_details": {
+      "cached_tokens": 1792,
+      "cache_write_tokens": 0
+    },
+    "output_tokens": 494,
+    "output_tokens_details": {
+      "reasoning_tokens": 461
+    },
+    "total_tokens": 3079
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  }
+}

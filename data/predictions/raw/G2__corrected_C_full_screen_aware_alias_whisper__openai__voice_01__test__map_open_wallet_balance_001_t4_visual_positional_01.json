@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-8b249f5aff3e4e99",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 177, 1814}: \"{}.after_validiation_callback_handler please click home item{}\".format(0), \"pred_confidence\": 0.5},\n\"pred_x\": 651, 1814}: \" {}.after_validiation_callback_handler please click help item{}\".format(0), \"pred_confidence\": 0.5},\n{\"pred_x\": 874, 1814}: \" {}.after_validiation_callback_handler please click home item{}\".format(0), \"pred_confidence\": 0.5},\n{\"pred_x\": 334, 1814}: \" {}.after_validiation_callback_handler please click accunts item{}\".format(0), \"pred_confidence\": 0.5},\n{\"pred_x\": 421,1814}: \" {}.after_validiation_callback_handler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 903, 493}: \" {}.after_validiation_callback_handler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 291, 496}: \" {}.after_validiation_callback_handler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 613, 695}: \" {}.after_validiation callback handler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 254, 695}: \" {}.after_validation callbackhandler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 535, 894}: \" {}.after_validation callbackhandler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 546, 1092}: \" {}.after_validation callbackhandler please click home item{}\".format(0), \" pred_confidence\": 0.5},\n{\"pred_x\": 546, 1290}: \" {}.after_validation callbackhandler please click home item{}\".format(0), \" pred_confidence\": 0.5}\n]",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784412751,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 485,
+    "prompt_tokens": 2846,
+    "total_tokens": 3331,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-a9d1e1c325444bd0",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 776, 517}: หน้าปัดเวลานั้น.\")\r\n        กล้อง_cell = \"กล้อง\"})\r\n\r\n        # 假定它们以字典格式存在于mods字典中，键名分别为mode、cell、cell2。对于图1，mode和 cell 不存在，所以我们先检查它们是否存在，否则将格式转换为 int。剩余检查cell的字典项存在，存在则找cell2\r\n        if 'mode' in mods and 'cell' in mods['mode'] and 'cell2' in mods['cell']:\r\n            cell_mod = int(mods['mode']['cell'])\r\n            cell2_mod = int(mods['cell']['cell2'])\r\n        else:\r\n            cell_mod = cell * cell * cell * cell + cell + cell + cell + cell \r\n            cell2_mod = cell2 * cell2 * cell2 + cell2 + cell2 + cell2 + cell2+ cell2  * cell2 + cell2 + cell2 + cell2 + cell2 + cell2 {\r\n\r\n\r\n }\r\n }",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784456398,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 228,
+    "prompt_tokens": 2853,
+    "total_tokens": 3081,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

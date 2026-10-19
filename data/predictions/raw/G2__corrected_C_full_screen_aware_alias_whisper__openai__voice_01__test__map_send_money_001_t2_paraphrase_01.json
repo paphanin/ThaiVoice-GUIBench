@@ -1,0 +1,40 @@
+{
+  "id": "chatcmpl-89fa8a003ee2e627",
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "{\"pred_x\": 300, 520, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 546, 564, \"pred_label\": \"جيฮย\"}, {\"pred_x\": 858, 520, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 300, 700, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 244, 749, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 831, 700, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 75, 940, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 122, 929, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 994, 976, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 279, 1066, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 366, 1030, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 876, 1066, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 49, 1270, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 117, 1248, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 464, 1308, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 279, 1434, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 362, 1434, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 696, 1440, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 414, 1471, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 421, 1471, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 538, 1471, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 689, 1471, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 858, 1471, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 942, 1471, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 79, 1580, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 268, 1566, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 344, 1566, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 510, 1590, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 676, 1590, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 781, 1590, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 936, 1566, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 95, 1805, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 397, 1820, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 638, 1835, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 137, 1776, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 313, 1757, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 510, 1757, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 667, 1757, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 855, 1757, \"pred_label\": \"ยินดี\"}, {\"pred_x\": 94, 1863, \"pred_label\": \"ยินดี\"}}",
+        "refusal": null,
+        "role": "assistant",
+        "annotations": null,
+        "audio": null,
+        "function_call": null,
+        "tool_calls": null,
+        "reasoning": null
+      },
+      "stop_reason": null,
+      "token_ids": null,
+      "routed_experts": null
+    }
+  ],
+  "created": 1784412814,
+  "model": "ByteDance-Seed/UI-TARS-1.5-7B",
+  "object": "chat.completion",
+  "moderation": null,
+  "service_tier": null,
+  "system_fingerprint": "vllm-0.24.0-46e69457",
+  "usage": {
+    "completion_tokens": 986,
+    "prompt_tokens": 2845,
+    "total_tokens": 3831,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": null
+  },
+  "prompt_logprobs": null,
+  "prompt_token_ids": null,
+  "prompt_text": null,
+  "kv_transfer_params": null
+}

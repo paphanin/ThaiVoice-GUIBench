@@ -1,0 +1,13 @@
+asr_model,correction_method,grounding_model,records,changed_count,changed_rate,recovery_count,recovery_rate,false_correction_count,false_correction_rate,net_benefit,raw_asr_click_accuracy,corrected_click_accuracy,corrected_vs_raw_asr_click_gain,corrected_grounding_available,unchanged_already_correct_count
+typhoon_asr_api,A_no_screen_cleanup,G1,471,0,0.000000,0,0.000000,0,0.000000,0,0.764331,,,False,141
+typhoon_asr_api,A_no_screen_cleanup,G2,471,0,0.000000,0,0.000000,0,0.000000,0,0.403397,0.341826,-0.061571,True,141
+typhoon_asr_api,B_screen_string_match,G1,471,0,0.000000,0,0.000000,0,0.000000,0,0.764331,,,False,141
+typhoon_asr_api,B_screen_string_match,G2,471,0,0.000000,0,0.000000,0,0.000000,0,0.403397,0.401274,-0.002123,True,141
+typhoon_asr_api,C_full_screen_aware_alias,G1,471,53,0.112527,15,0.031847,48,0.101911,-33,0.764331,,,False,121
+typhoon_asr_api,C_full_screen_aware_alias,G2,471,53,0.112527,15,0.031847,48,0.101911,-33,0.403397,0.388535,-0.014862,True,121
+whisper_large_v3_local,A_no_screen_cleanup,G1,471,72,0.152866,0,0.000000,72,0.152866,-72,0.757962,,,False,151
+whisper_large_v3_local,A_no_screen_cleanup,G2,471,72,0.152866,0,0.000000,72,0.152866,-72,0.390658,0.392781,0.002123,True,151
+whisper_large_v3_local,B_screen_string_match,G1,471,72,0.152866,3,0.006369,72,0.152866,-69,0.757962,,,False,151
+whisper_large_v3_local,B_screen_string_match,G2,471,72,0.152866,3,0.006369,72,0.152866,-69,0.390658,0.373673,-0.016985,True,151
+whisper_large_v3_local,C_full_screen_aware_alias,G1,471,113,0.239915,8,0.016985,110,0.233546,-102,0.757962,,,False,129
+whisper_large_v3_local,C_full_screen_aware_alias,G2,471,113,0.239915,8,0.016985,110,0.233546,-102,0.390658,0.350318,-0.040340,True,129
