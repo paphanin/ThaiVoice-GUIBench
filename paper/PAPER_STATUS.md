@@ -17,7 +17,7 @@ Required reviewer reporting revisions only, based on frozen results. No new mode
 
 ## Reproducibility and verification
 
-Release permalink: https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.2
+Release permalink: https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.3
 
 The release asset includes the frozen benchmark and all 480 WAV files with exclusions flagged, original predictions/raw responses, existing reruns/probe, review records, exact prompts, configurations/aliases, schemas, code/tests, manuscript, and checksums. The publication workflow separately checks the public permalink and downloaded asset hash. See `docs/REPRODUCIBILITY.md`. No IEEE PDF eXpress certification or venue submission is claimed.
 
@@ -26,3 +26,7 @@ The release asset includes the frozen benchmark and all 480 WAV files with exclu
 - All aggregate and 24 tier baseline scores, consolidated correction metrics/deltas, and preserved changed/unchanged numeric rows match frozen sources.
 - SHA-256 checks of 9,561 pre-existing data/config/schema/script/test/figure files show zero modified and zero missing.
 - All six PDF pages were rendered and inspected. No clipping, overlap, overfull boxes, unresolved citations/references, or substituted fonts. Minor underfull warnings are visually acceptable.
+
+## Funding statement, 2026-10-20
+
+The user-supplied statement is preserved verbatim in `sections/funding.tex` and placed immediately before the references. Grant identifier: `B13T690002-1`. Version v1.0.3 preserves the prior releases.

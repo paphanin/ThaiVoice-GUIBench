@@ -1,8 +1,8 @@
-# ThaiVoice-GUIBench v1.0.2: reproducibility and reporting
+# ThaiVoice-GUIBench v1.0.3: reproducibility and reporting
 
 ## Access and revision scope
 
-The public versioned release is https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.2. Download the `ThaiVoice-GUIBench-v1.0.2.zip` asset; GitHub's generated source archive is a separate convenience copy. A local copy is at `output/release/ThaiVoice-GUIBench-v1.0.2.zip`.
+The public versioned release is https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.3. Download the `ThaiVoice-GUIBench-v1.0.3.zip` asset; GitHub's generated source archive is a separate convenience copy. A local copy is at `output/release/ThaiVoice-GUIBench-v1.0.3.zip`.
 
 This revision adds reporting and IEEE formatting only: no speech synthesis, ASR, correction, model inference, new human study, threshold tuning, or annotation changes were performed. The paper remains strictly 4--6 pages including references. Use the release tag and checksummed asset for reproducible access.
 
@@ -88,7 +88,7 @@ python scripts/validate_asr_outputs.py --model typhoon_asr_api --outputs data/as
 python scripts/validate_corrections.py
 python scripts/validate_grounding_predictions.py --predictions data/predictions/grounding_predictions.jsonl
 python scripts/validate_grounding_predictions.py --predictions data/predictions/phase2_rerun_g2/grounding_predictions_rerun.jsonl
-python scripts/package_reproducibility.py --verify output/release/ThaiVoice-GUIBench-v1.0.2.zip
+python scripts/package_reproducibility.py --verify output/release/ThaiVoice-GUIBench-v1.0.3.zip
 ```
 
 `pytest` includes tests for corruption/exclusion behavior in the release packager. The native-format probe has a distinct record format; use the frozen probe runner/analysis records rather than passing it to the main JSON-protocol prediction schema.
@@ -104,3 +104,7 @@ Recomputing ASR WER additionally requires historical `pythainlp==5.3.4`; it is n
 From `paper/`, build with `pdflatex --disable-installer -interaction=nonstopmode -halt-on-error main.tex`, `bibtex main`, then pdfLaTeX twice. The unmodified class, bibliography style, citation support, and missing standard Times/Courier definitions/metrics are included; template provenance is in `paper/TEMPLATE_PROVENANCE.md`. The manuscript uses IEEE conference/US Letter defaults, includes the required first-page copyright notice, and must pass the 4--6-page gate after any availability-link edit. No online PDF eXpress certification is claimed.
 
 Build a release from the source tree with `python scripts/package_reproducibility.py --build`. The command verifies archive checksums, benchmark counts, and all primary referenced screen/audio/raw-response files. Rebuild after changing the paper, documentation, or publication URL; do not ship a stale PDF or checksum list.
+
+## Funding statement update, 2026-10-20
+
+Version v1.0.3 adds the user-supplied funding statement verbatim as the final paragraph before the references. The exact source is `paper/sections/funding.tex`. Scientific results, data, author order, and prior releases are unchanged.

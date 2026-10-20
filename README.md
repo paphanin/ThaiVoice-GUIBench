@@ -5,7 +5,7 @@ A small diagnostic benchmark for single-step Thai and Thai--English spoken GUI g
 - Paper source and current PDF: `paper/main.tex`, `paper/main.pdf`.
 - Reproduction, review provenance, exact prompts, historical configuration limits, and publication status: [docs/REPRODUCIBILITY.md](docs/REPRODUCIBILITY.md).
 - Frozen data: `data/`; formal schemas: `schemas/`; validators and analysis: `scripts/`; tests: `tests/`.
-- Public versioned release: [v1.0.2](https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.2); download the checksummed `ThaiVoice-GUIBench-v1.0.2.zip` asset. A local copy is under `output/release/`.
+- Public versioned release: [v1.0.3](https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.3); download the checksummed `ThaiVoice-GUIBench-v1.0.3.zip` asset. A local copy is under `output/release/`.
 
 ```powershell
 python -m pip install -r requirements-validation.txt

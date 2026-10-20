@@ -26,10 +26,14 @@ IEEEtran conference/US Letter defaults replace generic margins and compressed re
 
 ## Deliverables and public-access verification
 
-`paper/main.pdf` and matching source accompany the benchmark at https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.2. Release checks cover every checksum, expected benchmark counts, and referenced screen/audio/raw-response files. The publication workflow checks anonymous public access and compares the downloaded asset's SHA-256 with the local ZIP. The download verification record is outside the archive to avoid self-referential checksums. No IEEE PDF eXpress or venue-submission action is claimed.
+`paper/main.pdf` and matching source accompany the benchmark at https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.3. Release checks cover every checksum, expected benchmark counts, and referenced screen/audio/raw-response files. The publication workflow checks anonymous public access and compares the downloaded asset's SHA-256 with the local ZIP. The download verification record is outside the archive to avoid self-referential checksums. No IEEE PDF eXpress or venue-submission action is claimed.
 
 Historical data reports are frozen and may retain interpretations superseded by this audit. The revised manuscript and `docs/REPRODUCIBILITY.md` govern current claims.
 
 ## Coauthor update, 2026-10-20
 
 Thepchai Supnithi and Nongnuch Ketui are added after Paphanin Amnuaikitwanit in the paper and PDF author metadata. Affiliations and additional review activities were not inferred. Version v1.0.2 preserves the prior releases and the frozen benchmark.
+
+## Funding statement update, 2026-10-20
+
+The provided funding text is inserted verbatim immediately before the references, with grant identifier `B13T690002-1`. No heading or extra funding claims are added. Version v1.0.3 leaves all benchmark records and earlier releases intact.
