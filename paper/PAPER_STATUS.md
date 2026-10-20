@@ -1,10 +1,10 @@
 # Paper status
 
-Revision: 2026-10-19. Supersedes all prior generic-template status notes.
+Revision: 2026-10-20. Supersedes all prior generic-template status notes.
 
 ## Manuscript and scope
 
-Required reviewer reporting revisions only, based on frozen results. No new model calls, controlled reruns, human reference study, sensitivity tests, or comprehensive loanword audit. IEEEtran conference/US Letter defaults, 10-point Times-compatible body, IEEE bibliography, six pages including references. The requested ISBN/fee/copyright notice appears once on page 1; publication-ID space is reserved in both columns. All fonts are embedded, with no Type 3 font or font substitution. The per-tier figure is full text width; the pipeline diagram is preserved in the release. The class's standard reference trigger balances the last page. No custom margins, reference font compression, or global float-spacing overrides remain. The author block and PDF author metadata identify Paphanin Amnuaikitwanit, as requested on 2026-10-19.
+Required reviewer reporting revisions only, based on frozen results. No new model calls, controlled reruns, human reference study, sensitivity tests, or comprehensive loanword audit. IEEEtran conference/US Letter defaults, 10-point Times-compatible body, IEEE bibliography, six pages including references. The requested ISBN/fee/copyright notice appears once on page 1; publication-ID space is reserved in both columns. All fonts are embedded, with no Type 3 font or font substitution. The per-tier figure is full text width; the pipeline diagram is preserved in the release. The class's standard reference trigger balances the last page. No custom margins, reference font compression, or global float-spacing overrides remain. The author block and PDF author metadata list Paphanin Amnuaikitwanit, Thepchai Supnithi, and Nongnuch Ketui in that order, as requested on 2026-10-20. No affiliations or reviewer roles were inferred from this authorship update.
 
 ## Revised interpretation
 
@@ -17,7 +17,7 @@ Required reviewer reporting revisions only, based on frozen results. No new mode
 
 ## Reproducibility and verification
 
-Release permalink: https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.1
+Release permalink: https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.2
 
 The release asset includes the frozen benchmark and all 480 WAV files with exclusions flagged, original predictions/raw responses, existing reruns/probe, review records, exact prompts, configurations/aliases, schemas, code/tests, manuscript, and checksums. The publication workflow separately checks the public permalink and downloaded asset hash. See `docs/REPRODUCIBILITY.md`. No IEEE PDF eXpress certification or venue submission is claimed.
 

@@ -10,8 +10,8 @@ import re
 import zipfile
 
 
-VERSION = "v1.0.1"
-ZIP_DATE = (2026, 10, 19, 0, 0, 0)
+VERSION = "v1.0.2"
+ZIP_DATE = (2026, 10, 20, 0, 0, 0)
 SOURCE_DIRS = ("configs", "schemas", "scripts", "tests", "figures", "paper")
 DATA_DIRS = (
     "analysis", "asr_outputs", "audio", "corrections", "intents",
@@ -58,7 +58,7 @@ def build_release(root: Path, output: Path, version: str = VERSION) -> dict[str,
     checksums: dict[str, str] = {}
     metadata = {
         "name": "ThaiVoice-GUIBench", "version": version,
-        "public_release_url": "https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.1",
+        "public_release_url": "https://github.com/paphanin/ThaiVoice-GUIBench/releases/tag/v1.0.2",
         "scope": "Frozen 20-screen diagnostic benchmark; no new model runs.",
         "reproduction_guide": "docs/REPRODUCIBILITY.md",
     }
